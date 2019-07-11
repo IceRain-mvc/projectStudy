@@ -309,6 +309,19 @@ mysql:
                       路由元信息: meta
 
 2:请求拦截
+    axios
+
+    .get     请求头
+    .post
+
+    axios.get(url,{},{
+
+        headers:{
+
+        }
+    }).then(()=>{})
+
+
   请求头
 
 
