@@ -1,0 +1,321 @@
+1:h5
+  新特性
+  header
+  main
+  footer...
+
+  canvas
+
+  线程
+
+  拖拽
+
+  video
+  audio
+
+  c3
+  弹性盒子
+  动画
+  选择器  :lastChild
+
+js
+  es6新特性
+  es7
+  es8
+  Array
+  Object
+  原型 原型链
+  继承
+
+typescript
+  let a : string
+  angular
+
+vue
+  架构
+  复习
+  自定义指令
+  自定义组件
+  原理
+  vuex
+  vuex的原理
+  vue-cli
+
+react
+  架构
+  复习
+  封装一个高阶组件
+  redux源码
+
+  mobx
+  dva
+
+
+
+webpack
+  手搭一个脚手架
+
+
+第一个:
+   vue:
+     考试平台  后台
+
+   react
+     考试平台 前端
+     网易云音乐
+     电子书包
+
+
+大家:
+   1:跟住课堂
+   2:敏捷开发
+     1:效率:  多人协作
+     2:代码复用
+     3:流程:
+       需求
+       开会
+         技术部门  25-50
+            java  : 8-10 : 写代码:汉子   测试+文档:妹子
+            web 8-10  4   2-4
+            UI  2-3
+            产品: 原型图 --> UI h5  原型  2-3
+              web    原型:逻辑  UI:样式    数据: java + php + C# + go  + python 简单 //node 代理
+              java    接口文档:
+              ios
+              android app  : 网页  css  js   js和android交互  10个移动端 8个  2个   3-4
+              桌面  js  C#  0-2
+
+            测试: 2 3
+              白盒测试 单元测试
+              黑盒测试
+
+            明道
+
+            禅道
+
+            100左右  200左右
+
+            开发 === 测试
+
+            运维:Linux 2-3
+
+            销售部门 :
+              团体:
+
+         总监
+
+   3:学会百度  google
+   info:
+     70%:
+     30%:
+        1:国外的论坛:翻墙
+        2:每个组相互帮助
+        3:问我
+        4:积累
+
+
+   4:背面试题
+     计划 提问
+
+   项目:
+     检查
+
+
+   git :
+
+
+
+为什么?
+  码云:
+  github:
+  coding:
+
+    都可以通过 git 提交代码
+
+    代码--->提交到本地仓库-->远程
+
+    20个左右的命令
+
+
+
+  svn:
+    远程
+
+
+    4个人
+    组长: 创建一个项目
+          提交到远程仓库 : coding   码云  github
+          添加成员
+          dev:接口 路由的配置  网络的配置  页面第三方 仓库
+          建立分支
+            master
+            dev    合并到
+            wang
+            zhang
+            li
+            zhao
+
+    组员: 拉自己的分支
+          提交到自己的分支:
+
+    组长 合并分支
+
+
+
+dev
+
+master   1.0.1
+
+dev  : 每天一提
+
+master   1.1
+
+master   2.0
+
+
+
+解析:
+    考试
+        前端
+        后台:
+          node : 接口  接口文档
+        后台管理平台:
+
+
+    第一个项目:
+        vue:elementUI
+        接口
+        界面:
+
+
+        架构:
+        express:  ejs  V +  数据库 M + 路由  C
+        android  : M V P   面向切面编程  java interface  面向对象编程  面向过程编程 C php
+        Vue   :  MVVM  : 视图层   M : 数据  V:  VM:{{}}
+            架构模式
+              java: MVC   数据 +  视图 + 控制
+                 后台
+              vue:
+        egg.js:
+            MVC
+            数据:mysql
+
+        token:令牌:后台
+            管理员:892rhfwr9832u98r32r
+            学生:jfdsur93u9rr843ruiwj32iu32
+
+            header:
+
+        session:会话
+
+            header:JSEESIONID:
+
+        前端:token验证
+
+git
+
+mysql
+
+vue:
+
+    创建一个仓库
+
+    export default new Vuex.Store({})
+
+    main.js
+
+    store
+
+    vuex:
+       1:state
+       2:mutations
+       3:actions
+       4:getters
+       5:modules
+
+       命名空间:
+
+
+按需加载:
+  1:下载  element-ui
+  2:引入css
+  3:elementUI  挂载在全局   --save:线上环境  dependencies  -dev:开发环境 devDependencies: babel eslint
+
+
+  按需加载
+  1:下载一个插件
+    babel-plugin-component : 按需加载一个插件  element-ui
+
+  2:.babelrc:
+    plugins  配置
+
+        [
+          "component",
+          {
+            "libraryName": "element-ui",
+            "styleLibraryName":"theme-chalk"
+          }
+        ]
+
+
+mysql:
+
+  node
+  express
+  koa2:
+  egg:中量
+
+  发包: npm
+
+
+  java php 重量
+
+请求:
+  http:
+  1:url
+  2:请求方式
+  3:参数:get: url?name=aa&pwd=   POST:请求参数
+  4:请求头:
+    前端   登录--->令牌  token(加签  : 数字签名  令牌)   1:用户信息  2: 权限
+           session
+           cookie
+
+
+    后端
+
+           token :
+
+    前端:  token 存起来  每次请求的时候: 传过去  后台
+
+    1:没有登录  /详情页  ---> 跳转登录页
+        全局前置守卫
+        存储中没有 token  --->跳转登录页
+
+    2:  每次氢气   headers   token:
+
+    3:  token  过期了  2h
+        返回登录页  :
+
+
+1:路由守卫
+  导航守卫
+    1:全局守卫: 全局
+    2:路由独享守卫:路由表
+    3:组件内守卫:组件中
+
+
+  1:路由配置  重定向-->首页-->有没有token-->跳转到登录页-->保存信息本地存储-->跳转首页
+                      守卫要跳转的页面
+                      路由元信息: meta
+
+2:请求拦截
+  请求头
+
+
+
+
+
+
+
+
+
