@@ -38,7 +38,6 @@ request.interceptors.request.use((config) => {
   return Promise.reject(error);
 });
 
-
 /*
 * 2:相应拦截
 * */
@@ -79,6 +78,8 @@ let put = (url, data) => request.put(url, {data});
 * get  /  post
 * delete / put  :delete 信号  直接删除数据库
 * head :检测 数据包是否完整 / option : 探测:服务器的性能
+*
+* CONNECT  / TRACE
 *
 * 没区别: 用法
 *
