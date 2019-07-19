@@ -324,6 +324,150 @@ mysql:
 
   请求头
 
+  npm发包
+
+  npm init -y
+
+  npm 设置镜像
+  /*
+  *  npm config set registry "http://registry.npmjs.org/"
+  *  npm config set registry "https://registry.npm.taobao.org/"
+  * */
+
+  npm login
+
+  npm publish
+
+  npx force-unpublish bao_toast 卸载
+
+
+
+
+1: vue插件
+
+   element-ui
+   this.$alert
+   this.$notify
+
+   面试:
+     1:了不了解  element-ui  动态组件的原理
+     2:怎么实现的
+     3:手动写过插件么
+     4:怎么实现的
+
+     插件的好处:
+       可复用:
+       npm 发包
+
+       封装
+         this.$xuanjie_toast
+         this.$xuanjie_show
+         this.$xuanjie_loading
+         this.$xiangge_loading
+       npm i xiangge_loading  401
+
+   1:toast 吐司
+
+
+   步骤:
+    Vue 内部的方法 : 插件.install(){}
+
+    Vue.use(Vuex)
+
+
+
+    1:插件.install(Vue,[options]){
+
+        //toast
+        1:虚拟dom
+        Vue.extend
+        2:挂载到真实dom上
+
+    }
+
+
+
+2: npm发包
+   1:npm 账号
+   2:文件夹  放向发包的文件
+   3:发包
+     npm init
+     //镜像
+      /*
+       *  npm config set registry "http://registry.npmjs.org/"
+       *  npm config set registry "https://registry.npm.taobao.org/"
+       * */
+     npm login 登录npm账号
+
+     npm publish
+
+
+后台管理:数据
+
+  OA  : 人事 :
+  CMS : 登录  加密
+  ...
+
+前端 门户网站
+     展示性  留言  点赞
+
+前端 大型: 网易云 : 听歌  电台...
+          电商 淘宝 京东
+          M栈 : 移动端  浏览器  vue
+            公众号 : 象棋微学堂...  :java   egg
+            慕课网 :
+          webapp:app中嵌套的网页
+
+
+考试平台
+  后台管理:
+  摸底考试:
+
+rem和设计
+
+
+项目:
+    服务器:
+    部署项目 到服务器
+
+    ip:端口/
+
+    运维:
+
+    服务器:
+      来源
+      租   :
+      买   :2000 :
+
+      租: 15天左右  腾讯
+      阿里云: 15天:
+
+接下来:
+    3个
+    小型  :  1:react +  后台
+    中型  :  接口  80左右个接口
+    大型  :
+
+react:
+    Dva   Mobx:中国人
+    Hook :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

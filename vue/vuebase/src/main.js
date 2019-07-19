@@ -11,6 +11,11 @@ import "./plugin/element-config";
 //
 // Vue.use(ElementUI);
 
+import Toast from "./packages/toast";
+import "./packages/toast/toast.css";
+
+Vue.use(Toast);
+
 
 Vue.config.productionTip = false;
 
@@ -27,4 +32,6 @@ let vm = new Vue({
 });
 
 
-// window.vm = vm;
+
+
+window.vm = vm;

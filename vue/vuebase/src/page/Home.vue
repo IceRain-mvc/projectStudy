@@ -2,6 +2,8 @@
   <div>
 
     <h1>首页</h1>
+    <el-button @click="toast">Toast</el-button>
+
     <h1>{{sex}}</h1>
     <button @click="add">+</button>
     <h2>{{num}}</h2>
@@ -50,6 +52,12 @@
 
 
     methods: {
+
+      toast() {
+        // console.log(this.$baoToast);
+        this.$baoToast("你好");
+      },
+
       ...mapActions(["addAsync", "subAsync","babySongAsync"]),
       ...mapActions("shopCar",["addTotalAsync"]),
       // ...mapActions("shopList",["addTotalAsync"]),
