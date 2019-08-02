@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="aa">
+        <li>
+            <span>|</span>
+        </li>
+        <li>
+            <span>2</span>
+            <span id="ss">3</span>
+            <span id="span_3">4</span>
+        </li>
+    </ul>
+    <script>
+        function getTargetInfo(target){
+            const parentNode = target.parentNode;
+            const childNodes = parentNode.children;
+            for(let i = 0; i < childNodes.length; i++){
+                if(childNodes[i] === target){
+                    return {
+                        parentNode,
+                        index: i,
+                        targetName: target.tagName.toLocaleLowerCase()
+                    };
+                }
+            }
+        }
+        function getXpath(target){
+            const body = document.getElementsByTagName('body')[0];
+            const xpath = [];
+            function logPath(target){
+                const targetInfo = getTargetInfo(target);
+                xpath.unshift(`${targetInfo.targetName}[${targetInfo.index}]`);
+                console.log(targetInfo.parentNode,body);    
+                if(targetInfo.parentNode === body){
+                    xpath.unshift('body');
+                }else{
+                    logPath(targetInfo.parentNode);
+                }
+            }
+            logPath(target);
+            return xpath.join('<');
+        }
+
+    </script>
+</body>
+</html>
