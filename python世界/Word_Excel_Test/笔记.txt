@@ -1,0 +1,22 @@
+python 操作word
+
+python操作excel
+
+1:按照自己的逻辑 实现
+2:重构 : 长久的过程
+
+4个字段: 取出每一个列表中
+re:匹配字段:
+string : p3
+一行数据
+  1:字符串长度 裁剪
+  2:切分: string
+
+
+
+excel : 先读
+另一个excel 表格中
+存
+两个库
+ xlrd : 读
+ xlwt : 写

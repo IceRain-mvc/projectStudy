@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Thu Aug 02 2018 08:00:00 GMT+0800 (中国标准时间)</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///C:\Users\Administrator\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.3.5\node_modules\@shd101wyy\mume\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <style> 
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+ 
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview   ">
+      <h1 class="mume-header" id="%E7%BB%BC%E5%90%88%E5%BA%94%E7%94%A8-%E5%90%8D%E7%89%87%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F">综合应用 —— 名片管理系统</h1>
+
+<h2 class="mume-header" id="%E7%9B%AE%E6%A0%87">目标</h2>
+
+<p>综合应用已经学习过的知识点：</p>
+<ul>
+<li><strong>变量</strong></li>
+<li><strong>流程控制</strong></li>
+<li><strong>函数</strong></li>
+<li><strong>模块</strong></li>
+</ul>
+<p>开发 <strong>名片管理系统</strong></p>
+<h2 class="mume-header" id="%E7%B3%BB%E7%BB%9F%E9%9C%80%E6%B1%82">系统需求</h2>
+
+<ul>
+<li>
+<ol>
+<li>程序启动，显示名片管理系统欢迎界面，并显示功能菜单</li>
+</ol>
+</li>
+</ul>
+<pre data-role="codeBlock" data-info="" class="language-"><code>**************************************************
+&#x6B22;&#x8FCE;&#x4F7F;&#x7528;&#x3010;&#x540D;&#x7247;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;&#x3011;V1.0
+
+1. &#x65B0;&#x5EFA;&#x540D;&#x7247;
+2. &#x663E;&#x793A;&#x5168;&#x90E8;
+3. &#x67E5;&#x8BE2;&#x540D;&#x7247;
+
+0. &#x9000;&#x51FA;&#x7CFB;&#x7EDF;
+**************************************************
+</code></pre><ul>
+<li>
+<ol start="2">
+<li>用户用数字选择不同的功能</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li>根据功能选择，执行不同的功能</li>
+</ol>
+</li>
+<li>
+<ol start="4">
+<li>用户名片需要记录用户的 <strong>姓名</strong>、<strong>电话</strong>、<strong>QQ</strong>、<strong>邮件</strong></li>
+</ol>
+</li>
+<li>
+<ol start="5">
+<li>如果查询到指定的名片，用户可以选择 <strong>修改</strong> 或者 <strong>删除</strong> 名片</li>
+</ol>
+</li>
+</ul>
+<h2 class="mume-header" id="%E6%AD%A5%E9%AA%A4">步骤</h2>
+
+<ol>
+<li>框架搭建</li>
+<li>新增名片</li>
+<li>显示所有名片</li>
+<li>查询名片</li>
+<li>查询成功后修改、删除名片</li>
+<li>让 Python 程序能够直接运行</li>
+</ol>
+<h2 class="mume-header" id="01-%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA">01. 框架搭建</h2>
+
+<p><strong>目标</strong></p>
+<ul>
+<li>搭建名片管理系统 <strong>框架结构</strong>
+<ol>
+<li><strong>准备文件</strong>，确定文件名，保证能够 <strong>在需要的位置</strong> 编写代码</li>
+<li>编写 <strong>主运行循环</strong>，实现基本的 <strong>用户输入和判断</strong></li>
+</ol>
+</li>
+</ul>
+<h3 class="mume-header" id="11-%E6%96%87%E4%BB%B6%E5%87%86%E5%A4%87">1.1 文件准备</h3>
+
+<ol>
+<li>新建 <code>cards_main.py</code> 保存 <strong>主程序功能代码</strong>
+<ul>
+<li>程序的入口</li>
+<li>每一次启动名片管理系统都通过 <code>main</code> 这个文件启动</li>
+</ul>
+</li>
+<li>新建 <code>cards_tools.py</code> 保存 <strong>所有名片功能函数</strong>
+<ul>
+<li>将对名片的 <strong>新增</strong>、<strong>查询</strong>、<strong>修改</strong>、<strong>删除</strong> 等功能封装在不同的函数中</li>
+</ul>
+</li>
+</ol>
+<h3 class="mume-header" id="12-%E7%BC%96%E5%86%99%E4%B8%BB%E8%BF%90%E8%A1%8C%E5%BE%AA%E7%8E%AF">1.2 编写主运行循环</h3>
+
+<ul>
+<li>在 <code>cards_main</code> 中添加一个 <strong>无限循环</strong></li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python">
+<span class="token keyword">while</span> <span class="token boolean">True</span><span class="token punctuation">:</span>
+
+    <span class="token comment"># TODO(小明) 显示系统菜单</span>
+
+    action <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"请选择操作功能："</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"您选择的操作是：%s"</span> <span class="token operator">%</span> action<span class="token punctuation">)</span>
+
+    <span class="token comment"># 根据用户输入决定后续的操作</span>
+    <span class="token keyword">if</span> action <span class="token keyword">in</span> <span class="token punctuation">[</span><span class="token string">"1"</span><span class="token punctuation">,</span> <span class="token string">"2"</span><span class="token punctuation">,</span> <span class="token string">"3"</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+        <span class="token keyword">pass</span>
+    <span class="token keyword">elif</span> action <span class="token operator">==</span> <span class="token string">"0"</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"欢迎再次使用【名片管理系统】"</span><span class="token punctuation">)</span>
+
+        <span class="token keyword">break</span>
+    <span class="token keyword">else</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"输入错误，请重新输入"</span><span class="token punctuation">)</span>
+
+</pre><h4 class="mume-header" id="%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%88%A4%E6%96%AD">字符串判断</h4>
+
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">if</span> action <span class="token keyword">in</span> <span class="token punctuation">[</span><span class="token string">"1"</span><span class="token punctuation">,</span> <span class="token string">"2"</span><span class="token punctuation">,</span> <span class="token string">"3"</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+</pre><pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">if</span> action <span class="token operator">==</span> <span class="token string">"1"</span> <span class="token operator">or</span> action <span class="token operator">==</span> <span class="token string">"2"</span> <span class="token operator">or</span> action <span class="token operator">==</span> <span class="token string">"3"</span><span class="token punctuation">:</span>
+</pre><ol>
+<li>使用 <code>in</code> 针对 <strong>列表</strong> 判断，避免使用 <code>or</code> 拼接复杂的逻辑条件</li>
+<li>没有使用 <code>int</code> 转换用户输入，可以避免 <strong>一旦用户输入的不是数字</strong>，导致程序运行出错</li>
+</ol>
+<h4 class="mume-header" id="pass">pass</h4>
+
+<ul>
+<li><code>pass</code> 就是一个空语句，不做任何事情，一般用做占位语句</li>
+<li>是为了保持程序结构的完整性</li>
+</ul>
+<h4 class="mume-header" id="%E6%97%A0%E9%99%90%E5%BE%AA%E7%8E%AF">无限循环</h4>
+
+<ul>
+<li>在开发软件时，如果 <strong>不希望程序执行后</strong> 立即退出</li>
+<li>可以在程序中增加一个 <strong>无限循环</strong></li>
+<li><strong>由用户来决定</strong> 退出程序的时机</li>
+</ul>
+<h4 class="mume-header" id="todo-%E6%B3%A8%E9%87%8A">TODO 注释</h4>
+
+<ul>
+<li>在 <code>#</code> 后跟上 <code>TODO</code>，用于标记需要去做的工作</li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token comment"># TODO(作者/邮件) 显示系统菜单</span>
+</pre><h3 class="mume-header" id="13-%E5%9C%A8-cards_tools-%E4%B8%AD%E5%A2%9E%E5%8A%A0%E5%9B%9B%E4%B8%AA%E6%96%B0%E5%87%BD%E6%95%B0">1.3 在 <code>cards_tools</code> 中增加四个新函数</h3>
+
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">def</span> <span class="token function">show_menu</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+    <span class="token triple-quoted-string string">"""显示菜单
+    """</span>
+    <span class="token keyword">pass</span>
+
+<span class="token keyword">def</span> <span class="token function">new_card</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+    <span class="token triple-quoted-string string">"""新建名片
+    """</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"-"</span> <span class="token operator">*</span> <span class="token number">50</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"功能：新建名片"</span><span class="token punctuation">)</span>
+
+
+<span class="token keyword">def</span> <span class="token function">show_all</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+    <span class="token triple-quoted-string string">"""显示全部
+    """</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"-"</span> <span class="token operator">*</span> <span class="token number">50</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"功能：显示全部"</span><span class="token punctuation">)</span>
+
+
+<span class="token keyword">def</span> <span class="token function">search_card</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+    <span class="token triple-quoted-string string">"""搜索名片
+    """</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"-"</span> <span class="token operator">*</span> <span class="token number">50</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"功能：搜索名片"</span><span class="token punctuation">)</span>
+
+</pre><h3 class="mume-header" id="14-%E5%AF%BC%E5%85%A5%E6%A8%A1%E5%9D%97">1.4 导入模块</h3>
+
+<ul>
+<li>在 <code>cards_main.py</code> 中使用 <code>import</code> 导入 <code>cards_tools</code> 模块</li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">import</span> cards_tools
+</pre><ul>
+<li>修改 <code>while</code> 循环的代码如下：</li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">import</span> cards_tools
+
+<span class="token keyword">while</span> <span class="token boolean">True</span><span class="token punctuation">:</span>
+
+    cards_tools<span class="token punctuation">.</span>show_menu<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+    action <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"请选择操作功能："</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"您选择的操作是：%s"</span> <span class="token operator">%</span> action<span class="token punctuation">)</span>
+
+    <span class="token comment"># 根据用户输入决定后续的操作</span>
+    <span class="token keyword">if</span> action <span class="token keyword">in</span> <span class="token punctuation">[</span><span class="token string">"1"</span><span class="token punctuation">,</span> <span class="token string">"2"</span><span class="token punctuation">,</span> <span class="token string">"3"</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+
+        <span class="token keyword">if</span> action <span class="token operator">==</span> <span class="token string">"1"</span><span class="token punctuation">:</span>
+            cards_tools<span class="token punctuation">.</span>new_card<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+        <span class="token keyword">elif</span> action <span class="token operator">==</span> <span class="token string">"2"</span><span class="token punctuation">:</span>
+            cards_tools<span class="token punctuation">.</span>show_all<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+        <span class="token keyword">elif</span> action <span class="token operator">==</span> <span class="token string">"3"</span><span class="token punctuation">:</span>
+            cards_tools<span class="token punctuation">.</span>search_card<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">elif</span> action <span class="token operator">==</span> <span class="token string">"0"</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"欢迎再次使用【名片管理系统】"</span><span class="token punctuation">)</span>
+
+        <span class="token keyword">break</span>
+    <span class="token keyword">else</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"输入错误，请重新输入："</span><span class="token punctuation">)</span>
+
+</pre><blockquote>
+<p>至此：<code>cards_main</code> 中的所有代码全部开发完毕！</p>
+</blockquote>
+<h3 class="mume-header" id="15-%E5%AE%8C%E6%88%90-show_menu-%E5%87%BD%E6%95%B0">1.5 完成 <code>show_menu</code> 函数</h3>
+
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">def</span> <span class="token function">show_menu</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+    <span class="token triple-quoted-string string">"""显示菜单
+    """</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"*"</span> <span class="token operator">*</span> <span class="token number">50</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"欢迎使用【菜单管理系统】V1.0"</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"1. 新建名片"</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"2. 显示全部"</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"3. 查询名片"</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"0. 退出系统"</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"*"</span> <span class="token operator">*</span> <span class="token number">50</span><span class="token punctuation">)</span>
+
+</pre><h2 class="mume-header" id="02-%E4%BF%9D%E5%AD%98%E5%90%8D%E7%89%87%E6%95%B0%E6%8D%AE%E7%9A%84%E7%BB%93%E6%9E%84">02. 保存名片数据的结构</h2>
+
+<p><strong>程序就是用来处理数据的，而变量就是用来存储数据的</strong></p>
+<ul>
+<li>使用 <strong>字典</strong> 记录 <strong>每一张名片</strong> 的详细信息</li>
+<li>使用 <strong>列表</strong> 统一记录所有的 <strong>名片字典</strong></li>
+</ul>
+<p><img src="media/14973084639044/001_%E5%90%8D%E7%89%87%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E5%85%A8%E5%B1%80%E5%88%97%E8%A1%A8.png" alt="001_&#x540D;&#x7247;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;&#x5168;&#x5C40;&#x5217;&#x8868;-w500"></p>
+<h3 class="mume-header" id="%E5%AE%9A%E4%B9%89%E5%90%8D%E7%89%87%E5%88%97%E8%A1%A8%E5%8F%98%E9%87%8F">定义名片列表变量</h3>
+
+<ul>
+<li>在 <code>cards_tools</code> 文件的顶部增加一个 <strong>列表变量</strong></li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token comment"># 所有名片记录的列表</span>
+card_list <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+</pre><p><strong>注意</strong></p>
+<ol>
+<li><strong>所有名片相关操作</strong>，都需要使用这个列表，所以应该 <strong>定义在程序的顶部</strong></li>
+<li><strong>程序刚运行时，没有数据</strong>，所以是 <strong>空列表</strong></li>
+</ol>
+<h2 class="mume-header" id="03-%E6%96%B0%E5%A2%9E%E5%90%8D%E7%89%87">03. 新增名片</h2>
+
+<h3 class="mume-header" id="31-%E5%8A%9F%E8%83%BD%E5%88%86%E6%9E%90">3.1 功能分析</h3>
+
+<ol>
+<li>提示用户依次输入名片信息</li>
+<li>将名片信息保存到一个字典</li>
+<li>将字典添加到名片列表</li>
+<li>提示名片添加完成</li>
+</ol>
+<h3 class="mume-header" id="32-%E5%AE%9E%E7%8E%B0-new_card-%E6%96%B9%E6%B3%95">3.2 实现 new_card 方法</h3>
+
+<ul>
+<li>根据步骤实现代码</li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">def</span> <span class="token function">new_card</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+    <span class="token triple-quoted-string string">"""新建名片
+    """</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"-"</span> <span class="token operator">*</span> <span class="token number">50</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"功能：新建名片"</span><span class="token punctuation">)</span>
+
+    <span class="token comment"># 1. 提示用户输入名片信息</span>
+    name <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"请输入姓名："</span><span class="token punctuation">)</span>
+    phone <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"请输入电话："</span><span class="token punctuation">)</span>
+    qq <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"请输入 QQ 号码："</span><span class="token punctuation">)</span>
+    email <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"请输入邮箱："</span><span class="token punctuation">)</span>
+
+    <span class="token comment"># 2. 将用户信息保存到一个字典</span>
+    card_dict <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">"name"</span><span class="token punctuation">:</span> name<span class="token punctuation">,</span>
+                 <span class="token string">"phone"</span><span class="token punctuation">:</span> phone<span class="token punctuation">,</span>
+                 <span class="token string">"qq"</span><span class="token punctuation">:</span> qq<span class="token punctuation">,</span>
+                 <span class="token string">"email"</span><span class="token punctuation">:</span> email<span class="token punctuation">}</span>
+
+    <span class="token comment"># 3. 将用户字典添加到名片列表</span>
+    card_list<span class="token punctuation">.</span>append<span class="token punctuation">(</span>card_dict<span class="token punctuation">)</span>
+
+    <span class="token keyword">print</span><span class="token punctuation">(</span>card_list<span class="token punctuation">)</span>
+    
+    <span class="token comment"># 4. 提示添加成功信息</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"成功添加 %s 的名片"</span> <span class="token operator">%</span> card_dict<span class="token punctuation">[</span><span class="token string">"name"</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+</pre><blockquote>
+<p>技巧：在 <code>PyCharm</code> 中，可以使用 <code>SHIFT + F6</code> 统一修改变量名</p>
+</blockquote>
+<h2 class="mume-header" id="04-%E6%98%BE%E7%A4%BA%E6%89%80%E6%9C%89%E5%90%8D%E7%89%87">04. 显示所有名片</h2>
+
+<h3 class="mume-header" id="41-%E5%8A%9F%E8%83%BD%E5%88%86%E6%9E%90">4.1 功能分析</h3>
+
+<ul>
+<li>循环遍历名片列表，顺序显示每一个字典的信息</li>
+</ul>
+<h3 class="mume-header" id="42-%E5%9F%BA%E7%A1%80%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0">4.2 基础代码实现</h3>
+
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">def</span> <span class="token function">show_all</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+    <span class="token triple-quoted-string string">"""显示全部
+    """</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"-"</span> <span class="token operator">*</span> <span class="token number">50</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"功能：显示全部"</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">for</span> card_dict <span class="token keyword">in</span> card_list<span class="token punctuation">:</span>
+
+        <span class="token keyword">print</span><span class="token punctuation">(</span>card_dict<span class="token punctuation">)</span>
+        
+</pre><ul>
+<li>显示效果不好！</li>
+</ul>
+<h3 class="mume-header" id="43-%E5%A2%9E%E5%8A%A0%E6%A0%87%E9%A2%98%E5%92%8C%E4%BD%BF%E7%94%A8-t-%E6%98%BE%E7%A4%BA">4.3 增加标题和使用 <code>\t</code> 显示</h3>
+
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">def</span> <span class="token function">show_all</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token triple-quoted-string string">"""显示全部
+    """</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"-"</span> <span class="token operator">*</span> <span class="token number">50</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"功能：显示全部"</span><span class="token punctuation">)</span>
+
+    <span class="token comment"># 打印表头</span>
+    <span class="token keyword">for</span> name <span class="token keyword">in</span> <span class="token punctuation">[</span><span class="token string">"姓名"</span><span class="token punctuation">,</span> <span class="token string">"电话"</span><span class="token punctuation">,</span> <span class="token string">"QQ"</span><span class="token punctuation">,</span> <span class="token string">"邮箱"</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span>name<span class="token punctuation">,</span> end<span class="token operator">=</span><span class="token string">"\t\t"</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">)</span>
+
+    <span class="token comment"># 打印分隔线</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"="</span> <span class="token operator">*</span> <span class="token number">50</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">for</span> card_dict <span class="token keyword">in</span> card_list<span class="token punctuation">:</span>
+
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"%s\t\t%s\t\t%s\t\t%s"</span> <span class="token operator">%</span> <span class="token punctuation">(</span>card_dict<span class="token punctuation">[</span><span class="token string">"name"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+                                        card_dict<span class="token punctuation">[</span><span class="token string">"phone"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+                                        card_dict<span class="token punctuation">[</span><span class="token string">"qq"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+                                        card_dict<span class="token punctuation">[</span><span class="token string">"email"</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</pre><h3 class="mume-header" id="44-%E5%A2%9E%E5%8A%A0%E6%B2%A1%E6%9C%89%E5%90%8D%E7%89%87%E8%AE%B0%E5%BD%95%E5%88%A4%E6%96%AD">4.4 增加没有名片记录判断</h3>
+
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">def</span> <span class="token function">show_all</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token triple-quoted-string string">"""显示全部
+    """</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"-"</span> <span class="token operator">*</span> <span class="token number">50</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"功能：显示全部"</span><span class="token punctuation">)</span>
+
+    <span class="token comment"># 1. 判断是否有名片记录</span>
+    <span class="token keyword">if</span> <span class="token builtin">len</span><span class="token punctuation">(</span>card_list<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"提示：没有任何名片记录"</span><span class="token punctuation">)</span>
+
+        <span class="token keyword">return</span>
+
+</pre><p><strong>注意</strong></p>
+<ul>
+<li>在函数中使用 <code>return</code> 表示返回</li>
+<li>如果在 <code>return</code> 后没有跟任何内容，只是表示该函数执行到此就不再执行后续的代码</li>
+</ul>
+<h2 class="mume-header" id="05-%E6%9F%A5%E8%AF%A2%E5%90%8D%E7%89%87">05. 查询名片</h2>
+
+<h3 class="mume-header" id="51-%E5%8A%9F%E8%83%BD%E5%88%86%E6%9E%90">5.1 功能分析</h3>
+
+<ol>
+<li>提示用户要搜索的姓名</li>
+<li>根据用户输入的姓名遍历列表</li>
+<li>搜索到指定的名片后，再执行后续的操作</li>
+</ol>
+<h3 class="mume-header" id="52-%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0">5.2 代码实现</h3>
+
+<ul>
+<li>查询功能实现</li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">def</span> <span class="token function">search_card</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+    <span class="token triple-quoted-string string">"""搜索名片
+    """</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"-"</span> <span class="token operator">*</span> <span class="token number">50</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"功能：搜索名片"</span><span class="token punctuation">)</span>
+
+    <span class="token comment"># 1. 提示要搜索的姓名</span>
+    find_name <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"请输入要搜索的姓名："</span><span class="token punctuation">)</span>
+
+    <span class="token comment"># 2. 遍历字典</span>
+    <span class="token keyword">for</span> card_dict <span class="token keyword">in</span> card_list<span class="token punctuation">:</span>
+
+        <span class="token keyword">if</span> card_dict<span class="token punctuation">[</span><span class="token string">"name"</span><span class="token punctuation">]</span> <span class="token operator">==</span> find_name<span class="token punctuation">:</span>
+
+            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"姓名\t\t\t电话\t\t\tQQ\t\t\t邮箱"</span><span class="token punctuation">)</span>
+            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"-"</span> <span class="token operator">*</span> <span class="token number">40</span><span class="token punctuation">)</span>
+            
+            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"%s\t\t\t%s\t\t\t%s\t\t\t%s"</span> <span class="token operator">%</span> <span class="token punctuation">(</span>
+                card_dict<span class="token punctuation">[</span><span class="token string">"name"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+                card_dict<span class="token punctuation">[</span><span class="token string">"phone"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+                card_dict<span class="token punctuation">[</span><span class="token string">"qq"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+                card_dict<span class="token punctuation">[</span><span class="token string">"email"</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"-"</span> <span class="token operator">*</span> <span class="token number">40</span><span class="token punctuation">)</span>
+            
+            <span class="token comment"># TODO(小明) 针对找到的字典进行后续操作：修改/删除</span>
+
+            <span class="token keyword">break</span>
+    <span class="token keyword">else</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"没有找到 %s"</span> <span class="token operator">%</span> find_name<span class="token punctuation">)</span>
+
+</pre><ul>
+<li>增加名片操作函数：<strong>修改</strong>/<strong>删除</strong>/<strong>返回主菜单</strong></li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">def</span> <span class="token function">deal_card</span><span class="token punctuation">(</span>find_dict<span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+    <span class="token triple-quoted-string string">"""操作搜索到的名片字典
+
+    :param find_dict:找到的名片字典
+    """</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>find_dict<span class="token punctuation">)</span>
+
+    action_str <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"请选择要执行的操作 "</span>
+                       <span class="token string">"[1] 修改 [2] 删除 [0] 返回上级菜单"</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">if</span> action <span class="token operator">==</span> <span class="token string">"1"</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"修改"</span><span class="token punctuation">)</span>
+    <span class="token keyword">elif</span> action <span class="token operator">==</span> <span class="token string">"2"</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"删除"</span><span class="token punctuation">)</span>
+
+</pre><h2 class="mume-header" id="06-%E4%BF%AE%E6%94%B9%E5%92%8C%E5%88%A0%E9%99%A4">06. 修改和删除</h2>
+
+<h3 class="mume-header" id="61-%E6%9F%A5%E8%AF%A2%E6%88%90%E5%8A%9F%E5%90%8E%E5%88%A0%E9%99%A4%E5%90%8D%E7%89%87">6.1 查询成功后删除名片</h3>
+
+<ul>
+<li>由于找到的字典记录已经在列表中保存</li>
+<li>要删除名片记录，只需要把列表中对应的字典删除即可</li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python">    <span class="token keyword">elif</span> action <span class="token operator">==</span> <span class="token string">"2"</span><span class="token punctuation">:</span>
+        card_list<span class="token punctuation">.</span>remove<span class="token punctuation">(</span>find_dict<span class="token punctuation">)</span>
+
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"删除成功"</span><span class="token punctuation">)</span>
+</pre><h3 class="mume-header" id="62-%E4%BF%AE%E6%94%B9%E5%90%8D%E7%89%87">6.2 修改名片</h3>
+
+<ul>
+<li>由于找到的字典记录已经在列表中保存</li>
+<li>要修改名片记录，只需要把列表中对应的字典中每一个键值对的数据修改即可</li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python">    <span class="token keyword">if</span> action <span class="token operator">==</span> <span class="token string">"1"</span><span class="token punctuation">:</span>
+
+        find_dict<span class="token punctuation">[</span><span class="token string">"name"</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"请输入姓名："</span><span class="token punctuation">)</span>
+        find_dict<span class="token punctuation">[</span><span class="token string">"phone"</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"请输入电话："</span><span class="token punctuation">)</span>
+        find_dict<span class="token punctuation">[</span><span class="token string">"qq"</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"请输入QQ："</span><span class="token punctuation">)</span>
+        find_dict<span class="token punctuation">[</span><span class="token string">"email"</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"请输入邮件："</span><span class="token punctuation">)</span>
+
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"%s 的名片修改成功"</span> <span class="token operator">%</span> find_dict<span class="token punctuation">[</span><span class="token string">"name"</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+</pre><h4 class="mume-header" id="%E4%BF%AE%E6%94%B9%E5%90%8D%E7%89%87%E7%BB%86%E5%8C%96">修改名片细化</h4>
+
+<ul>
+<li><strong>如果用户在使用时，某些名片内容并不想修改</strong>，应该如何做呢？—— 既然系统提供的 <code>input</code> 函数不能满足需求，那么就新定义一个函数 <code>input_card_info</code> 对系统的 <code>input</code> 函数进行扩展</li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">def</span> <span class="token function">input_card_info</span><span class="token punctuation">(</span>dict_value<span class="token punctuation">,</span> tip_message<span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+    <span class="token triple-quoted-string string">"""输入名片信息
+
+    :param dict_value: 字典原有值
+    :param tip_message: 输入提示信息
+    :return: 如果输入，返回输入内容，否则返回字典原有值
+    """</span>
+    <span class="token comment"># 1. 提示用户输入内容</span>
+    result_str <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span>tip_message<span class="token punctuation">)</span>
+
+    <span class="token comment"># 2. 针对用户的输入进行判断，如果用户输入了内容，直接返回结果</span>
+    <span class="token keyword">if</span> <span class="token builtin">len</span><span class="token punctuation">(</span>result_str<span class="token punctuation">)</span> <span class="token operator">></span> <span class="token number">0</span><span class="token punctuation">:</span>
+
+        <span class="token keyword">return</span> result_str
+    <span class="token comment"># 3. 如果用户没有输入内容，返回 `字典中原有的值`</span>
+    <span class="token keyword">else</span><span class="token punctuation">:</span>
+
+        <span class="token keyword">return</span> dict_value
+
+</pre><h2 class="mume-header" id="07-linux-%E4%B8%8A%E7%9A%84-shebang-%E7%AC%A6%E5%8F%B7">07. LINUX 上的 <code>Shebang</code> 符号(<code>#!</code>)</h2>
+
+<ul>
+<li><code>#!</code>这个符号叫做 <code>Shebang</code> 或者 <code>Sha-bang</code></li>
+<li><code>Shebang</code> 通常在 <code>Unix</code> 系统脚本的中 <strong>第一行开头</strong> 使用</li>
+<li>指明 <strong>执行这个脚本文件</strong> 的 <strong>解释程序</strong></li>
+</ul>
+<h3 class="mume-header" id="%E4%BD%BF%E7%94%A8-shebang-%E7%9A%84%E6%AD%A5%E9%AA%A4">使用 Shebang 的步骤</h3>
+
+<ul>
+<li>
+<ol>
+<li>使用 <code>which</code> 查询 <code>python3</code> 解释器所在路径</li>
+</ol>
+</li>
+</ul>
+<pre data-role="codeBlock" data-info="bash" class="language-bash">$ <span class="token function">which</span> python3
+</pre><ul>
+<li>
+<ol start="2">
+<li>修改要运行的 <strong>主 python 文件</strong>，在第一行增加以下内容</li>
+</ol>
+</li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token comment">#! /usr/bin/python3</span>
+</pre><ul>
+<li>
+<ol start="3">
+<li>修改 <strong>主 python 文件</strong> 的文件权限，增加执行权限</li>
+</ol>
+</li>
+</ul>
+<pre data-role="codeBlock" data-info="bash" class="language-bash">$ <span class="token function">chmod</span> +x cards_main.py
+</pre><ul>
+<li>
+<ol start="4">
+<li>在需要时执行程序即可</li>
+</ol>
+</li>
+</ul>
+<pre data-role="codeBlock" data-info="bash" class="language-bash">./cards_main.py
+</pre>
+      </div>
+      
+      
+    </body>
+    
+    
+    
+    
+    
+    
+    
+  </html>

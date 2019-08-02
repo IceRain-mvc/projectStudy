@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Fri Aug 03 2018 08:00:00 GMT+0800 (中国标准时间)</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///C:\Users\Administrator\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.3.5\node_modules\@shd101wyy\mume\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <style> 
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+ 
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview   ">
+      <h1 class="mume-header" id="%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1oop%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5">面向对象(OOP)基本概念</h1>
+
+<p><strong>面向对象编程</strong> —— <code>Object Oriented Programming</code> 简写 <code>OOP</code></p>
+<h2 class="mume-header" id="%E7%9B%AE%E6%A0%87">目标</h2>
+
+<ul>
+<li>了解 <strong>面向对象</strong> 基本概念</li>
+</ul>
+<h2 class="mume-header" id="01-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5">01. 面向对象基本概念</h2>
+
+<ul>
+<li>我们之前学习的编程方式就是 <strong>面向过程</strong> 的</li>
+<li><strong>面相过程</strong> 和 <strong>面相对象</strong>，是两种不同的 <strong>编程方式</strong></li>
+<li>对比 <strong>面向过程</strong> 的特点，可以更好地了解什么是 <strong>面向对象</strong></li>
+</ul>
+<h3 class="mume-header" id="11-%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BD%E6%95%B0%E7%A7%91%E6%99%AE">1.1 过程和函数（科普）</h3>
+
+<ul>
+<li><strong>过程</strong> 是早期的一个编程概念</li>
+<li><strong>过程</strong> 类似于函数，只能执行，但是没有返回值</li>
+<li><strong>函数</strong> 不仅能执行，还可以返回结果</li>
+</ul>
+<h3 class="mume-header" id="12-%E9%9D%A2%E7%9B%B8%E8%BF%87%E7%A8%8B-%E5%92%8C-%E9%9D%A2%E7%9B%B8%E5%AF%B9%E8%B1%A1-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5">1.2 面相过程 和 面相对象 基本概念</h3>
+
+<h4 class="mume-header" id="1-%E9%9D%A2%E7%9B%B8%E8%BF%87%E7%A8%8B-%E6%80%8E%E4%B9%88%E5%81%9A">1) <strong>面相过程</strong> —— <strong>怎么做</strong>？</h4>
+
+<ol>
+<li>把完成某一个需求的 <code>所有步骤</code> <code>从头到尾</code> 逐步实现</li>
+<li>根据开发需求，将某些 <strong>功能独立</strong> 的代码 <strong>封装</strong> 成一个又一个 <strong>函数</strong></li>
+<li>最后完成的代码，就是顺序地调用 <strong>不同的函数</strong></li>
+</ol>
+<p><strong>特点</strong></p>
+<ol>
+<li>注重 <strong>步骤与过程</strong>，不注重职责分工</li>
+<li>如果需求复杂，代码会变得很复杂</li>
+<li><strong>开发复杂项目，没有固定的套路，开发难度很大！</strong></li>
+</ol>
+<p><img src="media/15005969256819/001_%E9%9D%A2%E5%90%91%E8%BF%87%E7%A8%8B.png" alt="001_&#x9762;&#x5411;&#x8FC7;&#x7A0B;"></p>
+<h4 class="mume-header" id="2-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E8%B0%81%E6%9D%A5%E5%81%9A">2) <strong>面向对象</strong> —— <strong>谁来做</strong>？</h4>
+
+<blockquote>
+<p>相比较函数，<strong>面向对象</strong> 是 <strong>更大</strong> 的 <strong>封装</strong>，根据 <strong>职责</strong> 在 <strong>一个对象中 封装 多个方法</strong></p>
+</blockquote>
+<ol>
+<li>在完成某一个需求前，首先确定 <strong>职责</strong> —— <strong>要做的事情（方法）</strong></li>
+<li>根据 <strong>职责</strong> 确定不同的 <strong>对象</strong>，在 <strong>对象</strong> 内部封装不同的 <strong>方法</strong>（多个）</li>
+<li>最后完成的代码，就是顺序地让 <strong>不同的对象</strong> 调用 <strong>不同的方法</strong></li>
+</ol>
+<p><strong>特点</strong></p>
+<ol>
+<li>注重 <strong>对象和职责</strong>，不同的对象承担不同的职责</li>
+<li>更加适合应对复杂的需求变化，<strong>是专门应对复杂项目开发，提供的固定套路</strong></li>
+<li><strong>需要在面向过程基础上，再学习一些面向对象的语法</strong></li>
+</ol>
+<p><img src="media/15005969256819/001_%E6%A4%8D%E7%89%A9%E5%A4%A7%E6%88%98%E5%83%B5%E5%B0%B8.png" alt="001_&#x690D;&#x7269;&#x5927;&#x6218;&#x50F5;&#x5C38;"></p>
+<p><img src="media/15005969256819/001_%E6%A4%8D%E7%89%A9%E5%A4%A7%E6%88%98%E5%83%B5%E5%B0%B8%E7%B1%BB%E5%9B%BE.png" alt="001_&#x690D;&#x7269;&#x5927;&#x6218;&#x50F5;&#x5C38;&#x7C7B;&#x56FE;"></p>
+<hr>
+<h1 class="mume-header" id="%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1">类和对象</h1>
+
+<h2 class="mume-header" id="%E7%9B%AE%E6%A0%87-1">目标</h2>
+
+<ul>
+<li>类和对象的概念</li>
+<li>类和对象的关系</li>
+<li>类的设计</li>
+</ul>
+<h2 class="mume-header" id="01-%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%A6%82%E5%BF%B5">01. 类和对象的概念</h2>
+
+<p><strong>类</strong> 和 <strong>对象</strong> 是 <strong>面向对象编程的 两个 核心概念</strong></p>
+<h3 class="mume-header" id="11-%E7%B1%BB">1.1 类</h3>
+
+<ul>
+<li><strong>类</strong> 是对一群具有 <strong>相同 特征</strong> 或者 <strong>行为</strong> 的事物的一个统称，是抽象的，<strong>不能直接使用</strong>
+<ul>
+<li><strong>特征</strong> 被称为 <strong>属性</strong></li>
+<li><strong>行为</strong> 被称为 <strong>方法</strong></li>
+</ul>
+</li>
+<li><strong>类</strong> 就相当于制造飞机时的<strong>图纸</strong>，是一个 <strong>模板</strong>，是 <strong>负责创建对象的</strong></li>
+</ul>
+<p><img src="media/15006069346510/002_%E9%A3%9E%E6%9C%BA%E8%AE%BE%E8%AE%A1%E5%9B%BE%E7%BA%B8.png" alt="002_&#x98DE;&#x673A;&#x8BBE;&#x8BA1;&#x56FE;&#x7EB8;"></p>
+<h3 class="mume-header" id="12-%E5%AF%B9%E8%B1%A1">1.2 对象</h3>
+
+<ul>
+<li><strong>对象</strong> 是 <strong>由类创建出来的一个具体存在</strong>，可以直接使用</li>
+<li>由 <strong>哪一个类</strong> 创建出来的 <strong>对象</strong>，就拥有在 <strong>哪一个类</strong> 中定义的：
+<ul>
+<li>属性</li>
+<li>方法</li>
+</ul>
+</li>
+<li><strong>对象</strong> 就相当于用 <strong>图纸</strong> <strong>制造</strong> 的飞机</li>
+</ul>
+<blockquote>
+<p>在程序开发中，应该 <strong>先有类，再有对象</strong></p>
+</blockquote>
+<p><img src="media/15006069346510/003_%E9%A3%9E%E6%9C%BA%E5%AF%B9%E8%B1%A1.png" alt="003_&#x98DE;&#x673A;&#x5BF9;&#x8C61;"></p>
+<h2 class="mume-header" id="02-%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%85%B3%E7%B3%BB">02. 类和对象的关系</h2>
+
+<ul>
+<li><strong>类是模板</strong>，<strong>对象</strong> 是根据 <strong>类</strong> 这个模板创建出来的，应该 <strong>先有类，再有对象</strong></li>
+<li><strong>类</strong> 只有一个，而 <strong>对象</strong> 可以有很多个
+<ul>
+<li><strong>不同的对象</strong> 之间 <strong>属性</strong> 可能会各不相同</li>
+</ul>
+</li>
+<li><strong>类</strong> 中定义了什么 <strong>属性和方法</strong>，<strong>对象</strong> 中就有什么属性和方法，<strong>不可能多，也不可能少</strong></li>
+</ul>
+<h2 class="mume-header" id="03-%E7%B1%BB%E7%9A%84%E8%AE%BE%E8%AE%A1">03. 类的设计</h2>
+
+<p>在使用面相对象开发前，应该首先分析需求，确定一下，程序中需要包含哪些类！</p>
+<p><img src="media/15006069346510/001_%E6%A4%8D%E7%89%A9%E5%A4%A7%E6%88%98%E5%83%B5%E5%B0%B8%E7%B1%BB%E5%9B%BE.png" alt="001_&#x690D;&#x7269;&#x5927;&#x6218;&#x50F5;&#x5C38;&#x7C7B;&#x56FE;"></p>
+<p>在程序开发中，要设计一个类，通常需要满足一下三个要素：</p>
+<ol>
+<li><strong>类名</strong> 这类事物的名字，<strong>满足大驼峰命名法</strong></li>
+<li><strong>属性</strong> 这类事物具有什么样的特征</li>
+<li><strong>方法</strong> 这类事物具有什么样的行为</li>
+</ol>
+<h3 class="mume-header" id="%E5%A4%A7%E9%A9%BC%E5%B3%B0%E5%91%BD%E5%90%8D%E6%B3%95">大驼峰命名法</h3>
+
+<p><code>CapWords</code></p>
+<ol>
+<li>每一个单词的首字母大写</li>
+<li>单词与单词之间没有下划线</li>
+</ol>
+<h3 class="mume-header" id="31-%E7%B1%BB%E5%90%8D%E7%9A%84%E7%A1%AE%E5%AE%9A">3.1 类名的确定</h3>
+
+<p><strong>名词提炼法</strong> 分析 <strong>整个业务流程</strong>，出现的 <strong>名词</strong>，通常就是找到的类</p>
+<h3 class="mume-header" id="32-%E5%B1%9E%E6%80%A7%E5%92%8C%E6%96%B9%E6%B3%95%E7%9A%84%E7%A1%AE%E5%AE%9A">3.2 属性和方法的确定</h3>
+
+<ul>
+<li>对 <strong>对象的特征描述</strong>，通常可以定义成 <strong>属性</strong></li>
+<li><strong>对象具有的行为</strong>（动词），通常可以定义成 <strong>方法</strong></li>
+</ul>
+<blockquote>
+<p>提示：需求中没有涉及的属性或者方法在设计类时，不需要考虑</p>
+</blockquote>
+<h3 class="mume-header" id="%E7%BB%83%E4%B9%A0-1">练习 1</h3>
+
+<p><strong>需求</strong></p>
+<ul>
+<li><strong>小明</strong> 今年 <strong>18 岁</strong>，<strong>身高 1.75</strong>，每天早上 <strong>跑</strong> 完步，会去 <strong>吃</strong> 东西</li>
+<li><strong>小美</strong> 今年 <strong>17 岁</strong>，<strong>身高 1.65</strong>，小美不跑步，小美喜欢 <strong>吃</strong> 东西</li>
+</ul>
+<p><img src="media/15006069346510/002_Person%E7%B1%BB.png" alt="002_Person&#x7C7B;-w134"></p>
+<h3 class="mume-header" id="%E7%BB%83%E4%B9%A0-2">练习 2</h3>
+
+<p><strong>需求</strong></p>
+<ul>
+<li>一只 <strong>黄颜色</strong> 的 <strong>狗狗</strong> 叫 <strong>大黄</strong></li>
+<li>看见生人 <strong>汪汪叫</strong></li>
+<li>看见家人 <strong>摇尾巴</strong></li>
+</ul>
+<p><img src="media/15006069346510/003_Dog%E7%B1%BB.png" alt="003_Dog&#x7C7B;-w134"></p>
+<hr>
+<h1 class="mume-header" id="%E9%9D%A2%E7%9B%B8%E5%AF%B9%E8%B1%A1%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95">面相对象基础语法</h1>
+
+<h2 class="mume-header" id="%E7%9B%AE%E6%A0%87-2">目标</h2>
+
+<ul>
+<li><code>dir</code> 内置函数</li>
+<li>定义简单的类（只包含方法）</li>
+<li>方法中的 <code>self</code> 参数</li>
+<li>初始化方法</li>
+<li>内置方法和属性</li>
+</ul>
+<h2 class="mume-header" id="01-dir-%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%E7%9F%A5%E9%81%93">01. <code>dir</code> 内置函数（知道）</h2>
+
+<ul>
+<li>在 <code>Python</code> 中 <strong>对象几乎是无所不在的</strong>，我们之前学习的 <strong>变量</strong>、<strong>数据</strong>、<strong>函数</strong> 都是对象</li>
+</ul>
+<p>在 <code>Python</code> 中可以使用以下两个方法验证：</p>
+<ol>
+<li>在 <strong>标识符</strong> / <strong>数据</strong> 后输入一个 <code>.</code>，然后按下 <code>TAB</code> 键，<code>iPython</code> 会提示该对象能够调用的 <strong>方法列表</strong></li>
+<li>使用内置函数 <code>dir</code> 传入 <strong>标识符</strong> / <strong>数据</strong>，可以查看对象内的 <strong>所有属性及方法</strong></li>
+</ol>
+<p><strong>提示</strong> <code>__方法名__</code> 格式的方法是 <code>Python</code> 提供的 <strong>内置方法 / 属性</strong>，稍后会给大家介绍一些常用的 内置方法 / 属性</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">序号</th>
+<th style="text-align:center">方法名</th>
+<th style="text-align:center">类型</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">01</td>
+<td style="text-align:center"><code>__new__</code></td>
+<td style="text-align:center">方法</td>
+<td><strong>创建对象</strong>时，会被 <strong>自动</strong> 调用</td>
+</tr>
+<tr>
+<td style="text-align:center">02</td>
+<td style="text-align:center"><code>__init__</code></td>
+<td style="text-align:center">方法</td>
+<td><strong>对象被初始化</strong>时，会被 <strong>自动</strong> 调用</td>
+</tr>
+<tr>
+<td style="text-align:center">03</td>
+<td style="text-align:center"><code>__del__</code></td>
+<td style="text-align:center">方法</td>
+<td><strong>对象被从内存中销毁</strong>前，会被 <strong>自动</strong> 调用</td>
+</tr>
+<tr>
+<td style="text-align:center">04</td>
+<td style="text-align:center"><code>__str__</code></td>
+<td style="text-align:center">方法</td>
+<td>返回<strong>对象的描述信息</strong>，<code>print</code> 函数输出使用</td>
+</tr>
+</tbody>
+</table>
+<p><strong>提示</strong> 利用好 <code>dir()</code> 函数，在学习时很多内容就不需要死记硬背了</p>
+<h2 class="mume-header" id="02-%E5%AE%9A%E4%B9%89%E7%AE%80%E5%8D%95%E7%9A%84%E7%B1%BB%E5%8F%AA%E5%8C%85%E5%90%AB%E6%96%B9%E6%B3%95">02. 定义简单的类（只包含方法）</h2>
+
+<blockquote>
+<p><strong>面向对象</strong> 是 <strong>更大</strong> 的 <strong>封装</strong>，在 <strong>一个类中 封装 多个方法</strong>，这样 <strong>通过这个类创建出来的对象，就可以直接调用这些方法了</strong>！</p>
+</blockquote>
+<h3 class="mume-header" id="21-%E5%AE%9A%E4%B9%89%E5%8F%AA%E5%8C%85%E5%90%AB%E6%96%B9%E6%B3%95%E7%9A%84%E7%B1%BB">2.1 定义只包含方法的类</h3>
+
+<ul>
+<li>在 <code>Python</code> 中要定义一个只包含方法的类，语法格式如下：</li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">class</span> 类名<span class="token punctuation">:</span>
+
+    <span class="token keyword">def</span> 方法<span class="token number">1</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> 参数列表<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">pass</span>
+    
+    <span class="token keyword">def</span> 方法<span class="token number">2</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> 参数列表<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">pass</span>
+</pre><ul>
+<li><strong>方法</strong> 的定义格式和之前学习过的<strong>函数</strong> 几乎一样</li>
+<li>区别在于第一个参数必须是 <code>self</code>，大家暂时先记住，稍后介绍 <code>self</code></li>
+</ul>
+<blockquote>
+<p>注意：<strong>类名</strong> 的 命名规则 要符合 <strong>大驼峰命名法</strong></p>
+</blockquote>
+<h3 class="mume-header" id="22-%E5%88%9B%E5%BB%BA%E5%AF%B9%E8%B1%A1">2.2 创建对象</h3>
+
+<ul>
+<li>当一个类定义完成之后，要使用这个类来创建对象，语法格式如下：</li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python">对象变量 <span class="token operator">=</span> 类名<span class="token punctuation">(</span><span class="token punctuation">)</span>
+</pre><h3 class="mume-header" id="23-%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F">2.3 第一个面向对象程序</h3>
+
+<p><strong>需求</strong></p>
+<ul>
+<li><strong>小猫</strong> 爱 <strong>吃</strong> 鱼，<strong>小猫</strong> 要 <strong>喝</strong> 水</li>
+</ul>
+<p><strong>分析</strong></p>
+<ol>
+<li>定义一个猫类 <code>Cat</code></li>
+<li>定义两个方法 <code>eat</code> 和 <code>drink</code></li>
+<li>按照需求 —— 不需要定义属性</li>
+</ol>
+<p><img src="media/15006092456994/004_Cat%E7%B1%BB1.png" alt="004_Cat&#x7C7B;1-w134"></p>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">class</span> <span class="token class-name">Cat</span><span class="token punctuation">:</span>
+    <span class="token triple-quoted-string string">"""这是一个猫类"""</span>
+
+    <span class="token keyword">def</span> <span class="token function">eat</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"小猫爱吃鱼"</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">def</span> <span class="token function">drink</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"小猫在喝水"</span><span class="token punctuation">)</span>
+
+tom <span class="token operator">=</span> Cat<span class="token punctuation">(</span><span class="token punctuation">)</span>
+tom<span class="token punctuation">.</span>drink<span class="token punctuation">(</span><span class="token punctuation">)</span>
+tom<span class="token punctuation">.</span>eat<span class="token punctuation">(</span><span class="token punctuation">)</span>
+</pre><h4 class="mume-header" id="%E5%BC%95%E7%94%A8%E6%A6%82%E5%BF%B5%E7%9A%84%E5%BC%BA%E8%B0%83">引用概念的强调</h4>
+
+<blockquote>
+<p>在面向对象开发中，<strong>引用</strong>的概念是同样适用的！</p>
+</blockquote>
+<ul>
+<li>在 <code>Python</code> 中使用类 <strong>创建对象之后</strong>，<code>tom</code> 变量中 仍然记录的是 <strong>对象在内存中的地址</strong></li>
+<li>也就是 <code>tom</code> 变量 <strong>引用</strong> 了 <strong>新建的猫对象</strong></li>
+<li>使用 <code>print</code> 输出 <strong>对象变量</strong>，默认情况下，是能够输出这个变量 <strong>引用的对象</strong> 是 <strong>由哪一个类创建的对象</strong>，以及 <strong>在内存中的地址</strong>（<strong>十六进制表示</strong>）</li>
+</ul>
+<blockquote>
+<p>提示：在计算机中，通常使用 <strong>十六进制</strong> 表示 <strong>内存地址</strong></p>
+<ul>
+<li><strong>十进制</strong> 和 <strong>十六进制</strong> 都是用来表达数字的，只是表示的方式不一样</li>
+<li><strong>十进制</strong> 和 <strong>十六进制</strong> 的数字之间可以来回转换</li>
+</ul>
+</blockquote>
+<ul>
+<li><code>%d</code> 可以以 <strong>10 进制</strong> 输出数字</li>
+<li><code>%x</code> 可以以 <strong>16 进制</strong> 输出数字</li>
+</ul>
+<h4 class="mume-header" id="%E6%A1%88%E4%BE%8B%E8%BF%9B%E9%98%B6-%E4%BD%BF%E7%94%A8-cat-%E7%B1%BB%E5%86%8D%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%AF%B9%E8%B1%A1">案例进阶 —— 使用 Cat 类再创建一个对象</h4>
+
+<pre data-role="codeBlock" data-info="python" class="language-python">lazy_cat <span class="token operator">=</span> Cat<span class="token punctuation">(</span><span class="token punctuation">)</span>
+lazy_cat<span class="token punctuation">.</span>eat<span class="token punctuation">(</span><span class="token punctuation">)</span>
+lazy_cat<span class="token punctuation">.</span>drink<span class="token punctuation">(</span><span class="token punctuation">)</span>
+</pre><blockquote>
+<p>提问：<code>tom</code> 和 <code>lazy_cat</code> 是同一个对象吗？</p>
+</blockquote>
+<h2 class="mume-header" id="03-%E6%96%B9%E6%B3%95%E4%B8%AD%E7%9A%84-self-%E5%8F%82%E6%95%B0">03. 方法中的 <code>self</code> 参数</h2>
+
+<h3 class="mume-header" id="31-%E6%A1%88%E4%BE%8B%E6%94%B9%E9%80%A0-%E7%BB%99%E5%AF%B9%E8%B1%A1%E5%A2%9E%E5%8A%A0%E5%B1%9E%E6%80%A7">3.1 案例改造 —— 给对象增加属性</h3>
+
+<ul>
+<li>在 <code>Python</code> 中，要 <strong>给对象设置属性</strong>，非常的容易，<strong>但是不推荐使用</strong>
+<ul>
+<li>因为：对象属性的封装应该封装在类的内部</li>
+</ul>
+</li>
+<li>只需要在 <strong>类的外部的代码</strong> 中直接通过 <code>.</code> 设置一个属性即可</li>
+</ul>
+<blockquote>
+<p>注意：这种方式虽然简单，但是不推荐使用！</p>
+</blockquote>
+<pre data-role="codeBlock" data-info="python" class="language-python">tom<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">"Tom"</span>
+<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+
+lazy_cat<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">"大懒猫"</span>
+</pre><h3 class="mume-header" id="32-%E4%BD%BF%E7%94%A8-self-%E5%9C%A8%E6%96%B9%E6%B3%95%E5%86%85%E9%83%A8%E8%BE%93%E5%87%BA%E6%AF%8F%E4%B8%80%E5%8F%AA%E7%8C%AB%E7%9A%84%E5%90%8D%E5%AD%97">3.2 使用 <code>self</code> 在方法内部输出每一只猫的名字</h3>
+
+<blockquote>
+<p>由 <strong>哪一个对象</strong> 调用的方法，方法内的 <code>self</code> 就是 <strong>哪一个对象的引用</strong></p>
+</blockquote>
+<ul>
+<li>在类封装的方法内部，<code>self</code> 就表示 <strong>当前调用方法的对象自己</strong></li>
+<li><strong>调用方法时</strong>，程序员不需要传递 <code>self</code> 参数</li>
+<li><strong>在方法内部</strong>
+<ul>
+<li>可以通过 <code>self.</code> <strong>访问对象的属性</strong></li>
+<li>也可以通过 <code>self.</code> <strong>调用其他的对象方法</strong></li>
+</ul>
+</li>
+<li>改造代码如下：</li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">class</span> <span class="token class-name">Cat</span><span class="token punctuation">:</span>
+
+    <span class="token keyword">def</span> <span class="token function">eat</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"%s 爱吃鱼"</span> <span class="token operator">%</span> self<span class="token punctuation">.</span>name<span class="token punctuation">)</span>
+
+tom <span class="token operator">=</span> Cat<span class="token punctuation">(</span><span class="token punctuation">)</span>
+tom<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">"Tom"</span>
+tom<span class="token punctuation">.</span>eat<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+lazy_cat <span class="token operator">=</span> Cat<span class="token punctuation">(</span><span class="token punctuation">)</span>
+lazy_cat<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">"大懒猫"</span>
+lazy_cat<span class="token punctuation">.</span>eat<span class="token punctuation">(</span><span class="token punctuation">)</span>
+</pre><p><img src="media/15006092456994/005_%E6%96%B9%E6%B3%95%E4%B8%AD%E7%9A%84self.png" alt="005_&#x65B9;&#x6CD5;&#x4E2D;&#x7684;self-w625"></p>
+<ul>
+<li>在 <strong>类的外部</strong>，通过 <code>变量名.</code> 访问对象的 <strong>属性和方法</strong></li>
+<li>在 <strong>类封装的方法中</strong>，通过 <code>self.</code> 访问对象的 <strong>属性和方法</strong></li>
+</ul>
+<h2 class="mume-header" id="04-%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%B3%95">04. 初始化方法</h2>
+
+<h3 class="mume-header" id="41-%E4%B9%8B%E5%89%8D%E4%BB%A3%E7%A0%81%E5%AD%98%E5%9C%A8%E7%9A%84%E9%97%AE%E9%A2%98-%E5%9C%A8%E7%B1%BB%E7%9A%84%E5%A4%96%E9%83%A8%E7%BB%99%E5%AF%B9%E8%B1%A1%E5%A2%9E%E5%8A%A0%E5%B1%9E%E6%80%A7">4.1 之前代码存在的问题 —— 在类的外部给对象增加属性</h3>
+
+<ul>
+<li>将案例代码进行调整，<strong>先调用方法 再设置属性</strong>，观察一下执行效果</li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python">tom <span class="token operator">=</span> Cat<span class="token punctuation">(</span><span class="token punctuation">)</span>
+tom<span class="token punctuation">.</span>drink<span class="token punctuation">(</span><span class="token punctuation">)</span>
+tom<span class="token punctuation">.</span>eat<span class="token punctuation">(</span><span class="token punctuation">)</span>
+tom<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">"Tom"</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>tom<span class="token punctuation">)</span>
+</pre><ul>
+<li>程序执行报错如下：</li>
+</ul>
+<pre data-role="codeBlock" data-info="" class="language-"><code>AttributeError: &apos;Cat&apos; object has no attribute &apos;name&apos;
+&#x5C5E;&#x6027;&#x9519;&#x8BEF;&#xFF1A;&apos;Cat&apos; &#x5BF9;&#x8C61;&#x6CA1;&#x6709; &apos;name&apos; &#x5C5E;&#x6027;
+</code></pre><p><strong>提示</strong></p>
+<ul>
+<li>在日常开发中，不推荐在 <strong>类的外部</strong> 给对象增加属性
+<ul>
+<li>如果<strong>在运行时，没有找到属性，程序会报错</strong></li>
+</ul>
+</li>
+<li>对象应该包含有哪些属性，应该 <strong>封装在类的内部</strong></li>
+</ul>
+<h3 class="mume-header" id="42-%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%B3%95">4.2 初始化方法</h3>
+
+<ul>
+<li>当使用 <code>类名()</code> 创建对象时，会 <strong>自动</strong> 执行以下操作：
+<ol>
+<li>为对象在内存中 <strong>分配空间</strong> —— 创建对象</li>
+<li>为对象的属性 <strong>设置初始值</strong> —— 初始化方法(<code>init</code>)</li>
+</ol>
+</li>
+<li>这个 <strong>初始化方法</strong> 就是 <code>__init__</code> 方法，<code>__init__</code> 是对象的<strong>内置方法</strong></li>
+</ul>
+<blockquote>
+<p><code>__init__</code> 方法是 <strong>专门</strong> 用来定义一个类 <strong>具有哪些属性的方法</strong>！</p>
+</blockquote>
+<p>在 <code>Cat</code> 中增加 <code>__init__</code> 方法，验证该方法在创建对象时会被自动调用</p>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">class</span> <span class="token class-name">Cat</span><span class="token punctuation">:</span>
+    <span class="token triple-quoted-string string">"""这是一个猫类"""</span>
+
+    <span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"初始化方法"</span><span class="token punctuation">)</span>
+</pre><h3 class="mume-header" id="43-%E5%9C%A8%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%B3%95%E5%86%85%E9%83%A8%E5%AE%9A%E4%B9%89%E5%B1%9E%E6%80%A7">4.3 在初始化方法内部定义属性</h3>
+
+<ul>
+<li>在 <code>__init__</code> 方法内部使用 <code>self.属性名 = 属性的初始值</code> 就可以 <strong>定义属性</strong></li>
+<li>定义属性之后，再使用 <code>Cat</code> 类创建的对象，都会拥有该属性</li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">class</span> <span class="token class-name">Cat</span><span class="token punctuation">:</span>
+
+    <span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"这是一个初始化方法"</span><span class="token punctuation">)</span>
+        
+        <span class="token comment"># 定义用 Cat 类创建的猫对象都有一个 name 的属性</span>
+        self<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">"Tom"</span>
+
+    <span class="token keyword">def</span> <span class="token function">eat</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"%s 爱吃鱼"</span> <span class="token operator">%</span> self<span class="token punctuation">.</span>name<span class="token punctuation">)</span>
+
+<span class="token comment"># 使用类名()创建对象的时候，会自动调用初始化方法 __init__</span>
+tom <span class="token operator">=</span> Cat<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+tom<span class="token punctuation">.</span>eat<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+</pre><h3 class="mume-header" id="44-%E6%94%B9%E9%80%A0%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%B3%95-%E5%88%9D%E5%A7%8B%E5%8C%96%E7%9A%84%E5%90%8C%E6%97%B6%E8%AE%BE%E7%BD%AE%E5%88%9D%E5%A7%8B%E5%80%BC">4.4 改造初始化方法 —— 初始化的同时设置初始值</h3>
+
+<ul>
+<li>在开发中，如果希望在 <strong>创建对象的同时，就设置对象的属性</strong>，可以对 <code>__init__</code> 方法进行 <strong>改造</strong>
+<ol>
+<li>把希望设置的属性值，定义成 <code>__init__</code> 方法的参数</li>
+<li>在方法内部使用 <code>self.属性 = 形参</code> 接收外部传递的参数</li>
+<li>在创建对象时，使用 <code>类名(属性1, 属性2...)</code> 调用</li>
+</ol>
+</li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">class</span> <span class="token class-name">Cat</span><span class="token punctuation">:</span>
+
+    <span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> name<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"初始化方法 %s"</span> <span class="token operator">%</span> name<span class="token punctuation">)</span>
+        self<span class="token punctuation">.</span>name <span class="token operator">=</span> name
+    <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+    
+tom <span class="token operator">=</span> Cat<span class="token punctuation">(</span><span class="token string">"Tom"</span><span class="token punctuation">)</span>
+<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+
+lazy_cat <span class="token operator">=</span> Cat<span class="token punctuation">(</span><span class="token string">"大懒猫"</span><span class="token punctuation">)</span>
+<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+</pre><h2 class="mume-header" id="05-%E5%86%85%E7%BD%AE%E6%96%B9%E6%B3%95%E5%92%8C%E5%B1%9E%E6%80%A7">05. 内置方法和属性</h2>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center">序号</th>
+<th style="text-align:center">方法名</th>
+<th style="text-align:center">类型</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">01</td>
+<td style="text-align:center"><code>__del__</code></td>
+<td style="text-align:center">方法</td>
+<td><strong>对象被从内存中销毁</strong>前，会被 <strong>自动</strong> 调用</td>
+</tr>
+<tr>
+<td style="text-align:center">02</td>
+<td style="text-align:center"><code>__str__</code></td>
+<td style="text-align:center">方法</td>
+<td>返回<strong>对象的描述信息</strong>，<code>print</code> 函数输出使用</td>
+</tr>
+</tbody>
+</table>
+<h3 class="mume-header" id="51-__del__-%E6%96%B9%E6%B3%95%E7%9F%A5%E9%81%93">5.1 <code>__del__</code> 方法（知道）</h3>
+
+<ul>
+<li>
+<p>在 <code>Python</code> 中</p>
+<ul>
+<li>当使用 <code>类名()</code> 创建对象时，为对象 <strong>分配完空间</strong>后，<strong>自动</strong> 调用 <code>__init__</code> 方法</li>
+<li>当一个 <strong>对象被从内存中销毁</strong> 前，会 <strong>自动</strong> 调用 <code>__del__</code> 方法</li>
+</ul>
+</li>
+<li>
+<p><strong>应用场景</strong></p>
+<ul>
+<li><code>__init__</code> 改造初始化方法，可以让创建对象更加灵活</li>
+<li><code>__del__</code> 如果希望在对象被销毁前，再做一些事情，可以考虑一下 <code>__del__</code> 方法</li>
+</ul>
+</li>
+<li>
+<p><strong>生命周期</strong></p>
+<ul>
+<li>一个对象从调用 <code>类名()</code> 创建，生命周期开始</li>
+<li>一个对象的 <code>__del__</code> 方法一旦被调用，生命周期结束</li>
+<li>在对象的生命周期内，可以访问对象属性，或者让对象调用方法</li>
+</ul>
+</li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">class</span> <span class="token class-name">Cat</span><span class="token punctuation">:</span>
+
+    <span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> new_name<span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+        self<span class="token punctuation">.</span>name <span class="token operator">=</span> new_name
+
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"%s 来了"</span> <span class="token operator">%</span> self<span class="token punctuation">.</span>name<span class="token punctuation">)</span>
+
+    <span class="token keyword">def</span> <span class="token function">__del__</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"%s 去了"</span> <span class="token operator">%</span> self<span class="token punctuation">.</span>name<span class="token punctuation">)</span>
+
+<span class="token comment"># tom 是一个全局变量</span>
+tom <span class="token operator">=</span> Cat<span class="token punctuation">(</span><span class="token string">"Tom"</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>tom<span class="token punctuation">.</span>name<span class="token punctuation">)</span>
+
+<span class="token comment"># del 关键字可以删除一个对象</span>
+<span class="token keyword">del</span> tom
+
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"-"</span> <span class="token operator">*</span> <span class="token number">50</span><span class="token punctuation">)</span>
+
+</pre><h3 class="mume-header" id="52-__str__-%E6%96%B9%E6%B3%95">5.2 <code>__str__</code> 方法</h3>
+
+<ul>
+<li>在 <code>Python</code> 中，使用 <code>print</code> 输出 <strong>对象变量</strong>，默认情况下，会输出这个变量 <strong>引用的对象</strong> 是 <strong>由哪一个类创建的对象</strong>，以及 <strong>在内存中的地址</strong>（<strong>十六进制表示</strong>）</li>
+<li>如果在开发中，希望使用 <code>print</code> 输出 <strong>对象变量</strong> 时，能够打印 <strong>自定义的内容</strong>，就可以利用 <code>__str__</code> 这个内置方法了</li>
+</ul>
+<blockquote>
+<p>注意：<code>__str__</code> 方法必须返回一个字符串</p>
+</blockquote>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">class</span> <span class="token class-name">Cat</span><span class="token punctuation">:</span>
+
+    <span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> new_name<span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+        self<span class="token punctuation">.</span>name <span class="token operator">=</span> new_name
+
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"%s 来了"</span> <span class="token operator">%</span> self<span class="token punctuation">.</span>name<span class="token punctuation">)</span>
+
+    <span class="token keyword">def</span> <span class="token function">__del__</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"%s 去了"</span> <span class="token operator">%</span> self<span class="token punctuation">.</span>name<span class="token punctuation">)</span>
+
+    <span class="token keyword">def</span> <span class="token function">__str__</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token string">"我是小猫：%s"</span> <span class="token operator">%</span> self<span class="token punctuation">.</span>name
+
+tom <span class="token operator">=</span> Cat<span class="token punctuation">(</span><span class="token string">"Tom"</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>tom<span class="token punctuation">)</span>
+
+</pre><hr>
+<h1 class="mume-header" id="%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%B0%81%E8%A3%85%E6%A1%88%E4%BE%8B">面向对象封装案例</h1>
+
+<h2 class="mume-header" id="%E7%9B%AE%E6%A0%87-3">目标</h2>
+
+<ul>
+<li>封装</li>
+<li>小明爱跑步</li>
+<li>存放家具</li>
+</ul>
+<h3 class="mume-header" id="01-%E5%B0%81%E8%A3%85">01. 封装</h3>
+
+<ol>
+<li><strong>封装</strong> 是面向对象编程的一大特点</li>
+<li>面向对象编程的 <strong>第一步</strong> —— 将 <strong>属性</strong> 和 <strong>方法</strong> <strong>封装</strong> 到一个抽象的 <strong>类</strong> 中</li>
+<li><strong>外界</strong> 使用 <strong>类</strong> 创建 <strong>对象</strong>，然后 <strong>让对象调用方法</strong></li>
+<li><strong>对象方法的细节</strong> 都被 <strong>封装</strong> 在 <strong>类的内部</strong></li>
+</ol>
+<h2 class="mume-header" id="02-%E5%B0%8F%E6%98%8E%E7%88%B1%E8%B7%91%E6%AD%A5">02. 小明爱跑步</h2>
+
+<p><strong>需求</strong></p>
+<ol>
+<li><strong>小明</strong> <strong>体重</strong> <code>75.0</code> 公斤</li>
+<li>小明每次 <strong>跑步</strong> 会减肥 <code>0.5</code> 公斤</li>
+<li>小明每次 <strong>吃东西</strong> 体重增加 <code>1</code> 公斤</li>
+</ol>
+<p><img src="media/15006177106970/007_%E5%B0%8F%E6%98%8E%E7%88%B1%E8%B7%91%E6%AD%A5.png" alt="007_&#x5C0F;&#x660E;&#x7231;&#x8DD1;&#x6B65;-w328"></p>
+<blockquote>
+<p>提示：在 <strong>对象的方法内部</strong>，是可以 <strong>直接访问对象的属性</strong> 的！</p>
+</blockquote>
+<ul>
+<li>代码实现：</li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">class</span> <span class="token class-name">Person</span><span class="token punctuation">:</span>
+    <span class="token triple-quoted-string string">"""人类"""</span>
+
+    <span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> name<span class="token punctuation">,</span> weight<span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+        self<span class="token punctuation">.</span>name <span class="token operator">=</span> name
+        self<span class="token punctuation">.</span>weight <span class="token operator">=</span> weight
+
+    <span class="token keyword">def</span> <span class="token function">__str__</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+        <span class="token keyword">return</span> <span class="token string">"我的名字叫 %s 体重 %.2f 公斤"</span> <span class="token operator">%</span> <span class="token punctuation">(</span>self<span class="token punctuation">.</span>name<span class="token punctuation">,</span> self<span class="token punctuation">.</span>weight<span class="token punctuation">)</span>
+
+    <span class="token keyword">def</span> <span class="token function">run</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token triple-quoted-string string">"""跑步"""</span>
+
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"%s 爱跑步，跑步锻炼身体"</span> <span class="token operator">%</span> self<span class="token punctuation">.</span>name<span class="token punctuation">)</span>
+        self<span class="token punctuation">.</span>weight <span class="token operator">-=</span> <span class="token number">0.5</span>
+
+    <span class="token keyword">def</span> <span class="token function">eat</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token triple-quoted-string string">"""吃东西"""</span>
+
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"%s 是吃货，吃完这顿再减肥"</span> <span class="token operator">%</span> self<span class="token punctuation">.</span>name<span class="token punctuation">)</span>
+        self<span class="token punctuation">.</span>weight <span class="token operator">+=</span> <span class="token number">1</span>
+
+
+xiaoming <span class="token operator">=</span> Person<span class="token punctuation">(</span><span class="token string">"小明"</span><span class="token punctuation">,</span> <span class="token number">75</span><span class="token punctuation">)</span>
+
+xiaoming<span class="token punctuation">.</span>run<span class="token punctuation">(</span><span class="token punctuation">)</span>
+xiaoming<span class="token punctuation">.</span>eat<span class="token punctuation">(</span><span class="token punctuation">)</span>
+xiaoming<span class="token punctuation">.</span>eat<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token keyword">print</span><span class="token punctuation">(</span>xiaoming<span class="token punctuation">)</span>
+
+</pre><h3 class="mume-header" id="21-%E5%B0%8F%E6%98%8E%E7%88%B1%E8%B7%91%E6%AD%A5%E6%89%A9%E5%B1%95-%E5%B0%8F%E7%BE%8E%E4%B9%9F%E7%88%B1%E8%B7%91%E6%AD%A5">2.1 小明爱跑步扩展 —— 小美也爱跑步</h3>
+
+<p><strong>需求</strong></p>
+<ol>
+<li><strong>小明</strong> 和 <strong>小美</strong> 都爱跑步</li>
+<li><strong>小明</strong> <strong>体重</strong> <code>75.0</code> 公斤</li>
+<li><strong>小美</strong> <strong>体重</strong> <code>45.0</code> 公斤</li>
+<li>每次 <strong>跑步</strong> 都会减少 <code>0.5</code> 公斤</li>
+<li>每次 <strong>吃东西</strong> 都会增加 <code>1</code> 公斤</li>
+</ol>
+<p><img src="media/15006177106970/007_%E5%B0%8F%E6%98%8E%E7%88%B1%E8%B7%91%E6%AD%A5.png" alt="007_&#x5C0F;&#x660E;&#x7231;&#x8DD1;&#x6B65;-w328"></p>
+<p><strong>提示</strong></p>
+<ol>
+<li>在 <strong>对象的方法内部</strong>，是可以 <strong>直接访问对象的属性</strong> 的</li>
+<li><strong>同一个类</strong> 创建的 <strong>多个对象</strong> 之间，<strong>属性</strong> 互不干扰！</li>
+</ol>
+<p><img src="media/15006177106970/001_%E6%A4%8D%E7%89%A9%E5%A4%A7%E6%88%98%E5%83%B5%E5%B0%B8.png" alt="001_&#x690D;&#x7269;&#x5927;&#x6218;&#x50F5;&#x5C38;"></p>
+<h2 class="mume-header" id="03-%E6%91%86%E6%94%BE%E5%AE%B6%E5%85%B7">03. 摆放家具</h2>
+
+<p><strong>需求</strong></p>
+<ol>
+<li><strong>房子(House)</strong> 有 <strong>户型</strong>、<strong>总面积</strong> 和 <strong>家具名称列表</strong>
+<ul>
+<li>新房子没有任何的家具</li>
+</ul>
+</li>
+<li><strong>家具(HouseItem)</strong> 有 <strong>名字</strong> 和 <strong>占地面积</strong>，其中
+<ul>
+<li><strong>席梦思(bed)</strong> 占地 <code>4</code> 平米</li>
+<li><strong>衣柜(chest)</strong> 占地 <code>2</code> 平米</li>
+<li><strong>餐桌(table)</strong> 占地 <code>1.5</code> 平米</li>
+</ul>
+</li>
+<li>将以上三件 <strong>家具</strong> <strong>添加</strong> 到 <strong>房子</strong> 中</li>
+<li>打印房子时，要求输出：<strong>户型</strong>、<strong>总面积</strong>、<strong>剩余面积</strong>、<strong>家具名称列表</strong></li>
+</ol>
+<p><img src="media/15006177106970/008_%E6%91%86%E6%94%BE%E5%AE%B6%E5%85%B7.png" alt="008_&#x6446;&#x653E;&#x5BB6;&#x5177;-w723"></p>
+<p><strong>剩余面积</strong></p>
+<ol>
+<li>在创建房子对象时，定义一个 <strong>剩余面积的属性</strong>，<strong>初始值和总面积相等</strong></li>
+<li>当调用 <code>add_item</code> 方法，向房间 <strong>添加家具</strong> 时，让 <strong>剩余面积</strong> -= <strong>家具面积</strong></li>
+</ol>
+<p><strong>思考</strong>：应该先开发哪一个类？</p>
+<p><strong>答案</strong> —— <strong>家具类</strong></p>
+<ol>
+<li>家具简单</li>
+<li>房子要使用到家具，<strong>被使用的类</strong>，通常应该先开发</li>
+</ol>
+<h3 class="mume-header" id="31-%E5%88%9B%E5%BB%BA%E5%AE%B6%E5%85%B7">3.1 创建家具</h3>
+
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">class</span> <span class="token class-name">HouseItem</span><span class="token punctuation">:</span>
+
+    <span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> name<span class="token punctuation">,</span> area<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token triple-quoted-string string">"""
+
+        :param name: 家具名称
+        :param area: 占地面积
+        """</span>
+        self<span class="token punctuation">.</span>name <span class="token operator">=</span> name
+        self<span class="token punctuation">.</span>area <span class="token operator">=</span> area
+
+    <span class="token keyword">def</span> <span class="token function">__str__</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token string">"[%s] 占地面积 %.2f"</span> <span class="token operator">%</span> <span class="token punctuation">(</span>self<span class="token punctuation">.</span>name<span class="token punctuation">,</span> self<span class="token punctuation">.</span>area<span class="token punctuation">)</span>
+
+
+<span class="token comment"># 1. 创建家具</span>
+bed <span class="token operator">=</span> HouseItem<span class="token punctuation">(</span><span class="token string">"席梦思"</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">)</span>
+chest <span class="token operator">=</span> HouseItem<span class="token punctuation">(</span><span class="token string">"衣柜"</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span>
+table <span class="token operator">=</span> HouseItem<span class="token punctuation">(</span><span class="token string">"餐桌"</span><span class="token punctuation">,</span> <span class="token number">1.5</span><span class="token punctuation">)</span>
+
+<span class="token keyword">print</span><span class="token punctuation">(</span>bed<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>chest<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>table<span class="token punctuation">)</span>
+
+</pre><p><strong>小结</strong></p>
+<ol>
+<li>创建了一个 <strong>家具类</strong>，使用到 <code>__init__</code> 和 <code>__str__</code> 两个内置方法</li>
+<li>使用 <strong>家具类</strong> 创建了 <strong>三个家具对象</strong>，并且 <strong>输出家具信息</strong></li>
+</ol>
+<h3 class="mume-header" id="32-%E5%88%9B%E5%BB%BA%E6%88%BF%E9%97%B4">3.2 创建房间</h3>
+
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">class</span> <span class="token class-name">House</span><span class="token punctuation">:</span>
+
+    <span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> house_type<span class="token punctuation">,</span> area<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token triple-quoted-string string">"""
+
+        :param house_type: 户型
+        :param area: 总面积
+        """</span>
+        self<span class="token punctuation">.</span>house_type <span class="token operator">=</span> house_type
+        self<span class="token punctuation">.</span>area <span class="token operator">=</span> area
+        
+        <span class="token comment"># 剩余面积默认和总面积一致</span>
+        self<span class="token punctuation">.</span>free_area <span class="token operator">=</span> area
+        <span class="token comment"># 默认没有任何的家具</span>
+        self<span class="token punctuation">.</span>item_list <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+
+    <span class="token keyword">def</span> <span class="token function">__str__</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+        <span class="token comment"># Python 能够自动的将一对括号内部的代码连接在一起</span>
+        <span class="token keyword">return</span> <span class="token punctuation">(</span><span class="token string">"户型：%s\n总面积：%.2f[剩余：%.2f]\n家具：%s"</span>
+                <span class="token operator">%</span> <span class="token punctuation">(</span>self<span class="token punctuation">.</span>house_type<span class="token punctuation">,</span> self<span class="token punctuation">.</span>area<span class="token punctuation">,</span>
+                   self<span class="token punctuation">.</span>free_area<span class="token punctuation">,</span> self<span class="token punctuation">.</span>item_list<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">def</span> <span class="token function">add_item</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> item<span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"要添加 %s"</span> <span class="token operator">%</span> item<span class="token punctuation">)</span>
+
+<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+
+<span class="token comment"># 2. 创建房子对象</span>
+my_home <span class="token operator">=</span> House<span class="token punctuation">(</span><span class="token string">"两室一厅"</span><span class="token punctuation">,</span> <span class="token number">60</span><span class="token punctuation">)</span>
+
+my_home<span class="token punctuation">.</span>add_item<span class="token punctuation">(</span>bed<span class="token punctuation">)</span>
+my_home<span class="token punctuation">.</span>add_item<span class="token punctuation">(</span>chest<span class="token punctuation">)</span>
+my_home<span class="token punctuation">.</span>add_item<span class="token punctuation">(</span>table<span class="token punctuation">)</span>
+
+<span class="token keyword">print</span><span class="token punctuation">(</span>my_home<span class="token punctuation">)</span>
+</pre><p><strong>小结</strong></p>
+<ol>
+<li>创建了一个 <strong>房子类</strong>，使用到 <code>__init__</code> 和 <code>__str__</code> 两个内置方法</li>
+<li>准备了一个 <code>add_item</code> 方法 <strong>准备添加家具</strong></li>
+<li>使用 <strong>房子类</strong> 创建了 <strong>一个房子对象</strong></li>
+<li>让 <strong>房子对象</strong> 调用了三次 <code>add_item</code> 方法，将 <strong>三件家具</strong> 以实参传递到 <code>add_item</code> 内部</li>
+</ol>
+<h3 class="mume-header" id="33-%E6%B7%BB%E5%8A%A0%E5%AE%B6%E5%85%B7">3.3 添加家具</h3>
+
+<p><strong>需求</strong></p>
+<ul>
+<li>1&gt; <strong>判断</strong> <strong>家具的面积</strong> 是否 <strong>超过剩余面积</strong>，<strong>如果超过</strong>，提示不能添加这件家具</li>
+<li>2&gt; 将 <strong>家具的名称</strong> 追加到 <strong>家具名称列表</strong> 中</li>
+<li>3&gt; 用 <strong>房子的剩余面积</strong> - <strong>家具面积</strong></li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python">    <span class="token keyword">def</span> <span class="token function">add_item</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> item<span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"要添加 %s"</span> <span class="token operator">%</span> item<span class="token punctuation">)</span>
+        <span class="token comment"># 1. 判断家具面积是否大于剩余面积</span>
+        <span class="token keyword">if</span> item<span class="token punctuation">.</span>area <span class="token operator">></span> self<span class="token punctuation">.</span>free_area<span class="token punctuation">:</span>
+            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"%s 的面积太大，不能添加到房子中"</span> <span class="token operator">%</span> item<span class="token punctuation">.</span>name<span class="token punctuation">)</span>
+
+            <span class="token keyword">return</span>
+
+        <span class="token comment"># 2. 将家具的名称追加到名称列表中</span>
+        self<span class="token punctuation">.</span>item_list<span class="token punctuation">.</span>append<span class="token punctuation">(</span>item<span class="token punctuation">.</span>name<span class="token punctuation">)</span>
+
+        <span class="token comment"># 3. 计算剩余面积</span>
+        self<span class="token punctuation">.</span>free_area <span class="token operator">-=</span> item<span class="token punctuation">.</span>area
+</pre><h3 class="mume-header" id="34-%E5%B0%8F%E7%BB%93">3.4 小结</h3>
+
+<ul>
+<li>主程序只负责创建 <strong>房子</strong> 对象和 <strong>家具</strong> 对象</li>
+<li>让 <strong>房子</strong> 对象调用 <code>add_item</code> 方法 <strong>将家具添加到房子</strong>中</li>
+<li><strong>面积计算</strong>、<strong>剩余面积</strong>、<strong>家具列表</strong> 等处理都被 <strong>封装</strong> 到 <strong>房子类的内部</strong></li>
+</ul>
+<hr>
+<h1 class="mume-header" id="%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%B0%81%E8%A3%85%E6%A1%88%E4%BE%8B-ii">面向对象封装案例 II</h1>
+
+<h2 class="mume-header" id="%E7%9B%AE%E6%A0%87-4">目标</h2>
+
+<ul>
+<li>士兵突击案例</li>
+<li>身份运算符</li>
+</ul>
+<p><strong>封装</strong></p>
+<ol>
+<li><strong>封装</strong> 是面向对象编程的一大特点</li>
+<li>面向对象编程的 <strong>第一步</strong> —— 将 <strong>属性</strong> 和 <strong>方法</strong> <strong>封装</strong> 到一个抽象的 <strong>类</strong> 中</li>
+<li><strong>外界</strong> 使用 <strong>类</strong> 创建 <strong>对象</strong>，然后 <strong>让对象调用方法</strong></li>
+<li><strong>对象方法的细节</strong> 都被 <strong>封装</strong> 在 <strong>类的内部</strong></li>
+</ol>
+<blockquote>
+<p>一个对象的 <strong>属性</strong> 可以是 <strong>另外一个类创建的对象</strong></p>
+</blockquote>
+<h2 class="mume-header" id="01-%E5%A3%AB%E5%85%B5%E7%AA%81%E5%87%BB">01. 士兵突击</h2>
+
+<p><strong>需求</strong></p>
+<ol>
+<li><strong>士兵</strong> <strong>许三多</strong> 有一把 <strong>AK47</strong></li>
+<li><strong>士兵</strong> 可以 <strong>开火</strong></li>
+<li><strong>枪</strong> 能够 <strong>发射</strong> 子弹</li>
+<li><strong>枪</strong> 装填 <strong>装填子弹</strong> —— <strong>增加子弹数量</strong></li>
+</ol>
+<p><img src="media/15006304901683/009_%E5%A3%AB%E5%85%B5%E7%AA%81%E5%87%BB.png" alt="009_&#x58EB;&#x5175;&#x7A81;&#x51FB;-w610"></p>
+<h3 class="mume-header" id="11-%E5%BC%80%E5%8F%91%E6%9E%AA%E7%B1%BB">1.1 开发枪类</h3>
+
+<p><strong><code>shoot</code> 方法需求</strong></p>
+<ul>
+<li>1&gt; 判断是否有子弹，没有子弹无法射击</li>
+<li>2&gt; 使用 <code>print</code> 提示射击，并且输出子弹数量</li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">class</span> <span class="token class-name">Gun</span><span class="token punctuation">:</span>
+
+    <span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> model<span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+        <span class="token comment"># 枪的型号</span>
+        self<span class="token punctuation">.</span>model <span class="token operator">=</span> model
+        <span class="token comment"># 子弹数量</span>
+        self<span class="token punctuation">.</span>bullet_count <span class="token operator">=</span> <span class="token number">0</span>
+
+    <span class="token keyword">def</span> <span class="token function">add_bullet</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> count<span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+        self<span class="token punctuation">.</span>bullet_count <span class="token operator">+=</span> count
+
+    <span class="token keyword">def</span> <span class="token function">shoot</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+        <span class="token comment"># 判断是否还有子弹</span>
+        <span class="token keyword">if</span> self<span class="token punctuation">.</span>bullet_count <span class="token operator">&lt;=</span> <span class="token number">0</span><span class="token punctuation">:</span>
+            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"没有子弹了..."</span><span class="token punctuation">)</span>
+
+            <span class="token keyword">return</span>
+
+        <span class="token comment"># 发射一颗子弹</span>
+        self<span class="token punctuation">.</span>bullet_count <span class="token operator">-=</span> <span class="token number">1</span>
+        
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"%s 发射子弹[%d]..."</span> <span class="token operator">%</span> <span class="token punctuation">(</span>self<span class="token punctuation">.</span>model<span class="token punctuation">,</span> self<span class="token punctuation">.</span>bullet_count<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 创建枪对象</span>
+ak47 <span class="token operator">=</span> Gun<span class="token punctuation">(</span><span class="token string">"ak47"</span><span class="token punctuation">)</span>
+ak47<span class="token punctuation">.</span>add_bullet<span class="token punctuation">(</span><span class="token number">50</span><span class="token punctuation">)</span>
+ak47<span class="token punctuation">.</span>shoot<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+</pre><h3 class="mume-header" id="12-%E5%BC%80%E5%8F%91%E5%A3%AB%E5%85%B5%E7%B1%BB">1.2 开发士兵类</h3>
+
+<blockquote>
+<p>假设：每一个新兵 都 <strong>没有枪</strong></p>
+</blockquote>
+<p><strong>定义没有初始值的属性</strong></p>
+<p>在定义属性时，如果 <strong>不知道设置什么初始值</strong>，可以设置为 <code>None</code></p>
+<ul>
+<li><code>None</code> <strong>关键字</strong> 表示 <strong>什么都没有</strong></li>
+<li>表示一个 <strong>空对象</strong>，<strong>没有方法和属性，是一个特殊的常量</strong></li>
+<li>可以将 <code>None</code> 赋值给任何一个变量</li>
+</ul>
+<p><strong><code>fire</code> 方法需求</strong></p>
+<ul>
+<li>1&gt; 判断是否有枪，没有枪没法冲锋</li>
+<li>2&gt; 喊一声口号</li>
+<li>3&gt; 装填子弹</li>
+<li>4&gt; 射击</li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">class</span> <span class="token class-name">Soldier</span><span class="token punctuation">:</span>
+
+    <span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> name<span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+        <span class="token comment"># 姓名</span>
+        self<span class="token punctuation">.</span>name <span class="token operator">=</span> name
+        <span class="token comment"># 枪，士兵初始没有枪 None 关键字表示什么都没有</span>
+        self<span class="token punctuation">.</span>gun <span class="token operator">=</span> <span class="token boolean">None</span>
+
+    <span class="token keyword">def</span> <span class="token function">fire</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+        <span class="token comment"># 1. 判断士兵是否有枪</span>
+        <span class="token keyword">if</span> self<span class="token punctuation">.</span>gun <span class="token keyword">is</span> <span class="token boolean">None</span><span class="token punctuation">:</span>
+            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"[%s] 还没有枪..."</span> <span class="token operator">%</span> self<span class="token punctuation">.</span>name<span class="token punctuation">)</span>
+
+            <span class="token keyword">return</span>
+
+        <span class="token comment"># 2. 高喊口号</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"冲啊...[%s]"</span> <span class="token operator">%</span> self<span class="token punctuation">.</span>name<span class="token punctuation">)</span>
+
+        <span class="token comment"># 3. 让枪装填子弹</span>
+        self<span class="token punctuation">.</span>gun<span class="token punctuation">.</span>add_bullet<span class="token punctuation">(</span><span class="token number">50</span><span class="token punctuation">)</span>
+
+        <span class="token comment"># 4. 让枪发射子弹</span>
+        self<span class="token punctuation">.</span>gun<span class="token punctuation">.</span>shoot<span class="token punctuation">(</span><span class="token punctuation">)</span>
+</pre><p><strong>小结</strong></p>
+<ol>
+<li>创建了一个 <strong>士兵类</strong>，使用到 <code>__init__</code> 内置方法</li>
+<li>在定义属性时，如果 <strong>不知道设置什么初始值</strong>，可以设置为 <code>None</code></li>
+<li>在 <strong>封装的</strong> 方法内部，还可以让 <strong>自己的</strong> <strong>使用其他类创建的对象属性</strong> 调用已经 <strong>封装好的方法</strong></li>
+</ol>
+<h2 class="mume-header" id="02-%E8%BA%AB%E4%BB%BD%E8%BF%90%E7%AE%97%E7%AC%A6">02. 身份运算符</h2>
+
+<p>身份运算符用于 <strong>比较</strong> 两个对象的 <strong>内存地址</strong> 是否一致 —— <strong>是否是对同一个对象的引用</strong></p>
+<ul>
+<li>在 <code>Python</code> 中针对 <code>None</code> 比较时，建议使用 <code>is</code> 判断</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>运算符</th>
+<th>描述</th>
+<th>实例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>is</td>
+<td>is 是判断两个标识符是不是引用同一个对象</td>
+<td>x is y，类似 id(x) == id(y)</td>
+</tr>
+<tr>
+<td>is not</td>
+<td>is not 是判断两个标识符是不是引用不同对象</td>
+<td>x is not y，类似 id(a) != id(b)</td>
+</tr>
+</tbody>
+</table>
+<h3 class="mume-header" id="is-%E4%B8%8E-%E5%8C%BA%E5%88%AB">is 与 == 区别：</h3>
+
+<p><code>is</code> 用于判断 <strong>两个变量 引用对象是否为同一个</strong><br>
+<code>==</code> 用于判断 <strong>引用变量的值</strong> 是否相等</p>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token operator">>></span><span class="token operator">></span> a <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span>
+<span class="token operator">>></span><span class="token operator">></span> b <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span>
+<span class="token operator">>></span><span class="token operator">></span> b <span class="token keyword">is</span> a 
+<span class="token boolean">False</span>
+<span class="token operator">>></span><span class="token operator">></span> b <span class="token operator">==</span> a
+<span class="token boolean">True</span>
+</pre><hr>
+<h1 class="mume-header" id="%E7%A7%81%E6%9C%89%E5%B1%9E%E6%80%A7%E5%92%8C%E7%A7%81%E6%9C%89%E6%96%B9%E6%B3%95">私有属性和私有方法</h1>
+
+<h2 class="mume-header" id="01-%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF%E5%8F%8A%E5%AE%9A%E4%B9%89%E6%96%B9%E5%BC%8F">01. 应用场景及定义方式</h2>
+
+<p><strong>应用场景</strong></p>
+<ul>
+<li>在实际开发中，<strong>对象</strong> 的 <strong>某些属性或方法</strong> 可能只希望 <strong>在对象的内部被使用</strong>，而 <strong>不希望在外部被访问到</strong></li>
+<li><strong>私有属性</strong> 就是 <strong>对象</strong> 不希望公开的 <strong>属性</strong></li>
+<li><strong>私有方法</strong> 就是 <strong>对象</strong> 不希望公开的 <strong>方法</strong></li>
+</ul>
+<p><strong>定义方式</strong></p>
+<ul>
+<li>在 <strong>定义属性或方法时</strong>，在 <strong>属性名或者方法名前</strong> 增加 <strong>两个下划线</strong>，定义的就是 <strong>私有</strong> 属性或方法</li>
+</ul>
+<p><img src="media/15006305884400/010_%E7%A7%81%E6%9C%89%E5%B1%9E%E6%80%A7%E5%92%8C%E6%96%B9%E6%B3%95.png" alt="010_&#x79C1;&#x6709;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;-w265"></p>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">class</span> <span class="token class-name">Women</span><span class="token punctuation">:</span>
+
+    <span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> name<span class="token punctuation">)</span><span class="token punctuation">:</span>
+
+        self<span class="token punctuation">.</span>name <span class="token operator">=</span> name
+        <span class="token comment"># 不要问女生的年龄</span>
+        self<span class="token punctuation">.</span>__age <span class="token operator">=</span> <span class="token number">18</span>
+
+    <span class="token keyword">def</span> <span class="token function">__secret</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"我的年龄是 %d"</span> <span class="token operator">%</span> self<span class="token punctuation">.</span>__age<span class="token punctuation">)</span>
+
+
+xiaofang <span class="token operator">=</span> Women<span class="token punctuation">(</span><span class="token string">"小芳"</span><span class="token punctuation">)</span>
+<span class="token comment"># 私有属性，外部不能直接访问</span>
+<span class="token comment"># print(xiaofang.__age)</span>
+
+<span class="token comment"># 私有方法，外部不能直接调用</span>
+<span class="token comment"># xiaofang.__secret()</span>
+
+</pre><h2 class="mume-header" id="02-%E4%BC%AA%E7%A7%81%E6%9C%89%E5%B1%9E%E6%80%A7%E5%92%8C%E7%A7%81%E6%9C%89%E6%96%B9%E6%B3%95%E7%A7%91%E6%99%AE">02. 伪私有属性和私有方法（科普）</h2>
+
+<blockquote>
+<p>提示：在日常开发中，<strong>不要使用这种方式</strong>，<strong>访问对象的 私有属性 或 私有方法</strong></p>
+</blockquote>
+<p><code>Python</code> 中，并没有 <strong>真正意义</strong> 的 <strong>私有</strong></p>
+<ul>
+<li>在给 <strong>属性</strong>、<strong>方法</strong> 命名时，实际是对 <strong>名称</strong> 做了一些特殊处理，使得外界无法访问到</li>
+<li><strong>处理方式</strong>：在 <strong>名称</strong> 前面加上 <code>_类名</code> =&gt; <code>_类名__名称</code></li>
+</ul>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token comment"># 私有属性，外部不能直接访问到</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>xiaofang<span class="token punctuation">.</span>_Women__age<span class="token punctuation">)</span>
+
+<span class="token comment"># 私有方法，外部不能直接调用</span>
+xiaofang<span class="token punctuation">.</span>_Women__secret<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+</pre>
+      </div>
+      
+      
+    </body>
+    
+    
+    
+    
+    
+    
+    
+  </html>
