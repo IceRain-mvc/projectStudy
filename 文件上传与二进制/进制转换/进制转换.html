@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>进制转换</title>
+  <style>
+    .app{
+      overflow:hidden;
+    }
+    .panel {
+      float:left; margin-left: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="app">
+    <div class="panel">
+      <input id="targetStr" type="text" />
+    </div>
+    <div class="panel">
+      <p>二进制</p>
+      <div class="box system2"></div>
+      <p>二进制的位数</p>
+      <div class="box system2num"></div>
+      <p>8进制</p>
+      <div class="box system8"></div>
+      <p>10进制</p>
+      <div class="box system10"></div>
+      <p>16进制</p>
+      <div class="box system16"></div>
+    </div>
+  </div>
+  <script src="getStr2.js"></script>
+  <script>
+    function chooseFromCN(cn, collects) {
+      return Array.from(collects).filter(item => {
+        return item.className.indexOf(cn) !== -1;
+      })[0];
+    }
+    const aBoxs = document.getElementsByClassName('box');
+    const oTarStr = document.getElementById('targetStr');
+    oTarStr.oninput = () => {
+      const arr10 = toStr10(oTarStr.value);
+      const arr2 = arr10.map(item => systemTrans(item, 2));
+      const arr8 = arr10.map(item => systemTrans(item, 8));
+      const arr16 = arr10.map(item => systemTrans(item, 16));
+      chooseFromCN('system10', aBoxs).innerHTML = arr10.join('&');
+      chooseFromCN('system2', aBoxs).innerHTML = arr2.join('&');
+      chooseFromCN('system8', aBoxs).innerHTML = arr8.join('&');
+      chooseFromCN('system16', aBoxs).innerHTML = arr16.join('&');
+      chooseFromCN('system2num', aBoxs).innerHTML = arr2.map(item => item.length).join('&');
+    }
+  </script>
+</body>
+
+</html>

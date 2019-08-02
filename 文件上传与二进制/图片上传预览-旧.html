@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>图片上传预览</title>
+</head>
+
+<body>
+    <form action="##">
+        <input style="display: none;" id="file" type="file" name="pic" />
+    </form>
+    <div>选择文件</div>
+    <img src="" />
+    <div>上传文件</div>
+    <script>
+        const oForm = document.getElementsByTagName('form')[0];
+        const oFile = document.getElementById('file');
+        const div = document.getElementsByTagName('div');
+        const oImg = document.getElementsByTagName('img')[0];
+        function post(url, fn){
+            const formData = new FormData(oForm);
+            const oAjax = new XMLHttpRequest();
+            oAjax.open('POST',url,true);
+            oAjax.send(formData);
+            oAjax.onreadystatechange = () => {
+                if(oAjax.status === 200 && oAjax.readyState === 4){
+                    // console.log(oAjax.responseText);
+                    fn && fn(oAjax.responseText);
+                }
+            }
+        }
+        oFile.onchange = () => {
+            post('http://localhost:3000/uploadFile',res => {
+                console.log(res);
+                res = JSON.parse(res);
+                oImg.src = 'http://localhost:3000' + res.url;
+            })
+        }
+        div[0].onclick = () => {
+            oFile.click();
+        }
+    </script>
+</body>
+
+</html>
