@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .page {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            overflow: auto;
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page page1">
+        <h1>页面一</h1>
+        <button onclick="goNewPage(1)">调到页面2</button>
+    </div>
+    <div class="page page2">
+        <h1>页面二</h1>
+        <button onclick="goNewPage(3)">调到页面4</button>
+        <button onclick="goNewPage(2)">调到页面3</button>
+    </div>
+    <div class="page page3">
+        <h1>页面三</h1>
+        <button onclick="goNewPage(1)">调到页面2</button>
+        <button onclick="goNewPage(2)">调到页面3</button>
+    </div>
+    <div class="page page4">
+        <h1>页面四</h1>
+        <button onclick="goNewPage(0)">调到页面1</button>
+    </div>
+    <script>
+        class Stack {
+            constructor(props) {
+                this._datasouce = props || [];
+                this.updateNowIndex();
+            }
+            updateNowIndex() {
+                if (this._datasouce.length === 0) {
+                    this._nowIndex = 0;
+                    return;
+                }
+                this._nowIndex = this._datasouce.length - 1;
+            }
+            // 得到当前元素
+            getNow() {
+                return this._datasouce[this._nowIndex] || {index:0};
+            }
+            // 入栈
+            push(newElement) {
+                this._datasouce.push(newElement);
+                this.updateNowIndex();
+            }
+            // 出栈
+            pop() {
+                if (this._datasouce.length === 0) {
+                    throw new Error(`不能出栈了`);
+                }
+                const ele = this._datasouce.pop();
+                this.updateNowIndex();
+                return ele;
+            }
+            // 同步本地存储
+            localSave(localName){
+                localStorage.setItem(localName,JSON.stringify(this._datasouce));
+            }
+        }
+        // 配置-把所有的页面配置进一个数组结构中
+        const pagesDom = document.getElementsByClassName('page');
+        let pagesArray = [];
+        // 本地存储取数据
+        const prevLocal = JSON.parse(localStorage.getItem('prevStack'));
+        const nextLocal = JSON.parse(localStorage.getItem('nextStack'));
+        
+        // 栈-prev
+        const prevStack = new Stack(prevLocal || []);
+        // 栈-next
+        const nextStack = new Stack(nextLocal || []);
+
+        function init() {
+            Array.from(pagesDom).forEach((item, key) => {
+                pagesArray.push({
+                    path:'/'+key,
+                    index: key,
+                    zindex: 0
+                })
+            })
+            showPage(prevStack.getNow().index);
+        }
+        init();
+        function showPage(index) {
+            const zIndex = Math.max(...pagesArray.map(item => item.zindex)) + 1;
+            pagesDom[index].style.zIndex = zIndex;
+            history.pushState(pagesArray[index],'',pagesArray[index].path);
+            pagesArray[index].zindex = zIndex;
+        }
+        // 跳转新页面
+        function goNewPage(index) {
+            prevStack.push(pagesArray[index]);
+            showPage(index);
+            prevStack.localSave('prevStack');
+        }
+        // 页面后退
+        function goBack() {
+            nextStack.push(prevStack.pop());
+            const index = prevStack.getNow().index;
+            showPage(index);
+            prevStack.localSave('prevStack');
+            nextStack.localSave('nextStack');
+        }
+        // 页面前进
+        function goForward() {
+            prevStack.push(nextStack.pop());
+            const index = prevStack.getNow().index;
+            showPage(index);
+            prevStack.localSave('prevStack');
+            nextStack.localSave('nextStack');
+        }
+    </script>
+</body>
+
+</html>
