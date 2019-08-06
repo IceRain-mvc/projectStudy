@@ -2,14 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cee8a44c-89d6-4eb7-b1ae-53b86bdee6ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Flutter/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android和js交互/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulp/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/RegExp/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/ajax/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bom/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/dom/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/模块化/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/高级/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-native/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/dva/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typescript/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/.gitkeep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android和js交互/android和js交互.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Flutter/.gitkeep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/git/git.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/git/git.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/gulp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/js/RegExp/.gitkeep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/http/HTTP协议.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/http/HTTP协议.xmind" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/异步编程/generator.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/异步编程/generator.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/异步编程/generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/异步编程/generator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/语法/装饰器/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/js/语法/装饰器/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/语法/装饰器/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/语法/装饰器/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native/react-native.txt" beforeDir="false" afterPath="$PROJECT_DIR$/js/RegExp/.gitkeep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react/mobx/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/react/mobx/笔记.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react/react-base/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react/react-base/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/src/App.js" afterDir="false" />
@@ -30,10 +47,17 @@
       <change beforePath="$PROJECT_DIR$/react/react-base/src/store/mobx/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/src/store/mobx/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react/react-base/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react/react.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/react/react.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/typescript.txt" beforeDir="false" afterPath="$PROJECT_DIR$/js/RegExp/.gitkeep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/vue知识图谱.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue知识图谱.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack.txt" beforeDir="false" afterPath="$PROJECT_DIR$/js/ajax/.gitkeep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/服务器相关/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/服务器相关/笔记.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/笔记.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/算法和数据结构/算法/手写深拷贝.js" beforeDir="false" afterPath="$PROJECT_DIR$/算法和数据结构/算法/手写深拷贝.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/项目/英文相关资料/HTM+CSSL单词汇总.md" beforeDir="false" afterPath="$PROJECT_DIR$/英文相关资料/HTM+CSSL单词汇总.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/项目/英文相关资料/JS单词方法汇总（修订一版）.md" beforeDir="false" afterPath="$PROJECT_DIR$/英文相关资料/JS单词方法汇总（修订一版）.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/项目/英文相关资料/React.md" beforeDir="false" afterPath="$PROJECT_DIR$/英文相关资料/React.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/项目/英文相关资料/nodejs常用单词.md" beforeDir="false" afterPath="$PROJECT_DIR$/英文相关资料/nodejs常用单词.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/项目/英文相关资料/vue单词汇总.md" beforeDir="false" afterPath="$PROJECT_DIR$/英文相关资料/vue单词汇总.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -78,7 +102,7 @@
           <entry key="py" value="1" />
           <entry key="rnc" value="1" />
           <entry key="ts" value="3" />
-          <entry key="txt" value="50" />
+          <entry key="txt" value="51" />
           <entry key="vue" value="26" />
           <entry key="xml" value="1" />
         </counts>
@@ -90,7 +114,7 @@
           <entry key="JSON" value="16" />
           <entry key="JavaScript" value="149" />
           <entry key="Markdown" value="16" />
-          <entry key="PLAIN_TEXT" value="59" />
+          <entry key="PLAIN_TEXT" value="60" />
           <entry key="RNG Compact" value="1" />
           <entry key="TypeScript" value="3" />
           <entry key="Vue.js" value="26" />
@@ -302,20 +326,7 @@
             <path>
               <item name="myBase" type="b2602c69:ProjectViewProjectNode" />
               <item name="myBase" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myBase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myBase" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="vuebase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myBase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myBase" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="vuebase" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="android和js交互" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,13 +347,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\project\myBase" />
-      <recent name="E:\project\myBase\python世界" />
-      <recent name="E:\project\myBase\babel" />
-      <recent name="E:\project\myBase\vue\spa" />
-      <recent name="E:\project\myBase\vue" />
+      <recent name="E:\project\myBase\webpack" />
+      <recent name="E:\project\myBase\react\dva" />
+      <recent name="E:\project\myBase\android和js交互" />
+      <recent name="E:\project\myBase\Flutter" />
+      <recent name="E:\project\myBase\gulp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\myBase" />
       <recent name="E:\project\myBase\react\react-base\src\page\day0724\router" />
       <recent name="E:\project\myBase\react\react-base\src\page" />
       <recent name="E:\project\myBase\react\react-base\src\store\redux" />
@@ -433,12 +445,12 @@
       <workItem from="1564547076266" duration="2292000" />
       <workItem from="1564572455279" duration="2459000" />
       <workItem from="1564622933328" duration="5633000" />
-      <workItem from="1564713007513" duration="27712000" />
+      <workItem from="1564713007513" duration="28335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275470000" />
+    <option name="totallyTimeSpent" value="276093000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -451,9 +463,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27306548" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27306548" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -467,7 +478,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.5409836" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49776787" weight="0.42459017" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49776787" visible="true" weight="0.42459017" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -684,13 +695,6 @@
     <entry file="file://$PROJECT_DIR$/python世界/day04/笔记.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/react/mobx/笔记.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python世界/Word_Excel_Test/test01.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -736,7 +740,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/项目/英文相关资料/HTM+CSSL单词汇总.md">
+    <entry file="file://$PROJECT_DIR$/英文相关资料/HTM+CSSL单词汇总.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -746,7 +750,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/项目/英文相关资料/JS单词方法汇总（修订一版）.md">
+    <entry file="file://$PROJECT_DIR$/英文相关资料/JS单词方法汇总（修订一版）.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -756,7 +760,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/项目/英文相关资料/nodejs常用单词.md">
+    <entry file="file://$PROJECT_DIR$/英文相关资料/nodejs常用单词.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -766,7 +770,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/项目/英文相关资料/React.md">
+    <entry file="file://$PROJECT_DIR$/英文相关资料/React.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-98" />
@@ -776,7 +780,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/项目/英文相关资料/vue单词汇总.md">
+    <entry file="file://$PROJECT_DIR$/英文相关资料/vue单词汇总.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -820,6 +824,13 @@
             <element signature="e#140#161#0" expanded="true" />
             <element signature="e#370#407#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/mobx/笔记.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1342">
+          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
         </state>
       </provider>
     </entry>
