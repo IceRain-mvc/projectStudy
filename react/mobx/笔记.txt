@@ -1,0 +1,85 @@
+前端:webapp
+
+后端:操作数据
+
+
+需求->产品经理(原型图)  -->UI(设计图) --> 开发人员()
+
+-->测试(明道  禅道)  -->上线(运维)
+
+
+前端:react  mobx:状态管理
+
+    状态管理:
+    1:新建一个仓库
+      仓库
+    2:下载依赖
+      mobx:       / redux
+        1:创建仓库
+        2:存取
+      react-mobx  / react-redux   Provider  connect()()
+        1:store 全局管理 Provider
+        2:装饰器 es7:
+
+
+        仓库:
+
+        redux  reducer  state:数据
+
+        class fetchStore{
+            @observable : 数据
+            data:0
+
+        }
+        let fetch = new fetchStore()
+
+        export
+
+
+        页面:
+        @observer
+        class AA extends React.Component{
+
+            this.props.fetch.data
+        }
+
+
+        @test
+        属性 = ""
+
+
+后台管理:vue
+
+数据库(egg - mysql)
+
+mobx:
+
+步骤:
+
+1:新建一个仓库
+2:下载包  npm i mobx --save && npm i mobx-react --save
+3:class
+   @observable  属性名字
+
+4:导出  new 类
+
+使用
+1:导入  mobx-react
+
+2:@observer
+  class  this.props.仓库的名字.数据
+
+3:
+
+ npm install @babel/plugin-proposal-decorators
+ "plugins": [
+      [
+        "@babel/plugin-proposal-decorators",
+        {
+          "legacy": true
+        }
+      ]
+    ]
+
+
+

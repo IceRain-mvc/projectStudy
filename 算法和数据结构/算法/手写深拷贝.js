@@ -42,6 +42,12 @@ function cloneDeep(target) {
     return result;
 }
 
+/*
+*
+* Object.assign():
+*
+* */
+
 let obj = {a: {b: 1}};
 let arr = [1,2,3,4,5];
 

@@ -1,0 +1,34 @@
+沐恩项目api
+意见征集:
+  1:找教会
+  2:图书分享
+  3:视频和音频
+  4:
+
+1:登录注册
+  /login   post  参数{name,密码(加密)}   返回结果{code:200,msg:"success",token:""}
+  /register post
+2:首页
+
+
+
+
+egg
+
+    1:下载
+    npm i egg-init -g
+    2:egg-init 项目名字 --type=simple
+    3:cd 项目 && npm i
+
+    怎么配置环境
+    怎么调试egg
+    怎么划分controller
+    怎么连接service
+    怎么传参  get  / post
+    怎么请求方式
+    怎么返回错误信息
+    怎么连接mysql
+    怎么写sql语句
+    怎么使用extend
+    怎么使用middleware?
+

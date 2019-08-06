@@ -2,15 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cee8a44c-89d6-4eb7-b1ae-53b86bdee6ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/react/react.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vuebase/src/packages/toast/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vuebase/src/packages/toast/toast.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/算法和数据结构/算法/es5实现map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vuebase/build/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vuebase/build/build.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vuebase/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vuebase/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vuebase/src/page/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vuebase/src/page/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git/git.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/git/git.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/HTTP协议.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/http/HTTP协议.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/异步编程/generator.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/异步编程/generator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/异步编程/generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/异步编程/generator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/语法/装饰器/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/js/语法/装饰器/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/语法/装饰器/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/语法/装饰器/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/mobx/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/react/mobx/笔记.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-base/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-base/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-base/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-base/src/components/MAIN.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/src/components/MAIN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-base/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-base/src/page/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/src/page/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-base/src/page/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/src/page/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-base/src/page/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/src/page/components/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-base/src/page/day0724/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/src/page/day0724/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-base/src/page/day0724/store/fetchInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/src/page/day0724/store/fetchInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-base/src/page/day0724/store/fetchVideoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/src/page/day0724/store/fetchVideoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-base/src/page/day0724/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/src/page/day0724/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-base/src/page/day0724/views/Audio.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/src/page/day0724/views/Audio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-base/src/page/day0724/views/Info.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/src/page/day0724/views/Info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-base/src/page/day0724/views/Video.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/src/page/day0724/views/Video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-base/src/router/router-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/src/router/router-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-base/src/store/mobx/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/src/store/mobx/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-base/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/react/react.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vue知识图谱.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue知识图谱.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/服务器相关/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/服务器相关/笔记.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/笔记.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/算法和数据结构/算法/手写深拷贝.js" beforeDir="false" afterPath="$PROJECT_DIR$/算法和数据结构/算法/手写深拷贝.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,77 +48,134 @@
     <session id="1406041694">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.0" value="5" />
+          <entry key="project.closed" value="21" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="babelrc" value="4" />
-          <entry key="css" value="2" />
+          <entry key="babelrc" value="7" />
+          <entry key="css" value="3" />
           <entry key="day" value="1" />
           <entry key="editorconfig" value="1" />
-          <entry key="gitignore" value="3" />
+          <entry key="gitignore" value="5" />
           <entry key="gulp" value="1" />
-          <entry key="js" value="91" />
-          <entry key="json" value="5" />
-          <entry key="md" value="2" />
+          <entry key="html" value="4" />
+          <entry key="js" value="149" />
+          <entry key="json" value="9" />
+          <entry key="md" value="16" />
+          <entry key="py" value="1" />
           <entry key="rnc" value="1" />
-          <entry key="ts" value="2" />
-          <entry key="txt" value="34" />
+          <entry key="ts" value="3" />
+          <entry key="txt" value="50" />
           <entry key="vue" value="26" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
-          <entry key="JSON" value="9" />
-          <entry key="JavaScript" value="91" />
-          <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="40" />
+          <entry key="CSS" value="3" />
+          <entry key="HTML" value="4" />
+          <entry key="JSON" value="16" />
+          <entry key="JavaScript" value="149" />
+          <entry key="Markdown" value="16" />
+          <entry key="PLAIN_TEXT" value="59" />
           <entry key="RNG Compact" value="1" />
-          <entry key="TypeScript" value="2" />
+          <entry key="TypeScript" value="3" />
           <entry key="Vue.js" value="26" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="babelrc" value="77" />
+          <entry key="babelrc" value="84" />
           <entry key="gitignore" value="10" />
-          <entry key="js" value="11016" />
-          <entry key="txt" value="6210" />
+          <entry key="html" value="74" />
+          <entry key="js" value="14528" />
+          <entry key="json" value="22" />
+          <entry key="txt" value="10622" />
           <entry key="vue" value="1955" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="77" />
-          <entry key="JavaScript" value="11017" />
-          <entry key="PLAIN_TEXT" value="6220" />
+          <entry key="HTML" value="74" />
+          <entry key="JSON" value="106" />
+          <entry key="JavaScript" value="14529" />
+          <entry key="PLAIN_TEXT" value="10632" />
           <entry key="Vue.js" value="1954" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="2" />
+          <entry key="TypeScriptServerServiceImpl" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/项目/笔记.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-277">
+              <caret line="203" column="21" selection-start-line="203" selection-start-column="19" selection-end-line="203" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/笔记.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="443" lean-forward="true" selection-start-line="443" selection-end-line="443" />
+            <state relative-caret-position="405">
+              <caret line="637" selection-start-line="637" selection-end-line="637" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/vuebase/src/store/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#21#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/vuebase/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#140#161#0" expanded="true" />
+                <element signature="e#370#407#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vue/vuebase/.babelrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -106,8 +186,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Single File Component" />
-        <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -115,6 +196,7 @@
     <findStrings>
       <find>babel-plugin-component</find>
       <find>nativeType</find>
+      <find>react-mo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -123,28 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/分组.js" />
-        <option value="$PROJECT_DIR$/服务器相关/出题/day01.txt" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/page/login/Login.vue" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/api/api.js" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/api/request.js" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/store/store.js" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/store/module/shopCar.js" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/store/module/index.js" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/store/module/shopcars.js" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/components/FunButton.js" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/page/home/Home.vue" />
-        <option value="$PROJECT_DIR$/vue/vuebase/build/webpack.base.conf.js" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/store/modules/index.js" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/store/modules/songDetail/index.js" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/page/Songdetail.vue" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/App.vue" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/components/Child.vue" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/page/Detail.vue" />
-        <option value="$PROJECT_DIR$/vue/vuebase/.babelrc" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/components/Father.vue" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/store/rootModule.js" />
-        <option value="$PROJECT_DIR$/vue/vuebase/config/index.js" />
         <option value="$PROJECT_DIR$/vue/vuebase/build/webpack.dev.conf.js" />
         <option value="$PROJECT_DIR$/vue/vuebase/src/service/request.js" />
         <option value="$PROJECT_DIR$/vue/vuebase/src/router/router-config.js" />
@@ -163,6 +223,37 @@
         <option value="$PROJECT_DIR$/vue/vuebase/src/page/Home.vue" />
         <option value="$PROJECT_DIR$/vue/vuebase/src/packages/toast/index.js" />
         <option value="$PROJECT_DIR$/vue/vuebase/build/build.js" />
+        <option value="$PROJECT_DIR$/react/react-base/src/router/router-config.js" />
+        <option value="$PROJECT_DIR$/js/异步编程/generator.html" />
+        <option value="$PROJECT_DIR$/js/异步编程/generator.js" />
+        <option value="$PROJECT_DIR$/react/react-base/src/store/reducers/getNum.js" />
+        <option value="$PROJECT_DIR$/react/react-base/src/store/reducers/getShop.js" />
+        <option value="$PROJECT_DIR$/算法和数据结构/算法/手写深拷贝.js" />
+        <option value="$PROJECT_DIR$/react/react-base/src/index.js" />
+        <option value="$PROJECT_DIR$/react/react-base/src/components/Header.js" />
+        <option value="$PROJECT_DIR$/react/react-base/src/store/acions/index.js" />
+        <option value="$PROJECT_DIR$/react/react-base/src/components/MAIN.js" />
+        <option value="$PROJECT_DIR$/react/react-base/src/store/index.js" />
+        <option value="$PROJECT_DIR$/react/react-base/src/store/reducers/my.js" />
+        <option value="$PROJECT_DIR$/js/语法/装饰器/index.js" />
+        <option value="$PROJECT_DIR$/js/语法/装饰器/.babelrc" />
+        <option value="$PROJECT_DIR$/react/react-base/package.json" />
+        <option value="$PROJECT_DIR$/react/react-base/src/page/components/Header.js" />
+        <option value="$PROJECT_DIR$/react/react-base/src/page/Home.js" />
+        <option value="$PROJECT_DIR$/react/react-base/src/store/mobx/index.js" />
+        <option value="$PROJECT_DIR$/react/mobx/笔记.txt" />
+        <option value="$PROJECT_DIR$/react/react-base/src/page/components/Main.js" />
+        <option value="$PROJECT_DIR$/react/react-base/src/page/day0724/router.js" />
+        <option value="$PROJECT_DIR$/react/react-base/src/page/day0724/store/fetchInfo.js" />
+        <option value="$PROJECT_DIR$/react/react-base/src/page/day0724/views/Audio.js" />
+        <option value="$PROJECT_DIR$/react/react-base/src/page/day0724/views/Info.js" />
+        <option value="$PROJECT_DIR$/react/react-base/src/page/day0724/Home.js" />
+        <option value="$PROJECT_DIR$/react/react-base/src/App.js" />
+        <option value="$PROJECT_DIR$/react/react-base/src/page/day0724/store/index.js" />
+        <option value="$PROJECT_DIR$/react/react-base/src/page/day0724/views/Video.js" />
+        <option value="$PROJECT_DIR$/react/react-base/src/page/day0724/store/fetchVideoList.js" />
+        <option value="$PROJECT_DIR$/服务器相关/笔记.txt" />
+        <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/项目/笔记.txt" />
         <option value="$PROJECT_DIR$/笔记.txt" />
       </list>
@@ -175,11 +266,14 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/js/语法/装饰器/node_modules" />
     <handled-path value="$PROJECT_DIR$/react/react-base/node_modules" />
     <handled-path value="$PROJECT_DIR$/vue/vuebase/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/babel/example/package.json" />
+      <path value="$PROJECT_DIR$/js/语法/装饰器/package.json" />
       <path value="$PROJECT_DIR$/react/react-base/package.json" />
       <path value="$PROJECT_DIR$/vue/vuebase/package.json" />
     </packageJsonPaths>
@@ -208,7 +302,20 @@
             <path>
               <item name="myBase" type="b2602c69:ProjectViewProjectNode" />
               <item name="myBase" type="462c0819:PsiDirectoryNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myBase" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="vuebase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myBase" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="vuebase" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,6 +325,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="笔记&#9;FILE&#9;file://E:/project/myBase/项目/笔记.txt" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -227,15 +335,18 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.2.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\project\myBase\算法和数据结构\算法" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\project\myBase\项目" />
       <recent name="E:\project\myBase" />
-      <recent name="E:\project\myBase\vue\vuebase\src\store\modules\songDetail" />
-      <recent name="E:\project\myBase\vue\vuebase" />
-      <recent name="E:\project\myBase\前端性能优化" />
+      <recent name="E:\project\myBase\python世界" />
+      <recent name="E:\project\myBase\babel" />
+      <recent name="E:\project\myBase\vue\spa" />
+      <recent name="E:\project\myBase\vue" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\myBase\react\react-base\src\page\day0724\router" />
+      <recent name="E:\project\myBase\react\react-base\src\page" />
+      <recent name="E:\project\myBase\react\react-base\src\store\redux" />
+      <recent name="E:\project\myBase\算法和数据结构\算法" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -250,8 +361,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.eject">
-    <configuration name="类型判断.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="类型判断.js" working-dir="$PROJECT_DIR$/js/语法/类型">
+  <component name="RunManager" selected="JavaScript Debug.day04综合应用-名片管理系统.html">
+    <configuration name="day03高级变量类型.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/myBase/python世界/day03高级变量类型/day03高级变量类型.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="day04综合应用-名片管理系统.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/myBase/python世界/day04综合应用-名片管理系统/day04综合应用-名片管理系统.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="generator.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/myBase/js/异步编程/generator.html">
       <method v="2" />
     </configuration>
     <configuration name="一行代码打乱数组.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="一行代码打乱数组.js" working-dir="$PROJECT_DIR$/面试题">
@@ -260,24 +377,26 @@
     <configuration name="手写深拷贝.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="手写深拷贝.js" working-dir="$PROJECT_DIR$/算法和数据结构">
       <method v="2" />
     </configuration>
-    <configuration name="eject" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/react/react-base/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="eject" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
+    <configuration name="generator.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="generator.js" working-dir="$PROJECT_DIR$/js/异步编程">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/js/语法/装饰器">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.类型判断.js" />
-      <item itemvalue="npm.eject" />
+      <item itemvalue="Node.js.generator.js" />
+      <item itemvalue="JavaScript Debug.generator.html" />
+      <item itemvalue="Node.js.index.js" />
+      <item itemvalue="JavaScript Debug.day03高级变量类型.html" />
+      <item itemvalue="JavaScript Debug.day04综合应用-名片管理系统.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.eject" />
-        <item itemvalue="Node.js.类型判断.js" />
+        <item itemvalue="JavaScript Debug.day04综合应用-名片管理系统.html" />
+        <item itemvalue="JavaScript Debug.day03高级变量类型.html" />
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="JavaScript Debug.generator.html" />
+        <item itemvalue="Node.js.generator.js" />
       </list>
     </recent_temporary>
   </component>
@@ -303,12 +422,23 @@
       <workItem from="1562978753471" duration="20882000" />
       <workItem from="1563323187288" duration="1052000" />
       <workItem from="1563326932695" duration="9376000" />
-      <workItem from="1563502355360" duration="3421000" />
+      <workItem from="1563502355360" duration="38026000" />
+      <workItem from="1563893171823" duration="5007000" />
+      <workItem from="1564014244846" duration="1307000" />
+      <workItem from="1564101261652" duration="1289000" />
+      <workItem from="1564315387791" duration="16328000" />
+      <workItem from="1564448368967" duration="3211000" />
+      <workItem from="1564493982799" duration="1976000" />
+      <workItem from="1564526034012" duration="1924000" />
+      <workItem from="1564547076266" duration="2292000" />
+      <workItem from="1564572455279" duration="2459000" />
+      <workItem from="1564622933328" duration="5633000" />
+      <workItem from="1564713007513" duration="27712000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171727000" />
+    <option name="totallyTimeSpent" value="275470000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -320,9 +450,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20386904" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27306548" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -331,12 +462,12 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32786885" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.48688525" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3295082" />
-      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.5409836" />
+      <window_info anchor="bottom" id="TypeScript" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49776787" weight="0.42459017" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -363,163 +494,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/src/page/Detail.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/element-ui/types/element-ui.d.ts" />
-    <entry file="file://$PROJECT_DIR$/node_modules/element-ui/lib/theme-chalk/index.css" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="506" column="16" selection-start-line="506" selection-start-column="16" selection-end-line="506" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/node_modules/element-ui/packages/button/src/button.vue">
+    <entry file="file://$PROJECT_DIR$/js/语法/装饰器/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/src/components/Father.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/build/check-versions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-762" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/build/vue-loader.conf.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/build/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1796" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/build/webpack.base.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/build/webpack.prod.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2646" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/src/store/rootModule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="72" column="19" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/src/router/router-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-native/react-native.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/build/webpack.dev.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/vue/vue.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端性能优化/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/src/plugin/element-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/分组.js" />
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/src/service/requestUtils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/src/page/Login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/src/service/request.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="37" column="14" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/src/api/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/语法/类型/类型判断.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/项目/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法和数据结构/算法/es5实现map.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法和数据结构/算法/手写深拷贝.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -530,52 +508,318 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/src/App.vue">
+    <entry file="file://$PROJECT_DIR$/react/react-base/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3190">
+          <caret line="145" column="5" lean-forward="true" selection-start-line="138" selection-start-column="3" selection-end-line="145" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/react-base/src/page/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/react-base/src/page/components/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/react-base/src/page/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/react-base/src/store/mobx/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/react-base/src/page/day0724/router/router.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/react-base/src/page/day0724/views/Info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/react-base/src/page/day0724/views/Audio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/react-base/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/react-base/src/page/day0724/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.js" />
+    <entry file="file://$PROJECT_DIR$/react/react-base/src/page/day0724/views/Video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/react-base/src/page/day0724/Home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/react-base/src/page/day0724/store/fetchInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/react-base/src/page/day0724/store/fetchVideoList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/服务器相关/笔记.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/异步编程/generator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试题/随机打乱一个数组.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/进制转换/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/babel/babel.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python世界/day04/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/babel/example/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/文件上传与二进制/进制转换/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/spa/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python世界/python.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试题/高德-线路.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/babel/babel7.0.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python世界/day03高级变量类型/day03高级变量类型.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python世界/day04/笔记.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/mobx/笔记.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python世界/Word_Excel_Test/test01.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试题/模拟链式调用/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试题/广通信达面试总结/广通信达面试总结.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试题/判断两个数组是否相同.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/vuebase/src/api/api.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/vuebase/src/service/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目/英文相关资料/HTM+CSSL单词汇总.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目/英文相关资料/JS单词方法汇总（修订一版）.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目/英文相关资料/nodejs常用单词.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目/英文相关资料/React.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-98" />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目/英文相关资料/vue单词汇总.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目/笔记.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-277">
+          <caret line="203" column="21" selection-start-line="203" selection-start-column="19" selection-end-line="203" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/笔记.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="637" selection-start-line="637" selection-end-line="637" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/vuebase/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#21#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/vuebase/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/src/page/Home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/src/packages/toast/toast.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/src/packages/toast/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="65" column="47" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/config/dev.env.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/config/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="572">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#140#161#0" expanded="true" />
+            <element signature="e#370#407#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -583,69 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/.postcssrc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/build/build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/dist/static/js/0.cf73e8c25002e962fda6.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/dist/static/js/1.9a6e8efd4689a5889cf2.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/dist/static/js/2.9c8deac030a52e17176d.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/dist/static/js/3.430463af15146c97f258.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/dist/static/js/manifest.da6bdd4aa73b892b485b.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/dist/static/js/vendor.ad49de616be54f745995.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/dist/static/js/app.751200a6a2e907f0a87e.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/项目/笔记.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/笔记.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="443" lean-forward="true" selection-start-line="443" selection-end-line="443" />
         </state>
       </provider>
     </entry>

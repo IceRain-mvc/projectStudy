@@ -1,33 +1,16 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
 
-class Header extends Component {
+class MAIN extends Component {
     constructor(props) {
         super(props);
-
-        this.state = {
-
-            num: 0
-        }
-    }
-
-    add() {
-        this.props.add(this.state.num);
-    }
-
-    sub() {
-        this.props.sub(this.state.num);
     }
 
 
     render() {
-        let {num} = this.state;
         return (
             <div>
-                <button onClick={this.add.bind(this)}>-</button>
-                <button onClick={this.sub.bind(this)}>+</button>
-                <h1>{num}</h1>
-                <hr/>
+                <h1>{this.props.num}</h1>
             </div>
         );
     }
@@ -37,27 +20,21 @@ class Header extends Component {
 * 获取数据
 * */
 const initMapStateToProps = (state) => {
-    return {}
+    return {
+        num: state.myReducer
+    }
 };
 
 /*
 * 分发数据
 *
 * */
-const initMapDispatchToProps = (dispatch) => {
-    return {
+// const initMapDispatchToProps = (dispatch) => {
+//     return {
+//
+//     }
+// };
 
-        add(num) {
-            dispatch({type:"ADD",num});
-        },
-        sub(num) {
-            dispatch({type:"SUB",num});
+MAIN = connect(initMapStateToProps)(MAIN);
 
-        }
-
-    }
-};
-
-Header = connect(initMapStateToProps, initMapDispatchToProps)(Header);
-
-export default Header;
+export default MAIN;

@@ -452,7 +452,186 @@ react:
     Dva   Mobx:中国人
     Hook :
 
+react:
+    语法:
+    目录结构
 
+    路由
+    状态管理
+        Redux:
+
+
+        Mobx
+        1:数据存到仓库
+        2:取
+          1:Provider
+        存:action
+          遇到问题
+          同步
+          异步
+          分:功能
+
+
+Egg
+  html css js
+  Vue
+  React
+
+  js: ts  typeScript java/c#  C++  .net
+
+  微信小程序 : vue
+  微信小游戏
+
+  游戏
+
+  js
+  C#  桌面
+
+  //android 死丢丢 ios xcode  15k  30k
+
+  react-native  100
+  //vue-sctipt
+
+  Flutter : google  10  .apk
+
+  后台:
+    node
+    express
+    koa2
+    Egg
+
+  python :
+  go       java
+
+
+  Egg: SSM  SSH  spring boot  clould
+
+  Egg : 阿里
+
+  java:
+    M:  数据层 Model
+    V:  视图   View
+    C:  控制   Controller
+
+  express : router
+
+  egg:   MVC 框架
+    1:MVC
+    2:资源充分利用 :  express 1核
+    3:进程  获取cpu数量 4 4个进程
+
+
+    $ mkdir egg-example && cd egg-example
+    $ npm init egg --type=simple
+    $ npm i
+
+
+    npm i -g egg-init
+    egg-init 项目名字 --type=simple
+
+
+    运行:
+
+    controller  view  service
+    {json}:  模板引擎  html
+
+
+  打断点的原则:
+    function(()=>{
+         a ;
+
+        setTimeout(()=>{
+            b ;
+
+
+        },100)
+    })
+
+    √ 怎么配置环境
+    怎么调试egg
+    怎么划分controller
+    怎么连接service
+    怎么传参  get  / post
+        post请求的坑  为了防止 csrf攻击 egg配置了security(安全策略)
+        需要在客户端发送一个令牌 和服务端一致
+
+
+    怎么设置请求方式
+        router.get/ router.post
+    怎么返回错误信息
+        判断
+    怎么连接mysql
+
+    怎么写sql语句
+    怎么使用extend
+    怎么使用middleware?
+
+
+2019-07-30
+    egg:
+      重量级 后端
+      js
+      阿里
+
+      1:下载包  npm i egg-init -g
+
+      2:egg-init 项目名字 --type=simple
+
+      3: cd 项目  && npm i
+
+    app
+      controller(控制层  )
+      service (数据--mock/mysql)
+      public  (静态资源) 1.png    http://localhost:7001/public/1.png
+      view (测试接口)  ejs  <% %>
+
+      router.js(路由管理)
+
+
+    config
+    app.js (入口)
+
+
+    接下来:  前端  参数
+      get : ?name=1111&aaaa   /   动态路由
+      post: 传参  坑
+
+      egg 连接数据库
+
+后续的安排:
+1:知识点
+2:面试题 : 300页  js  vue  react  200页  10页  (3遍++)
+3:小程序  3天  项目  webapp  pc  小程序
+4:网易云pc  100左右api  get  / post
+5:
+  代码的封装  get  post ..
+  图片的处理  js压缩
+6:授权:
+
+  token:令牌  加签 加数字签名  加密
+  egg:
+    下载  egg-jwt
+    配置文件中
+      插件
+    秘钥
+
+
+    错误的处理
+      1:使用中间件 错误做拦截
+
+      2:入口文件调用中间件
+
+
+
+7:文件的上传
+  七牛  :  10G : 音频 视频 图片
+     1:上传到七牛云  地址: 图片/音频视频
+     2:你的服务器:
+     3:表
+       动态 metaId userId  title  content  url:[]:表 metaId
+
+
+  音频  地址
 
 
 
