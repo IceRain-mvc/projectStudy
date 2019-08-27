@@ -634,8 +634,384 @@ Egg
   音频  地址
 
 
+所有用户:
+  1天
+小组
+  1天
+
+动态
+  0.5天
+  1.5天
+  0.5天
+代祷
+  1天
+奉献
+意见
+  1天
+礼品
+  2天
+留言
+  1天
+投票
+  1天
+  列表
+  1天
+主日
+  1天
+
+12天/ 4 = 3天
 
 
+
+
+
+
+组件
+1:封装一个组件
+2:细节
+
+3:写
+封装组件的原则:通用性
+ 头:Header  data:title:"sss"   props
+
+  点击事件:  @click="aaa"
+  methods:{
+      aaa(type){
+        this.$emit("on-click",type)
+      }
+  }
+
+
+  <aaa onClick="自己的事件">
+
+  自己的事件(type){
+
+
+  }
+  参数
+
+
+1:组件传参 props
+2:插槽
+3:this.$children : 子组件
+
+4:单例模式:
+  一个对象 baoInstance:父组件对象
+
+  baoInstance.updateNav
+
+5:provider baoInstance:this
+  inject  ["baoInstance"]
+
+
+
+全局注册
+   Vue.use(Vue构造器) // 没有嵌套的情况下
+
+   //全局注册
+   Vue.component("组件的名字",组件)
+
+
+   <组件的名字/>
+
+   Tabs  插槽
+     TabPane  插槽
+     TabPane
+     TabPane
+局部注册
+   view  import
+
+
+小程序：
+  项目结构
+  配置
+  组件：
+    view > view > block:
+  自定义组件
+  API
+    网络
+    路由
+    存储
+    多媒体
+    界面
+
+  目录结构
+
+  程序生命周期
+  页面生命周期
+  组件生命周期
+
+  app.js 入口文件
+     globalData : 全局数据管理
+
+     App 函数 ({})
+         小程序
+     let app = getApp()
+     //app.globalData.name
+
+     Page({})
+     Component({})
+  app.json 配置
+     pages:[
+        "页面的路径" 谁在最上面 谁是老大
+     ],
+
+     window:
+       backgroundTextStyle
+  app.wxss  样式
+     小程序 单位 rpx
+     弹性盒子  百分比
+
+
+  pages
+    index
+      js:逻辑
+      json:配置页面
+      wxml:结构
+      wxss:rpx
+
+      view: div
+
+
+  vue:
+    template
+    script
+    style
+
+2019年8月15日 星期四 天气晴
+
+  回顾:
+    小程序
+    1:网址
+    目录结构
+      入口
+      app.js: 入口文件
+      app.json 配置
+         页面  : pages:
+           ["页面1",""]
+         样式  : window:
+
+      页面 :
+         .js  : 逻辑
+         .json: 配置
+         .wxml: 结构
+         .wxss: 样式 rpx px
+           弹性盒子
+           百分比
+
+      wxml js
+         列表渲染
+           wx:for
+         条件渲染
+           wx:if
+         事件
+           bindtap="函数" data-aaa  js:函数(event){event.target.dateset.aaa   this.setData({})}
+           bindlongtap
+           bindtouch
+
+  1:网络请求:
+
+  2:api
+    网络
+    界面
+    存储
+    路由
+    ....
+
+面试
+1:面试礼仪
+    穿着 : 随意
+    女生:得体
+    男生:休闲 秋天的裤子
+    背上电脑
+    脸 :
+      女: 淡妆
+      男: 眼镜 黑一点
+
+    言谈举止 :
+    眼神:
+
+
+2:面试技巧
+    1:自我介绍
+    2:常见问题
+
+
+3:常见的面试题
+    1:h5
+        语义化标签
+        canvas
+        线程
+        事件
+        拖动
+        webapp
+    2:js
+    3:vue
+    4:react
+    5:webpack
+    6:git
+    7:http协议
+    8:新特性
+      es6  es7 vue  react
+    9:优化
+    10:兼容性
+    11:布局
+        sass ruby
+        less js
+        响应式:
+          媒体查询
+            根据页面宽度
+          栅格
+            bootstrap
+                12份
+            antd
+                24份
+            elementUI
+            iView
+            ...
+            webapp
+
+    其他 : 微信公众平台
+        微信公众平台: 后台
+          项目经理 备案 www.
+        前端:h5
+
+        小程序获取数据
+
+        vue基础:
+          vue指令
+          生命钩子函数 beforecreated created beforemount mounted
+          组件 :
+            组件的注册方式
+            组件通信 : 跨级组件通讯
+              1
+              2 $Bus  观察者模式 发布订阅
+              3 本地存储
+              4 provider inject
+              5 ref
+              6 vuex
+          路由
+
+        不会的问题 :
+
+        http:
+          1:什么是
+          2:怎么用
+          3:分类
+
+        http:
+          1:什么是
+          2:怎么用
+          3:什么时候用
+          4:为什么用
+
+4:根据简历的问题
+    简历上的技能: 一定要写会的
+
+    webapp --->
+      1:网页
+      2:嵌套在app内部
+
+    12306: 速度 ios android
+
+    app  网页
+
+
+    ios
+    android 手机 apk
+
+    android
+
+    react-native :
+      react开发原生
+    flutter: google
+
+
+1: android sdk  8.xG
+2: 模拟器 4.xG
+3: 编译环境  vs code    android studio
+4: 坑
+   1:sdk
+   2:版本
+   3:下载 gradle下载失败
+   4:运行 包
+          sdk版本  react-native
+   5:模拟器检测不到
+     genymotion
+
+1:环境
+
+  1 jdk  java   java_home
+  2 sdk android  android_home   path
+  3 模拟器  找不到模拟器 genymotion 夜神模拟器 海马玩 ... 用android自带模拟器
+  4 react-native run-android
+    1:gradle 版本
+    2:sdk版本
+    3:编译版本
+    4:找不到模拟
+
+运行项目
+1:sdk
+  android sdk
+  配置环境变量
+
+  jdk: java的运行环境
+
+
+
+
+2:模拟器
+  android
+  苹果电脑 xcode  ios模拟器
+
+Flutter
+
+月考:
+  react  vue  小程序
+  1:网络请求
+  2:页面 跳 传参 taro redux
+  3:页面渲染 排版 rpx
+  4:交互  搜索
+  5:组件 swiper  view  表单组件
+
+
+
+ts:typescript
+
+1:由来
+    微软
+    C# .net  asp html ts  .net  javaweb开发   jsp
+
+ angular ts
+ js: 类型
+     this
+     let a  ;
+
+     a = 10
+     a = ""  {}   []  ...
+
+     弱类型语言
+     ts
+
+     ts:规范  js
+
+     ts 别名  js的超级
+
+     1:类型 强
+     2:vue  装饰器 @haha:函数
+     3:接口  interface  {}
+     4:枚举  C# java
+     5:es6 es7
+
+
+
+2:基本语法
+3:vue使用 ts
+    vue cli3
+    npm i @vue/cli -g
+
+4:js/webpack  迁移ts
+5:react
 
 
 

@@ -5,7 +5,7 @@ const initArr = [
 
 function change(initArr){
     const newArr = [];
-    initArr[0].forEach((item, key) => {
+    initArr[0].forEach((item, key) => {``
         const itemArr = [];
         initArr.forEach(val => {
             itemArr.push(val[key]);

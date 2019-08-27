@@ -1,5 +1,5 @@
 /*
-*   热门的函数库 lodash，也有提供_.cloneDeep用来做深拷贝
+*   热门的函数库 lodash，提供_.cloneDeep用来做深拷贝
 *   jquery 提供一个$.extend可以用来做深拷贝
 *   JSON.parse(JSON.stringify())
 *   手写递归方法

@@ -13,6 +13,7 @@ import "./plugin/element-config";
 
 import Toast from "./packages/toast";
 import "./packages/toast/toast.css";
+import "./components/bao-tabs/index";
 
 Vue.use(Toast);
 
