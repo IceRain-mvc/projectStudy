@@ -1,0 +1,23 @@
+{
+  "name": "cuilb_commander",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "app_cli": "app_cli",
+    "app": "app"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "'cuilibao' <'cuilibao123@gamil.com'>",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.1",
+    "inquirer": "^7.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}

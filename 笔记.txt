@@ -589,7 +589,7 @@ Egg
 
 
     config
-    app.js (入口)
+    app (入口)
 
 
     接下来:  前端  参数
@@ -741,7 +741,7 @@ Egg
   页面生命周期
   组件生命周期
 
-  app.js 入口文件
+  app 入口文件
      globalData : 全局数据管理
 
      App 函数 ({})
@@ -785,7 +785,7 @@ Egg
     1:网址
     目录结构
       入口
-      app.js: 入口文件
+      app: 入口文件
       app.json 配置
          页面  : pages:
            ["页面1",""]
@@ -1013,7 +1013,88 @@ ts:typescript
 4:js/webpack  迁移ts
 5:react
 
+这几天
+    背面试题
 
+    html
+        h5的新特性
+        响应式  自适应
+        不同设备 页面兼容性问题
+        元素类型
+        常见布局问题
+
+    css
+        css3的新特性
+            动画
+            弹性盒子
+            伪元素  伪类选择器
+        常见的问题
+            高度塌陷
+            居中
+            1px  手机  pc
+        单位 px
+            rem
+
+        viewport:视口
+        常用的第三方
+
+        栅格
+
+
+    js
+        jq:
+            选择器
+            ajax
+            动画
+
+            深拷贝  extend
+            链式调用
+
+            $().css().animate().left
+
+        es5:
+            闭包
+            this指向
+            变脸提升
+            作用域 作用域链
+            继承
+            原型
+            原型链
+            事件 冒泡  委托  代理
+            //面向对象
+            === ==
+            判断变量类型
+            instanceof
+
+
+    ajax
+    兼容
+    es6 es7
+
+
+    前端安全
+    react
+
+    Vue
+
+    构建工具
+    webpack
+
+    gulp
+
+    git  svn
+    小程序
+        1:登录流程
+        2:支付流程
+
+    Node
+
+    Object
+    Array  常用的方法
+
+    设计模式  观察者模式:发布订阅 建造者模式 工厂模式:函数(){原料 属性  加工 方法  产出品:返回值}  单例模式:class  方法 暴露的是 一个对象 多个对象  Vue.component()
+    算法
+    数据结构 列表  树  图
 
 
 

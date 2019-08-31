@@ -1,0 +1,93 @@
+// #! /usr/bin/env node
+//
+// let program = require("commander");
+// let chalk = require("chalk");
+// let inquirer = require("inquirer");
+//
+// /*
+// * command 命令
+// * alias 命令的别名
+// * description 描述信息
+// * option 定义参数
+// * action 注册一个回调
+// * parse 解析命令行
+// * */
+// program
+//     .command("module")
+//     .alias("m")
+//     .description("创建新的模块")
+//     .option("-a,--name [moduleName]", "模块名称")
+//     .action((option)=>{
+//         console.log(option);console.log("HelloWorld");
+//     });
+//
+// program.parse(process.argv);
+//
+//
+//
+
+let inquirer = require("inquirer");
+let program = require("commander");
+let _ = require("lodash");
+
+
+program
+    .command("module")
+    .alias("m")
+    .description("加载模块")
+    .option("--sass", "启动sass")
+    .option("--less", "启动Less")
+    .option("--name [moduleName]")
+    .action((option) => {
+        let config = _.assign({
+            moduleName: null,
+            description: "",
+            sass: false,
+            less: false
+        }, option);
+
+        let prompts = [];
+
+        if (config.moduleName !== "string") {
+            prompts.push({
+                type: "input",
+                name: "moduleName",
+                message: "请输入模块名称",
+                validate: (input) => {
+                    if (!input) {
+                        return "不能为空";
+                    }
+                    return true;
+                }
+            });
+
+            prompts.push({
+                type: "list",
+                name: "cssPretreatment",
+                message: "想要什么预处理css",
+                choices: [
+                    {
+                        name: "Sass/Compass",
+                        value: "sass"
+                    },
+                    {
+                        name: "Less/Compass",
+                        value: "less"
+                    },
+
+                ]
+            });
+            //
+            // inquirer.prompt([/*Pass your questions in here*/].then(function () {
+            //
+            // }));
+            inquirer.prompt(prompts).then(function (answer) {
+                console.log(answer);
+            });
+        }
+
+        /*{type:""}*/
+    });
+
+
+program.parse(process.argv);

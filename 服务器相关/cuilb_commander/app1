@@ -1,0 +1,34 @@
+#! /usr/bin/env node
+
+let program = require("commander");
+let chalk = require("chalk");
+let inquirer = require("inquirer");
+
+/*
+* command 命令
+* alias 命令的别名
+* description 描述信息
+* option 定义参数
+* action 注册一个回调
+* parse 解析命令行
+* */
+program
+    .command("module")
+    .alias("m")
+    .description("创建新的模块")
+    .option("-a,--name [moduleName]", "模块名称")
+    .action((option) => {
+        console.log(option);
+        console.log("HelloWorld");
+    })
+    .on("--help",function () {
+        console.log("Example:");
+        console.log("");
+        console.log("app module moduleName");
+        console.log("app m moduleName");
+    });
+
+program.parse(process.argv);
+
+
+
