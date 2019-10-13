@@ -1,0 +1,7 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="index">
+        <button type="primary" bindtap="anonymousFunc0">发起投票</button>
+        <view class="list" wx:for="{{result}}" wx:for-item="item" wx:for-index="index"><text>标题:{{item.title}}</text> |<text>截止日期:{{item.endTime}}</text> |<text>{{item.anonymous ? "匿名" : "非匿名"}}</text> |<text>{{item.radio ? "单选" : "多选"}}</text>
+        </view>
+    </view>
+</block>

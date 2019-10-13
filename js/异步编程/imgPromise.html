@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+  function getImage(imageurl){
+    const Img = new Promise((resolve,reject)=>{
+      const imgObj = new Image(); //new Option()
+      imgObj.onload = ()=>{
+        resolve(imgObj);
+      }
+      imgObj.onerror = ()=>{
+        reject(new Error(`找不到图片,图片路径为：${imageurl}`));
+      }
+      imgObj.src = imageurl;
+    });
+    return Img;
+  }
+</script>
+</body>
+</html>

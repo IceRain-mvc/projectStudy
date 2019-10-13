@@ -16,7 +16,6 @@
         active: false
       }
     }
-
   }
 </script>
 

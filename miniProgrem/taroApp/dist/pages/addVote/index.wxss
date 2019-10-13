@@ -1,0 +1,5 @@
+
+.list {
+    border: 1rpx solid #cccccc;
+
+}

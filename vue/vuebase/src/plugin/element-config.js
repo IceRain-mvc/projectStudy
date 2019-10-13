@@ -5,12 +5,14 @@ import {
   Select,
   Option,
   Notification,
-  MessageBox
+  MessageBox,
+  Table
 } from "element-ui";
 
 Vue.use(Button);
 Vue.use(Select);
 Vue.use(Option);
+Vue.use(Table);
 // Vue.use(MessageBox);
 // Vue.use(Notification);
 

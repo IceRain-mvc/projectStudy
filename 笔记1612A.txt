@@ -1,0 +1,1355 @@
+1:h5
+  新特性
+  header
+  main
+  footer...
+
+  canvas
+
+  线程
+
+  拖拽
+
+  video
+  audio
+
+  c3
+  弹性盒子
+  动画
+  选择器  :lastChild
+
+js
+  es6新特性
+  es7
+  es8
+  Array
+  Object
+  原型 原型链
+  继承
+
+typescript
+  let a : string
+  angular
+
+vue
+  架构
+  复习
+  自定义指令
+  自定义组件
+  原理
+  vuex
+  vuex的原理
+  vue-cli
+
+react
+  架构
+  复习
+  封装一个高阶组件
+  redux源码
+
+  mobx
+  dva
+
+
+
+webpack
+  手搭一个脚手架
+
+
+第一个:
+   vue:
+     考试平台  后台
+
+   react
+     考试平台 前端
+     网易云音乐
+     电子书包
+
+
+大家:
+   1:跟住课堂
+   2:敏捷开发
+     1:效率:  多人协作
+     2:代码复用
+     3:流程:
+       需求
+       开会
+         技术部门  25-50
+            java  : 8-10 : 写代码:汉子   测试+文档:妹子
+            web 8-10  4   2-4
+            UI  2-3
+            产品: 原型图 --> UI h5  原型  2-3
+              web    原型:逻辑  UI:样式    数据: java + php + C# + go  + python 简单 //node 代理
+              java    接口文档:
+              ios
+              android app  : 网页  css  js   js和android交互  10个移动端 8个  2个   3-4
+              桌面  js  C#  0-2
+
+            测试: 2 3
+              白盒测试 单元测试
+              黑盒测试
+
+            明道
+
+            禅道
+
+            100左右  200左右
+
+            开发 === 测试
+
+            运维:Linux 2-3
+
+            销售部门 :
+              团体:
+
+         总监
+
+   3:学会百度  google
+   info:
+     70%:
+     30%:
+        1:国外的论坛:翻墙
+        2:每个组相互帮助
+        3:问我
+        4:积累
+
+
+   4:背面试题
+     计划 提问
+
+   项目:
+     检查
+
+
+   git :
+
+
+
+为什么?
+  码云:
+  github:
+  coding:
+
+    都可以通过 git 提交代码
+
+    代码--->提交到本地仓库-->远程
+
+    20个左右的命令
+
+
+
+  svn:
+    远程
+
+
+    4个人
+    组长: 创建一个项目
+          提交到远程仓库 : coding   码云  github
+          添加成员
+          dev:接口 路由的配置  网络的配置  页面第三方 仓库
+          建立分支
+            master
+            dev    合并到
+            wang
+            zhang
+            li
+            zhao
+
+    组员: 拉自己的分支
+          提交到自己的分支:
+
+    组长 合并分支
+
+
+
+dev
+
+master   1.0.1
+
+dev  : 每天一提
+
+master   1.1
+
+master   2.0
+
+
+
+解析:
+    考试
+        前端
+        后台:
+          node : 接口  接口文档
+        后台管理平台:
+
+
+    第一个项目:
+        vue:elementUI
+        接口
+        界面:
+
+
+        架构:
+        express:  ejs  V +  数据库 M + 路由  C
+        android  : M V P   面向切面编程  java interface  面向对象编程  面向过程编程 C php
+        Vue   :  MVVM  : 视图层   M : 数据  V:  VM:{{}}
+            架构模式
+              java: MVC   数据 +  视图 + 控制
+                 后台
+              vue:
+        egg.js:
+            MVC
+            数据:mysql
+
+        token:令牌:后台
+            管理员:892rhfwr9832u98r32r
+            学生:jfdsur93u9rr843ruiwj32iu32
+
+            header:
+
+        session:会话
+
+            header:JSEESIONID:
+
+        前端:token验证
+
+git
+
+mysql
+
+vue:
+
+    创建一个仓库
+
+    export default new Vuex.Store({})
+
+    main.js
+
+    store
+
+    vuex:
+       1:state
+       2:mutations
+       3:actions
+       4:getters
+       5:modules
+
+       命名空间:
+
+
+按需加载:
+  1:下载  element-ui
+  2:引入css
+  3:elementUI  挂载在全局   --save:线上环境  dependencies  -dev:开发环境 devDependencies: babel eslint
+
+
+  按需加载
+  1:下载一个插件
+    babel-plugin-component : 按需加载一个插件  element-ui
+
+  2:.babelrc:
+    plugins  配置
+
+        [
+          "component",
+          {
+            "libraryName": "element-ui",
+            "styleLibraryName":"theme-chalk"
+          }
+        ]
+
+
+mysql:
+
+  node
+  express
+  koa2:
+  egg:中量
+
+  发包: npm
+
+
+  java php 重量
+
+请求:
+  http:
+  1:url
+  2:请求方式
+  3:参数:get: url?name=aa&pwd=   POST:请求参数
+  4:请求头:
+    前端   登录--->令牌  token(加签  : 数字签名  令牌)   1:用户信息  2: 权限
+           session
+           cookie
+
+
+    后端
+
+           token :
+
+    前端:  token 存起来  每次请求的时候: 传过去  后台
+
+    1:没有登录  /详情页  ---> 跳转登录页
+        全局前置守卫
+        存储中没有 token  --->跳转登录页
+
+    2:  每次氢气   headers   token:
+
+    3:  token  过期了  2h
+        返回登录页  :
+
+
+1:路由守卫
+  导航守卫
+    1:全局守卫: 全局
+    2:路由独享守卫:路由表
+    3:组件内守卫:组件中
+
+
+  1:路由配置  重定向-->首页-->有没有token-->跳转到登录页-->保存信息本地存储-->跳转首页
+                      守卫要跳转的页面
+                      路由元信息: meta
+
+2:请求拦截
+    axios
+
+    .get     请求头
+    .post
+
+    axios.get(url,{},{
+
+        headers:{
+
+        }
+    }).then(()=>{})
+
+
+  请求头
+
+  npm发包
+
+  npm init -y
+
+  npm 设置镜像
+  /*
+  *  npm config set registry "http://registry.npmjs.org/"
+  *  npm config set registry "https://registry.npm.taobao.org/"
+  * */
+
+  npm login
+
+  npm publish
+
+  npx force-unpublish bao_toast 卸载
+
+
+
+
+1: vue插件
+
+   element-ui
+   this.$alert
+   this.$notify
+
+   面试:
+     1:了不了解  element-ui  动态组件的原理
+     2:怎么实现的
+     3:手动写过插件么
+     4:怎么实现的
+
+     插件的好处:
+       可复用:
+       npm 发包
+
+       封装
+         this.$xuanjie_toast
+         this.$xuanjie_show
+         this.$xuanjie_loading
+         this.$xiangge_loading
+       npm i xiangge_loading  401
+
+   1:toast 吐司
+
+
+   步骤:
+    Vue 内部的方法 : 插件.install(){}
+
+    Vue.use(Vuex)
+
+
+
+    1:插件.install(Vue,[options]){
+
+        //toast
+        1:虚拟dom
+        Vue.extend
+        2:挂载到真实dom上
+
+    }
+
+
+
+2: npm发包
+   1:npm 账号
+   2:文件夹  放向发包的文件
+   3:发包
+     npm init
+     //镜像
+      /*
+       *  npm config set registry "http://registry.npmjs.org/"
+       *  npm config set registry "https://registry.npm.taobao.org/"
+       * */
+     npm login 登录npm账号
+
+     npm publish
+
+
+后台管理:数据
+
+  OA  : 人事 :
+  CMS : 登录  加密
+  ...
+
+前端 门户网站
+     展示性  留言  点赞
+
+前端 大型: 网易云 : 听歌  电台...
+          电商 淘宝 京东
+          M栈 : 移动端  浏览器  vue
+            公众号 : 象棋微学堂...  :java   egg
+            慕课网 :
+          webapp:app中嵌套的网页
+
+
+考试平台
+  后台管理:
+  摸底考试:
+
+rem和设计
+
+
+项目:
+    服务器:
+    部署项目 到服务器
+
+    ip:端口/
+
+    运维:
+
+    服务器:
+      来源
+      租   :
+      买   :2000 :
+
+      租: 15天左右  腾讯
+      阿里云: 15天:
+
+接下来:
+    3个
+    小型  :  1:react +  后台
+    中型  :  接口  80左右个接口
+    大型  :
+
+react:
+    Dva   Mobx:中国人
+    Hook :
+
+react:
+    语法:
+    目录结构
+
+    路由
+    状态管理
+        Redux:
+
+
+        Mobx
+        1:数据存到仓库
+        2:取
+          1:Provider
+        存:action
+          遇到问题
+          同步
+          异步
+          分:功能
+
+
+Egg
+  html css js
+  Vue
+  React
+
+  js: ts  typeScript java/c#  C++  .net
+
+  微信小程序 : vue
+  微信小游戏
+
+  游戏
+
+  js
+  C#  桌面
+
+  //android 死丢丢 ios xcode  15k  30k
+
+  react-native  100
+  //vue-sctipt
+
+  Flutter : google  10  .apk
+
+  后台:
+    node
+    express
+    koa2
+    Egg
+
+  python :
+  go       java
+
+
+  Egg: SSM  SSH  spring boot  clould
+
+  Egg : 阿里
+
+  java:
+    M:  数据层 Model
+    V:  视图   View
+    C:  控制   Controller
+
+  express : router
+
+  egg:   MVC 框架
+    1:MVC
+    2:资源充分利用 :  express 1核
+    3:进程  获取cpu数量 4 4个进程
+
+
+    $ mkdir egg-example && cd egg-example
+    $ npm init egg --type=simple
+    $ npm i
+
+
+    npm i -g egg-init
+    egg-init 项目名字 --type=simple
+
+
+    运行:
+
+    controller  view  service
+    {json}:  模板引擎  html
+
+
+  打断点的原则:
+    function(()=>{
+         a ;
+
+        setTimeout(()=>{
+            b ;
+
+
+        },100)
+    })
+
+    √ 怎么配置环境
+    怎么调试egg
+    怎么划分controller
+    怎么连接service
+    怎么传参  get  / post
+        post请求的坑  为了防止 csrf攻击 egg配置了security(安全策略)
+        需要在客户端发送一个令牌 和服务端一致
+
+
+    怎么设置请求方式
+        router.get/ router.post
+    怎么返回错误信息
+        判断
+    怎么连接mysql
+
+    怎么写sql语句
+    怎么使用extend
+    怎么使用middleware?
+
+
+2019-07-30
+    egg:
+      重量级 后端
+      js
+      阿里
+
+      1:下载包  npm i egg-init -g
+
+      2:egg-init 项目名字 --type=simple
+
+      3: cd 项目  && npm i
+
+    app
+      controller(控制层  )
+      service (数据--mock/mysql)
+      public  (静态资源) 1.png    http://localhost:7001/public/1.png
+      view (测试接口)  ejs  <% %>
+
+      router.js(路由管理)
+
+
+    config
+    app (入口)
+
+
+    接下来:  前端  参数
+      get : ?name=1111&aaaa   /   动态路由
+      post: 传参  坑
+
+      egg 连接数据库
+
+后续的安排:
+1:知识点
+2:面试题 : 300页  js  vue  react  200页  10页  (3遍++)
+3:小程序  3天  项目  webapp  pc  小程序
+4:网易云pc  100左右api  get  / post
+5:
+  代码的封装  get  post ..
+  图片的处理  js压缩
+6:授权:
+
+  token:令牌  加签 加数字签名  加密
+  egg:
+    下载  egg-jwt
+    配置文件中
+      插件
+    秘钥
+
+
+    错误的处理
+      1:使用中间件 错误做拦截
+
+      2:入口文件调用中间件
+
+
+
+7:文件的上传
+  七牛  :  10G : 音频 视频 图片
+     1:上传到七牛云  地址: 图片/音频视频
+     2:你的服务器:
+     3:表
+       动态 metaId userId  title  content  url:[]:表 metaId
+
+
+  音频  地址
+
+
+所有用户:
+  1天
+小组
+  1天
+
+动态
+  0.5天
+  1.5天
+  0.5天
+代祷
+  1天
+奉献
+意见
+  1天
+礼品
+  2天
+留言
+  1天
+投票
+  1天
+  列表
+  1天
+主日
+  1天
+
+12天/ 4 = 3天
+
+
+
+
+
+
+组件
+1:封装一个组件
+2:细节
+
+3:写
+封装组件的原则:通用性
+ 头:Header  data:title:"sss"   props
+
+  点击事件:  @click="aaa"
+  methods:{
+      aaa(type){
+        this.$emit("on-click",type)
+      }
+  }
+
+
+  <aaa onClick="自己的事件">
+
+  自己的事件(type){
+
+
+  }
+  参数
+
+
+1:组件传参 props
+2:插槽
+3:this.$children : 子组件
+
+4:单例模式:
+  一个对象 baoInstance:父组件对象
+
+  baoInstance.updateNav
+
+5:provider baoInstance:this
+  inject  ["baoInstance"]
+
+
+
+全局注册
+   Vue.use(Vue构造器) // 没有嵌套的情况下
+
+   //全局注册
+   Vue.component("组件的名字",组件)
+
+
+   <组件的名字/>
+
+   Tabs  插槽
+     TabPane  插槽
+     TabPane
+     TabPane
+局部注册
+   view  import
+
+
+小程序：
+  项目结构
+  配置
+  组件：
+    view > view > block:
+  自定义组件
+  API
+    网络
+    路由
+    存储
+    多媒体
+    界面
+
+  目录结构
+
+  程序生命周期
+  页面生命周期
+  组件生命周期
+
+  app 入口文件
+     globalData : 全局数据管理
+
+     App 函数 ({})
+         小程序
+     let app = getApp()
+     //app.globalData.name
+
+     Page({})
+     Component({})
+  app.json 配置
+     pages:[
+        "页面的路径" 谁在最上面 谁是老大
+     ],
+
+     window:
+       backgroundTextStyle
+  app.wxss  样式
+     小程序 单位 rpx
+     弹性盒子  百分比
+
+
+  pages
+    index
+      js:逻辑
+      json:配置页面
+      wxml:结构
+      wxss:rpx
+
+      view: div
+
+
+  vue:
+    template
+    script
+    style
+
+2019年8月15日 星期四 天气晴
+
+  回顾:
+    小程序
+    1:网址
+    目录结构
+      入口
+      app: 入口文件
+      app.json 配置
+         页面  : pages:
+           ["页面1",""]
+         样式  : window:
+
+      页面 :
+         .js  : 逻辑
+         .json: 配置
+         .wxml: 结构
+         .wxss: 样式 rpx px
+           弹性盒子
+           百分比
+
+      wxml js
+         列表渲染
+           wx:for
+         条件渲染
+           wx:if
+         事件
+           bindtap="函数" data-aaa  js:函数(event){event.target.dateset.aaa   this.setData({})}
+           bindlongtap
+           bindtouch
+
+  1:网络请求:
+
+  2:api
+    网络
+    界面
+    存储
+    路由
+    ....
+
+面试
+1:面试礼仪
+    穿着 : 随意
+    女生:得体
+    男生:休闲 秋天的裤子
+    背上电脑
+    脸 :
+      女: 淡妆
+      男: 眼镜 黑一点
+
+    言谈举止 :
+    眼神:
+
+
+2:面试技巧
+    1:自我介绍
+    2:常见问题
+
+
+3:常见的面试题
+    1:h5
+        语义化标签
+        canvas
+        线程
+        事件
+        拖动
+        webapp
+    2:js
+    3:vue
+    4:react
+    5:webpack
+    6:git
+    7:http协议
+    8:新特性
+      es6  es7 vue  react
+    9:优化
+    10:兼容性
+    11:布局
+        sass ruby
+        less js
+        响应式:
+          媒体查询
+            根据页面宽度
+          栅格
+            bootstrap
+                12份
+            antd
+                24份
+            elementUI
+            iView
+            ...
+            webapp
+
+    其他 : 微信公众平台
+        微信公众平台: 后台
+          项目经理 备案 www.
+        前端:h5
+
+        小程序获取数据
+
+        vue基础:
+          vue指令
+          生命钩子函数 beforecreated created beforemount mounted
+          组件 :
+            组件的注册方式
+            组件通信 : 跨级组件通讯
+              1
+              2 $Bus  观察者模式 发布订阅
+              3 本地存储
+              4 provider inject
+              5 ref
+              6 vuex
+          路由
+
+        不会的问题 :
+
+        http:
+          1:什么是
+          2:怎么用
+          3:分类
+
+        http:
+          1:什么是
+          2:怎么用
+          3:什么时候用
+          4:为什么用
+
+4:根据简历的问题
+    简历上的技能: 一定要写会的
+
+    webapp --->
+      1:网页
+      2:嵌套在app内部
+
+    12306: 速度 ios android
+
+    app  网页
+
+
+    ios
+    android 手机 apk
+
+    android
+
+    react-native :
+      react开发原生
+    flutter: google
+
+
+1: android sdk  8.xG
+2: 模拟器 4.xG
+3: 编译环境  vs code    android studio
+4: 坑
+   1:sdk
+   2:版本
+   3:下载 gradle下载失败
+   4:运行 包
+          sdk版本  react-native
+   5:模拟器检测不到
+     genymotion
+
+1:环境
+
+  1 jdk  java   java_home
+  2 sdk android  android_home   path
+  3 模拟器  找不到模拟器 genymotion 夜神模拟器 海马玩 ... 用android自带模拟器
+  4 react-native run-android
+    1:gradle 版本
+    2:sdk版本
+    3:编译版本
+    4:找不到模拟
+
+运行项目
+1:sdk
+  android sdk
+  配置环境变量
+
+  jdk: java的运行环境
+
+
+
+
+2:模拟器
+  android
+  苹果电脑 xcode  ios模拟器
+
+Flutter
+
+月考:
+  react  vue  小程序
+  1:网络请求
+  2:页面 跳 传参 taro redux
+  3:页面渲染 排版 rpx
+  4:交互  搜索
+  5:组件 swiper  view  表单组件
+
+
+
+ts:typescript
+
+1:由来
+    微软
+    C# .net  asp html ts  .net  javaweb开发   jsp
+
+ angular ts
+ js: 类型
+     this
+     let a  ;
+
+     a = 10
+     a = ""  {}   []  ...
+
+     弱类型语言
+     ts
+
+     ts:规范  js
+
+     ts 别名  js的超级
+
+     1:类型 强
+     2:vue  装饰器 @haha:函数
+     3:接口  interface  {}
+     4:枚举  C# java
+     5:es6 es7
+
+
+
+2:基本语法
+3:vue使用 ts
+    vue cli3
+    npm i @vue/cli -g
+
+4:js/webpack  迁移ts
+5:react
+
+这几天
+    背面试题
+
+    html
+        h5的新特性
+        响应式  自适应
+        不同设备 页面兼容性问题
+        元素类型
+        常见布局问题
+
+    css
+        css3的新特性
+            动画
+            弹性盒子
+            伪元素  伪类选择器
+        常见的问题
+            高度塌陷
+            居中
+            1px  手机  pc
+        单位 px
+            rem
+
+        viewport:视口
+        常用的第三方
+
+        栅格
+
+
+    js
+        jq:
+            选择器
+            ajax
+            动画
+
+            深拷贝  extend
+            lodash marge assign
+            链式调用
+
+            $().css().animate().left
+
+        es5:
+            闭包
+            this指向
+            变脸提升
+            作用域 作用域链
+            继承
+            原型
+            原型链
+            事件 冒泡  委托  代理
+            //面向对象
+            === ==
+            判断变量类型
+            instanceof
+
+
+    ajax
+    兼容
+    es6 es7
+
+
+    前端安全
+    react
+
+    Vue
+
+
+    构建工具
+    webpack
+
+    gulp
+
+    git  svn
+    小程序
+        1:登录流程
+        2:支付流程
+
+    Node
+
+    Object
+    Array  常用的方法
+
+    设计模式  观察者模式:发布订阅 建造者模式 工厂模式:函数(){原料 属性  加工 方法  产出品:返回值}  单例模式:class  方法 暴露的是 一个对象 多个对象  Vue.component()
+    算法
+    数据结构 列表  树  图
+
+
+支付
+
+    1:微信
+      2012年
+    2:支付宝
+
+    Native支付 原生支付  app/小程序   直接拿到支付结果
+        android/ios
+    H5支付     二重验证
+
+        1:流程
+        2:手段
+        3:小程序
+
+        deeplink() : h5 调用app
+
+
+    支付之前:
+       1:开通支付
+         公司的营业执照
+         法人代表
+         工商账号
+
+       appId
+       appsecret
+
+    角色:
+
+      1:买方
+      2:卖方
+      3:接口
+
+        后台接口
+
+        app客户端接口
+        支付接口
+        1:请求下单 -->自己的后台-->保存订单-->发起支付请求-->返回的是地址-->跳转-->
+            PC-->二维码
+            移动端--deeplink()->跳转到微信
+            调用支付 --> 返回成功/失败
+        2:查询 成/败
+
+
+
+
+webSocket
+
+兼容
+    1:PC
+    2:H5 移动
+    3:react
+    4:vue
+
+
+    服务器主动发消息
+    socket 全双工通信
+
+    http   单向通信
+
+    TCP : 三次握手
+
+
+    推送
+
+
+    1:客户端
+
+    2:服务端
+
+    前端 :h5 : WebSocket
+    后端 :java .net Socket
+          php :
+          egg : socket
+          node : socket ws
+
+
+
+1: 不敢说
+   setState()
+
+2: Promise
+
+3: for  foreach(()=>{})
+
+4:
+
+  js
+   1:变量  var  let  const
+   2:for(var i= 0;i<10;i++){
+        (function(){
+           alert(i)
+        })()
+   }
+   3:数据类型
+   4:伪数组  真数组  区别
+   5:Array常用的方法
+   6:Object常用的方法
+     a : 只读
+   7:apply  call  bind 区别
+   8:原型链  原型 区别
+   9:现场编程
+     统计字符串个数
+     "abcdefabc"
+     {
+        a:2,
+        b:2,
+        c:2,
+        d:1
+        ....
+     }
+   10:闭包  创建  变量  缺点
+   11:this指向
+   12:async  await
+   13:generator  yard
+   14:代码  执行的顺序
+
+
+   setTimeout(()=>{
+    console.log(1)
+   },0)
+   new Promise (resolve){
+    console.log(2)
+    resolve()
+   }.then(()=>{
+    console.log(4)
+   })
+   console.log(3)
+
+   15:冒泡排序
+      选择排序
+      快速排序
+      希尔排序
+   16:二分查找
+
+   17:事件
+      执行顺序
+      冒泡
+      捕获
+
+
+   Vue
+   React
+   webpack
+
+
+Taro:
+    微信小程序
+
+    1:微信
+    2:QQ
+    3:支付宝
+
+    npm :
+
+    vue  react
+
+
+    Taro : React
+    wepy : Vue+小程序 @tap  生命  wepy
+    mpvue : vue
+    nui-app : vue  HBuilderX
+
+
+js 类型
+  判断数据类型
+    typeof      {}
+    instanceof  {}
+
+    []
+    {}
+
+    typeof
+
+  js同步和异步
+
+    let a = 10
+    let b = 20
+
+
+
+    setTimeOut(()=>{
+        console.log(2)
+    })
+
+
+    回调地狱
+        1:promise  解决方法  .then()
+        2:async await
+        3:generator
+          *
+    "1bcdfds"
+
+    {
+        "1":1,
+        "b":1,
+        "d":2
+    }
+
+    1:数组
+    2:遍历  push
+
+
+
+    数组 js  类型
+
+    区别
+    伪数组: 长度不可以改变 .length
+    真数组: 长度可以改变   .length
+
+    for  forEach  区别
+    长度是否已知
+    break
+
+    let i = 0
+    [1,2,3,4].foreach((item,index)=>{
+        if(index===1){
+            i++;
+            return
+        }
+    })
+
+    console.log(i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

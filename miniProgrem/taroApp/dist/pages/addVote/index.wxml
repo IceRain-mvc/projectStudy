@@ -1,0 +1,12 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="index">标题:
+        <input type="text" value="{{title}}" bindchange="anonymousFunc0" />描述:
+        <input type="text" value="{{des}}" bindchange="anonymousFunc1" />是否单选:
+        <switch bindchange="anonymousFunc2"></switch>是否匿名:
+        <switch bindchange="anonymousFunc3"></switch>
+        <picker mode="date" value="{{date}}" start="2015-09-01" end="2020-09-01" bindchange="anonymousFunc4">
+            <view class="picker">当前选择: {{date}}</view>
+        </picker>
+        <button bindtap="anonymousFunc5">发起投票</button>
+    </view>
+</block>

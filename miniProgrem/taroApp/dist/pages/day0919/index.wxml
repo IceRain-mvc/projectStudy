@@ -1,0 +1,10 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="index"><text>Hello world!</text>
+        <progress percent="20" show-info="{{true}}"></progress>
+        <progress percent="40" stroke-width="12"></progress>
+        <progress percent="60" color="pink"></progress>
+        <progress percent="80" active="{{true}}"></progress>
+        <rich-text nodes="{{html}}"></rich-text>
+        <button bindtap="anonymousFunc0">弹一下嘛</button>
+    </view>
+</block>

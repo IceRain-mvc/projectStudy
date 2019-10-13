@@ -1,8 +1,8 @@
 const res = {
   code: 0,
   data: {
-    lines: '20路,301路,5路,地铁5号线,机场大巴线,107路,机场快轨',
-    lineids: 'lzbd,lwes,lxid,lwic,lwdf,ldfx,loin',
+    lines: '20路,301路,5路,地铁5号线,地铁7号线,机场大巴线,107路,机场快轨',
+    lineids: 'lzbd,lwes,lxid,lwic,lwdf,ldfx,lwics,loin',
     linedetails: {
       lwdf: {
         name: '机场大巴线'
@@ -22,6 +22,9 @@ const res = {
       lxid: {
         name: '5路'
       },
+      lwics: {
+        name: '地铁7号线'
+      },
       loin: {
         name: '机场快轨'
       }
@@ -36,7 +39,7 @@ function takeNumFromString(str,len){
   let numStr = '';
   for(let i = 0; i < str.length; i++){
     if(!isNaN(str[i])){
-      numStr += str[i]; 
+      numStr += str[i];
     }
     if(!isNaN(str[i]) && isNaN(str[i + 1])){
       return parseInt(numStr);
@@ -72,7 +75,7 @@ function parse(res){
   for(let i in linedetails){
     linedetailsArr.push({
       name: linedetails[i].name,
-      key: i  
+      key: i
     });
   }
   //   console.log(linedetailsArr);
