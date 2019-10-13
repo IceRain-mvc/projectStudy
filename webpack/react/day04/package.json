@@ -1,0 +1,19 @@
+{
+  "name": "day04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.9",
+    "webpack": "^4.41.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "'cuilibao' <'cuilibao123@gamil.com'>",
+  "license": "ISC"
+}

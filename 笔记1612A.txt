@@ -1048,6 +1048,7 @@ ts:typescript
             动画
 
             深拷贝  extend
+            lodash marge assign
             链式调用
 
             $().css().animate().left
@@ -1077,6 +1078,7 @@ ts:typescript
 
     Vue
 
+
     构建工具
     webpack
 
@@ -1095,6 +1097,255 @@ ts:typescript
     设计模式  观察者模式:发布订阅 建造者模式 工厂模式:函数(){原料 属性  加工 方法  产出品:返回值}  单例模式:class  方法 暴露的是 一个对象 多个对象  Vue.component()
     算法
     数据结构 列表  树  图
+
+
+支付
+
+    1:微信
+      2012年
+    2:支付宝
+
+    Native支付 原生支付  app/小程序   直接拿到支付结果
+        android/ios
+    H5支付     二重验证
+
+        1:流程
+        2:手段
+        3:小程序
+
+        deeplink() : h5 调用app
+
+
+    支付之前:
+       1:开通支付
+         公司的营业执照
+         法人代表
+         工商账号
+
+       appId
+       appsecret
+
+    角色:
+
+      1:买方
+      2:卖方
+      3:接口
+
+        后台接口
+
+        app客户端接口
+        支付接口
+        1:请求下单 -->自己的后台-->保存订单-->发起支付请求-->返回的是地址-->跳转-->
+            PC-->二维码
+            移动端--deeplink()->跳转到微信
+            调用支付 --> 返回成功/失败
+        2:查询 成/败
+
+
+
+
+webSocket
+
+兼容
+    1:PC
+    2:H5 移动
+    3:react
+    4:vue
+
+
+    服务器主动发消息
+    socket 全双工通信
+
+    http   单向通信
+
+    TCP : 三次握手
+
+
+    推送
+
+
+    1:客户端
+
+    2:服务端
+
+    前端 :h5 : WebSocket
+    后端 :java .net Socket
+          php :
+          egg : socket
+          node : socket ws
+
+
+
+1: 不敢说
+   setState()
+
+2: Promise
+
+3: for  foreach(()=>{})
+
+4:
+
+  js
+   1:变量  var  let  const
+   2:for(var i= 0;i<10;i++){
+        (function(){
+           alert(i)
+        })()
+   }
+   3:数据类型
+   4:伪数组  真数组  区别
+   5:Array常用的方法
+   6:Object常用的方法
+     a : 只读
+   7:apply  call  bind 区别
+   8:原型链  原型 区别
+   9:现场编程
+     统计字符串个数
+     "abcdefabc"
+     {
+        a:2,
+        b:2,
+        c:2,
+        d:1
+        ....
+     }
+   10:闭包  创建  变量  缺点
+   11:this指向
+   12:async  await
+   13:generator  yard
+   14:代码  执行的顺序
+
+
+   setTimeout(()=>{
+    console.log(1)
+   },0)
+   new Promise (resolve){
+    console.log(2)
+    resolve()
+   }.then(()=>{
+    console.log(4)
+   })
+   console.log(3)
+
+   15:冒泡排序
+      选择排序
+      快速排序
+      希尔排序
+   16:二分查找
+
+   17:事件
+      执行顺序
+      冒泡
+      捕获
+
+
+   Vue
+   React
+   webpack
+
+
+Taro:
+    微信小程序
+
+    1:微信
+    2:QQ
+    3:支付宝
+
+    npm :
+
+    vue  react
+
+
+    Taro : React
+    wepy : Vue+小程序 @tap  生命  wepy
+    mpvue : vue
+    nui-app : vue  HBuilderX
+
+
+js 类型
+  判断数据类型
+    typeof      {}
+    instanceof  {}
+
+    []
+    {}
+
+    typeof
+
+  js同步和异步
+
+    let a = 10
+    let b = 20
+
+
+
+    setTimeOut(()=>{
+        console.log(2)
+    })
+
+
+    回调地狱
+        1:promise  解决方法  .then()
+        2:async await
+        3:generator
+          *
+    "1bcdfds"
+
+    {
+        "1":1,
+        "b":1,
+        "d":2
+    }
+
+    1:数组
+    2:遍历  push
+
+
+
+    数组 js  类型
+
+    区别
+    伪数组: 长度不可以改变 .length
+    真数组: 长度可以改变   .length
+
+    for  forEach  区别
+    长度是否已知
+    break
+
+    let i = 0
+    [1,2,3,4].foreach((item,index)=>{
+        if(index===1){
+            i++;
+            return
+        }
+    })
+
+
+    console.log(i)
+
+
+鞋  一双:10元  一只5元
+小人 5元
+
+6瓶子 + 5 = 17元
+
+瓶子 2元
+
+(6+5+10)*2+5= 42+5=47
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
