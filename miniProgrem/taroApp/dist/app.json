@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/vote/index",
+    "pages/addVote/index",
+    "pages/day0919/index",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap33.json"
+}

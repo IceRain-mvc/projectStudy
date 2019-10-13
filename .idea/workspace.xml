@@ -2,16 +2,194 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cee8a44c-89d6-4eb7-b1ae-53b86bdee6ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/服务器相关/cuilb_commander/app1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/服务器相关/cuilb_commander/app_cli" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/服务器相关/cuilb_commander/app_cli.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulp/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/异步编程/asyncJs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/异步编程/imgPromise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/异步编程/promise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/异步编程/promise原理.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProgrem/taroApp/src/pages/addVote/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProgrem/taroApp/src/pages/addVote/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProgrem/taroApp/src/pages/day0919/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProgrem/taroApp/src/pages/day0919/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProgrem/taroApp/src/pages/vote/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniProgrem/taroApp/src/pages/vote/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/tab/BaoPane.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/tab/BaoTabs.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/tab/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/react/day04/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/react/day04/dist/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/react/day04/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/react/day04/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/react/day04/src/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/react/day04/src/a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/react/day04/src/a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/react/day04/src/b.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/react/day04/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/react/day04/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack/react/day04/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/支付/支付.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器相关/commander/commander01/broad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器相关/koa/child.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器相关/koa/koa-router/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器相关/koa/koa-router/db/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器相关/koa/koa-router/db/sql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器相关/koa/koa-router/pem/private_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器相关/koa/koa-router/process/compute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器相关/koa/koa-router/router/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器相关/koa/koa-router/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器相关/koa/koa-router/router/me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器相关/koa/koa-router/router/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器相关/koa/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器相关/processAndThread/child_process.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器相关/processAndThread/cluster.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器相关/socket.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器相关/加密/HMAC.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器相关/加密/hash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器相关/加密/private_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器相关/加密/public_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器相关/加密/对称加密.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器相关/加密/笔记.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器相关/加密/非对称加密.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/正则表达式/字符串匹配数字.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/正则表达式/通配符.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记1702A.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/bloom-filter/BloomFilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/bloom-filter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/bloom-filter/README.pt-BR.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/bloom-filter/README.ru-RU.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/bloom-filter/__test__/BloomFilter.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/disjoint-set/DisjointSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/disjoint-set/DisjointSetItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/disjoint-set/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/disjoint-set/README.pt-BR.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/disjoint-set/README.ru-RU.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/disjoint-set/__test__/DisjointSet.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/disjoint-set/__test__/DisjointSetItem.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/doubly-linked-list/DoublyLinkedList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/doubly-linked-list/DoublyLinkedListNode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/doubly-linked-list/README.ja-JP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/doubly-linked-list/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/doubly-linked-list/README.pt-BR.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/doubly-linked-list/README.ru-RU.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/doubly-linked-list/README.zh-CN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/doubly-linked-list/__test__/DoublyLinkedList.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/doubly-linked-list/__test__/DoublyLinkedListNode.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/graph/Graph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/graph/GraphEdge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/graph/GraphVertex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/graph/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/graph/README.pt-BR.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/graph/README.ru-RU.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/graph/README.zh-CN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/graph/__test__/Graph.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/graph/__test__/GraphEdge.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/graph/__test__/GraphVertex.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/hash-table/HashTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/hash-table/README.ja-JP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/hash-table/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/hash-table/README.pt-BR.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/hash-table/README.ru-RU.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/hash-table/README.zh-CN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/hash-table/__test__/HashTable.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/heap/Heap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/heap/MaxHeap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/heap/MinHeap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/heap/README.ja-JP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/heap/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/heap/README.pt-BR.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/heap/README.ru-RU.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/heap/README.zh-CN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/heap/__test__/Heap.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/heap/__test__/MaxHeap.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/heap/__test__/MinHeap.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/linked-list/LinkedList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/linked-list/LinkedListNode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/linked-list/README.zh-CN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/linked-list/__test__/LinkedList.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/linked-list/__test__/LinkedListNode.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/priority-queue/PriorityQueue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/priority-queue/README.ja-JP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/priority-queue/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/priority-queue/README.pt-BR.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/priority-queue/README.ru-RU.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/priority-queue/README.zh-CN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/priority-queue/__test__/PriorityQueue.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/queue/Queue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/queue/README.zh-CN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/queue/__test__/Queue.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/stack/README.zh-CN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/stack/Stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/stack/__test__/Stack.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/BinaryTreeNode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/README.pt-BR.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/README.zh-CN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/__test__/BinaryTreeNode.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/avl-tree/AvlTree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/avl-tree/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/avl-tree/README.pt-BR.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/avl-tree/__test__/AvlTRee.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/binary-search-tree/BinarySearchTree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/binary-search-tree/BinarySearchTreeNode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/binary-search-tree/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/binary-search-tree/README.pt-BR.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/binary-search-tree/__test__/BinarySearchTree.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/binary-search-tree/__test__/BinarySearchTreeNode.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/fenwick-tree/FenwickTree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/fenwick-tree/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/fenwick-tree/README.pt-BR.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/fenwick-tree/__test__/FenwickTree.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/red-black-tree/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/red-black-tree/README.pt-BR.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/red-black-tree/RedBlackTree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/red-black-tree/__test__/RedBlackTree.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/segment-tree/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/segment-tree/README.pt-BR.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/segment-tree/SegmentTree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/tree/segment-tree/__test__/SegmentTree.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/trie/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/trie/README.pt-BR.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/trie/README.ru-RU.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/trie/README.zh-CN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/trie/Trie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/trie/TrieNode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/trie/__test__/Trie.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/trie/__test__/TrieNode.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/utils/comparator/Comparator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/utils/comparator/__test__/Comparator.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法和数据结构/数据结构/链表.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/parseInt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/函数克隆.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/合并table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/实现es6构造.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/对象解析.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/封装一个jsonp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/改变数据结构.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/统计字符串个数.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/设置对象的只读属性.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/闭包自执行.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/myBase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myBase.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/hook/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/react/hook/hook笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/笔记.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git/git.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/git/git.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-base/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/config/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vuebase/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vuebase/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vuebase/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vuebase/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vuebase/src/components/bao-tabs/BaoTabPane.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vuebase/src/components/bao-tabs/BaoTabPane.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vuebase/src/plugin/element-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vuebase/src/plugin/element-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/服务器相关/后台相关(高级node).xmind" beforeDir="false" afterPath="$PROJECT_DIR$/服务器相关/后台相关(高级node).xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/服务器相关/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/服务器相关/笔记.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/笔记1612A.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试题/利用promise封装一个，根据url加载js文件的通用函数.js" beforeDir="false" afterPath="$PROJECT_DIR$/面试题/利用promise封装一个，根据url加载js文件的通用函数.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试题/项目模拟面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/面试题/项目模拟面试.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试题/高德-线路.js" beforeDir="false" afterPath="$PROJECT_DIR$/面试题/高德-线路.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,187 +200,132 @@
     <session id="1406041694">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="38" />
-          <entry key="project.open.time.0" value="13" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.closed" value="62" />
+          <entry key="project.open.time.0" value="18" />
+          <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.2" value="7" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.14" value="3" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="8" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="5" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="42" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="app1" value="1" />
+          <entry key="app" value="2" />
+          <entry key="app1" value="2" />
           <entry key="app2" value="1" />
-          <entry key="babelrc" value="7" />
-          <entry key="css" value="3" />
+          <entry key="app_cli" value="3" />
+          <entry key="babelrc" value="9" />
+          <entry key="css" value="6" />
           <entry key="day" value="1" />
           <entry key="editorconfig" value="1" />
           <entry key="gitignore" value="6" />
           <entry key="gulp" value="1" />
-          <entry key="html" value="6" />
-          <entry key="js" value="215" />
-          <entry key="json" value="14" />
-          <entry key="jsx" value="2" />
-          <entry key="md" value="30" />
+          <entry key="html" value="24" />
+          <entry key="js" value="386" />
+          <entry key="json" value="34" />
+          <entry key="jsx" value="8" />
+          <entry key="lock" value="1" />
+          <entry key="md" value="42" />
+          <entry key="pem" value="3" />
           <entry key="py" value="1" />
           <entry key="rnc" value="1" />
-          <entry key="ts" value="5" />
-          <entry key="txt" value="76" />
-          <entry key="vue" value="34" />
+          <entry key="scss" value="1" />
+          <entry key="socket" value="1" />
+          <entry key="ts" value="10" />
+          <entry key="txt" value="100" />
+          <entry key="vue" value="38" />
+          <entry key="www" value="1" />
           <entry key="xml" value="1" />
+          <entry key="yml" value="2" />
+          <entry key="笔记1702A" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="3" />
-          <entry key="HTML" value="6" />
-          <entry key="JSON" value="21" />
-          <entry key="JSX Harmony" value="2" />
-          <entry key="JavaScript" value="217" />
-          <entry key="Markdown" value="30" />
-          <entry key="PLAIN_TEXT" value="86" />
+          <entry key="CSS" value="6" />
+          <entry key="HTML" value="24" />
+          <entry key="JSON" value="43" />
+          <entry key="JSX Harmony" value="8" />
+          <entry key="JavaScript" value="395" />
+          <entry key="Markdown" value="42" />
+          <entry key="PLAIN_TEXT" value="115" />
           <entry key="RNG Compact" value="1" />
-          <entry key="TypeScript" value="5" />
-          <entry key="Vue.js" value="34" />
+          <entry key="SCSS" value="1" />
+          <entry key="TypeScript" value="10" />
+          <entry key="Vue.js" value="38" />
           <entry key="XML" value="1" />
+          <entry key="YAML" value="2" />
+          <entry key="yarn.lock" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="app" value="25" />
+          <entry key="app" value="49" />
           <entry key="app1" value="81" />
           <entry key="app2" value="902" />
-          <entry key="babelrc" value="86" />
+          <entry key="app_cli" value="2" />
+          <entry key="babelrc" value="141" />
+          <entry key="css" value="40" />
           <entry key="gitignore" value="12" />
-          <entry key="html" value="74" />
-          <entry key="js" value="15342" />
-          <entry key="json" value="93" />
-          <entry key="jsx" value="4" />
-          <entry key="md" value="178" />
-          <entry key="txt" value="17690" />
-          <entry key="vue" value="2941" />
+          <entry key="html" value="1025" />
+          <entry key="js" value="27220" />
+          <entry key="json" value="238" />
+          <entry key="jsx" value="1123" />
+          <entry key="md" value="320" />
+          <entry key="scss" value="32" />
+          <entry key="txt" value="22844" />
+          <entry key="vue" value="2942" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="74" />
-          <entry key="JSON" value="179" />
-          <entry key="JSX Harmony" value="4" />
-          <entry key="JavaScript" value="16351" />
-          <entry key="Markdown" value="178" />
-          <entry key="PLAIN_TEXT" value="17703" />
-          <entry key="Vue.js" value="2939" />
+          <entry key="CSS" value="40" />
+          <entry key="HTML" value="1026" />
+          <entry key="JSON" value="379" />
+          <entry key="JSX Harmony" value="1122" />
+          <entry key="JavaScript" value="28254" />
+          <entry key="Markdown" value="320" />
+          <entry key="PLAIN_TEXT" value="22857" />
+          <entry key="RegExp" value="1" />
+          <entry key="SCSS" value="32" />
+          <entry key="Vue.js" value="2940" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="4" />
+          <entry key="TypeScriptServerServiceImpl" value="7" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/面试题/随机生成不重复的数组.js">
+        <entry file="file://$PROJECT_DIR$/笔记1702A.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/服务器相关/cuilb_commander/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/服务器相关/cuilb_commander/app_cli">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="374">
+              <caret line="177" selection-start-line="177" selection-end-line="177" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/服务器相关/cuilb_commander/app">
+        <entry file="file://$PROJECT_DIR$/笔记1612A.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-475">
-              <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/服务器相关/cuilb_commander/app_cli.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="82" selection-start-line="82" selection-end-line="89" selection-end-column="21" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/服务器相关/cuilb_commander/app1">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/面试题/二分查找.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="19" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/语法/类型/类型判断.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/面试题/模拟链式调用/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/面试题/模拟链式调用/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1452">
-              <caret line="66" column="92" selection-start-line="66" selection-start-column="92" selection-end-line="66" selection-end-column="92" />
+            <state relative-caret-position="457">
+              <caret line="1321" selection-start-line="1321" selection-end-line="1321" />
             </state>
           </provider>
         </entry>
@@ -213,9 +336,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="HTML File" />
         <option value="Vue Single File Component" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -240,57 +364,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/react/react-base/src/store/reducers/my.js" />
-        <option value="$PROJECT_DIR$/js/语法/装饰器/index.js" />
-        <option value="$PROJECT_DIR$/js/语法/装饰器/.babelrc" />
-        <option value="$PROJECT_DIR$/react/react-base/package.json" />
-        <option value="$PROJECT_DIR$/react/react-base/src/page/components/Header.js" />
-        <option value="$PROJECT_DIR$/react/react-base/src/page/Home.js" />
-        <option value="$PROJECT_DIR$/react/react-base/src/store/mobx/index.js" />
-        <option value="$PROJECT_DIR$/react/mobx/笔记.txt" />
-        <option value="$PROJECT_DIR$/react/react-base/src/page/components/Main.js" />
-        <option value="$PROJECT_DIR$/react/react-base/src/page/day0724/router.js" />
-        <option value="$PROJECT_DIR$/react/react-base/src/page/day0724/store/fetchInfo.js" />
-        <option value="$PROJECT_DIR$/react/react-base/src/page/day0724/views/Audio.js" />
-        <option value="$PROJECT_DIR$/react/react-base/src/page/day0724/views/Info.js" />
-        <option value="$PROJECT_DIR$/react/react-base/src/page/day0724/Home.js" />
-        <option value="$PROJECT_DIR$/react/react-base/src/App.js" />
-        <option value="$PROJECT_DIR$/react/react-base/src/page/day0724/store/index.js" />
-        <option value="$PROJECT_DIR$/react/react-base/src/page/day0724/views/Video.js" />
-        <option value="$PROJECT_DIR$/react/react-base/src/page/day0724/store/fetchVideoList.js" />
+        <option value="$PROJECT_DIR$/js/异步编程/generator.js" />
+        <option value="$PROJECT_DIR$/js/异步编程/promise原理.js" />
+        <option value="$PROJECT_DIR$/服务器相关/socket/websocket/app1.js" />
+        <option value="$PROJECT_DIR$/服务器相关/socket/websocket/app2.js" />
+        <option value="$PROJECT_DIR$/服务器相关/socket/websocket/package.json" />
+        <option value="$PROJECT_DIR$/面试题/字符串.js" />
+        <option value="$PROJECT_DIR$/面试题/设置对象的只读属性.js" />
+        <option value="$PROJECT_DIR$/面试题/统计字符串个数.js" />
+        <option value="$PROJECT_DIR$/面试题/parseInt.js" />
+        <option value="$PROJECT_DIR$/miniProgrem/taroApp/src/pages/day0919/index.jsx" />
+        <option value="$PROJECT_DIR$/面试题/函数克隆.js" />
+        <option value="$PROJECT_DIR$/vue/vuebase/src/plugin/element-config.js" />
+        <option value="$PROJECT_DIR$/面试题/改变数据结构.js" />
+        <option value="$PROJECT_DIR$/miniProgrem/taroApp/src/pages/vote/index.css" />
+        <option value="$PROJECT_DIR$/miniProgrem/taroApp/src/app.jsx" />
+        <option value="$PROJECT_DIR$/miniProgrem/taroApp/src/pages/vote/index.jsx" />
+        <option value="$PROJECT_DIR$/面试题/封装一个jsonp.js" />
+        <option value="$PROJECT_DIR$/面试题/table.html" />
+        <option value="$PROJECT_DIR$/miniProgrem/taroApp/src/pages/addVote/index.jsx" />
         <option value="$PROJECT_DIR$/服务器相关/笔记.txt" />
-        <option value="$PROJECT_DIR$/test.js" />
-        <option value="$PROJECT_DIR$/vue/vuebase/.babelrc" />
-        <option value="$PROJECT_DIR$/英文相关资料/React.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/store/index.js" />
-        <option value="$PROJECT_DIR$/面试题/随机生成不重复的数组.js" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/components/bao-tabs/BaoTabs.js" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/main.js" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/router/router-config.js" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/components/bao-tabs/index.js" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/page/MyViewTest.vue" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/components/bao-tabs/BaoTabPane.vue" />
-        <option value="$PROJECT_DIR$/vue/vuebase/src/components/bao-tabs/BaoTabs.vue" />
-        <option value="$PROJECT_DIR$/面试题/变量提升.js" />
-        <option value="$PROJECT_DIR$/面试题/二维数组阵列转换.js" />
-        <option value="$PROJECT_DIR$/算法和数据结构/算法/手写深拷贝.js" />
-        <option value="$PROJECT_DIR$/前端性能优化/README.md" />
-        <option value="$PROJECT_DIR$/react/react-base/src/hoc/autorization.jsx" />
-        <option value="$PROJECT_DIR$/webpack/笔记.txt" />
-        <option value="$PROJECT_DIR$/项目/笔记.txt" />
-        <option value="$PROJECT_DIR$/react/hook/笔记.txt" />
-        <option value="$PROJECT_DIR$/react/hook/笔记.md" />
-        <option value="$PROJECT_DIR$/react/hook/hook笔记.md" />
+        <option value="$PROJECT_DIR$/面试题/合并table.html" />
+        <option value="$PROJECT_DIR$/面试题/高德-线路.js" />
+        <option value="$PROJECT_DIR$/算法和数据结构/数据结构/链表.js" />
+        <option value="$PROJECT_DIR$/gulp/test.html" />
+        <option value="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/linked-list/LinkedList.js" />
+        <option value="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/queue/Queue.js" />
+        <option value="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/queue/README.zh-CN.md" />
+        <option value="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/stack/__test__/Stack.test.js" />
         <option value="$PROJECT_DIR$/笔记.txt" />
-        <option value="$PROJECT_DIR$/服务器相关/npm命令行/package.json" />
-        <option value="$PROJECT_DIR$/服务器相关/npm命令行/app.js" />
-        <option value="$PROJECT_DIR$/服务器相关/cuilb_commander/app.js" />
-        <option value="$PROJECT_DIR$/服务器相关/cuilb_commander/app1" />
-        <option value="$PROJECT_DIR$/服务器相关/cuilb_commander/app2" />
-        <option value="$PROJECT_DIR$/服务器相关/cuilb_commander/package.json" />
-        <option value="$PROJECT_DIR$/服务器相关/cuilb_commander/app_cli.js" />
-        <option value="$PROJECT_DIR$/服务器相关/cuilb_commander/app" />
+        <option value="$PROJECT_DIR$/面试题/实现es6构造.js" />
+        <option value="$PROJECT_DIR$/服务器相关/commander/commander01/broad.js" />
+        <option value="$PROJECT_DIR$/项目/笔记.txt" />
+        <option value="$PROJECT_DIR$/面试题/parseInt.html" />
+        <option value="$PROJECT_DIR$/服务器相关/cuilb_commander/app_cli" />
+        <option value="$PROJECT_DIR$/面试题/test.js" />
+        <option value="$PROJECT_DIR$/webpack/react/day04/src/a.css" />
+        <option value="$PROJECT_DIR$/webpack/react/day04/src/b.scss" />
+        <option value="$PROJECT_DIR$/webpack/react/day04/src/myImport.js" />
+        <option value="$PROJECT_DIR$/webpack/react/day04/src/index.html" />
+        <option value="$PROJECT_DIR$/webpack/react/day04/src/Home.js" />
+        <option value="$PROJECT_DIR$/webpack/react/day04/src/.babelrc" />
+        <option value="$PROJECT_DIR$/webpack/react/day04/.babelrc" />
+        <option value="$PROJECT_DIR$/webpack/react/day04/src/index.js" />
+        <option value="$PROJECT_DIR$/webpack/react/day04/package.json" />
+        <option value="$PROJECT_DIR$/webpack/react/day04/babel.config.js" />
+        <option value="$PROJECT_DIR$/webpack/react/day04/webpack.config.js" />
+        <option value="$PROJECT_DIR$/js/异步编程/promise.html" />
+        <option value="$PROJECT_DIR$/笔记1702A.txt" />
+        <option value="$PROJECT_DIR$/js/异步编程/asyncJs.js" />
+        <option value="$PROJECT_DIR$/js/异步编程/imgPromise.html" />
+        <option value="$PROJECT_DIR$/笔记1612A.txt" />
       </list>
     </option>
   </component>
@@ -302,27 +426,107 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/js/语法/装饰器/node_modules" />
+    <handled-path value="$PROJECT_DIR$/miniProgrem/taroApp/node_modules" />
     <handled-path value="$PROJECT_DIR$/react/dva/dva-project/node_modules" />
     <handled-path value="$PROJECT_DIR$/react/react-base/node_modules" />
     <handled-path value="$PROJECT_DIR$/vue/vuebase/node_modules" />
+    <handled-path value="$PROJECT_DIR$/webpack/react/day04/node_modules" />
     <handled-path value="$PROJECT_DIR$/文件上传与二进制/qiniu/js-sdk-master/node_modules" />
+    <handled-path value="$PROJECT_DIR$/服务器相关/commander/commander01/node_modules" />
     <handled-path value="$PROJECT_DIR$/服务器相关/cuilb_commander/node_modules" />
+    <handled-path value="$PROJECT_DIR$/服务器相关/egg-test/node_modules" />
+    <handled-path value="$PROJECT_DIR$/服务器相关/koa/koa-router/node_modules" />
+    <handled-path value="$PROJECT_DIR$/服务器相关/koa/koa_demo/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/babel/example/package.json" />
       <path value="$PROJECT_DIR$/js/语法/装饰器/package.json" />
+      <path value="$PROJECT_DIR$/miniProgrem/taroApp/package.json" />
       <path value="$PROJECT_DIR$/react/dva/dva-project/package.json" />
       <path value="$PROJECT_DIR$/react/react-base/package.json" />
       <path value="$PROJECT_DIR$/vue/vuebase/package.json" />
+      <path value="$PROJECT_DIR$/webpack/react/day04/package.json" />
       <path value="$PROJECT_DIR$/文件上传与二进制/qiniu/js-sdk-master/package.json" />
       <path value="$PROJECT_DIR$/文件上传与二进制/qiniu/js-sdk-master/test/demo2/package.json" />
+      <path value="$PROJECT_DIR$/服务器相关/commander/commander01/package.json" />
       <path value="$PROJECT_DIR$/服务器相关/cuilb_commander/package.json" />
+      <path value="$PROJECT_DIR$/服务器相关/egg-test/package.json" />
+      <path value="$PROJECT_DIR$/服务器相关/koa/koa-router/package.json" />
+      <path value="$PROJECT_DIR$/服务器相关/koa/koa_demo/package.json" />
+      <path value="$PROJECT_DIR$/服务器相关/koa/package.json" />
+      <path value="$PROJECT_DIR$/服务器相关/socket/websocket/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-code-frame/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-helper-call-delegate/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-helper-define-map/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-helper-function-name/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-helper-get-function-arity/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-helper-hoist-variables/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-helper-optimise-call-expression/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-helper-regex/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-helper-replace-supers/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-messages/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-check-es2015-constants/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-es2015-arrow-functions/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-es2015-block-scoped-functions/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-es2015-block-scoping/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-es2015-classes/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-es2015-computed-properties/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-es2015-destructuring/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-es2015-duplicate-keys/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-es2015-for-of/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-es2015-function-name/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-es2015-literals/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-es2015-modules-amd/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-es2015-modules-commonjs/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-es2015-modules-systemjs/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-es2015-modules-umd/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-es2015-object-super/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-es2015-parameters/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-es2015-shorthand-properties/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-es2015-spread/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-es2015-sticky-regex/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-es2015-template-literals/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-es2015-typeof-symbol/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-es2015-unicode-regex/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-regenerator/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-plugin-transform-strict-mode/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-preset-es2015/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-runtime/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-template/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-traverse/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babel-types/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/babylon/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/core-js/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/esutils/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/globals/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/has-ansi/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/invariant/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/js-tokens/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/jsesc/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/loose-envify/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/private/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/regenerate/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/regenerator-transform/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/regexpu-core/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/regjsgen/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/regjsparser/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/面试题/node_modules/to-fast-properties/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="15" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1386" />
     <option name="height" value="788" />
   </component>
@@ -341,17 +545,6 @@
               <item name="myBase" type="b2602c69:ProjectViewProjectNode" />
               <item name="myBase" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="myBase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myBase" type="462c0819:PsiDirectoryNode" />
-              <item name="服务器相关" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myBase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myBase" type="462c0819:PsiDirectoryNode" />
-              <item name="服务器相关" type="462c0819:PsiDirectoryNode" />
-              <item name="cuilb_commander" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -363,27 +556,30 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="笔记&#9;FILE&#9;file://E:/project/myBase/项目/笔记.txt" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.13.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../studentProject/fronted1/fronted" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.2.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\project\myBase\服务器相关\cuilb_commander" />
-      <recent name="E:\project\myBase\面试题" />
-      <recent name="E:\project\myBase\react\react-base\src\hoc" />
-      <recent name="E:\project\myBase\webpack" />
-      <recent name="E:\project\myBase\react\dva" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\myBase\webpack\react\day04" />
+      <recent name="E:\project\myBase\服务器相关\socket\websocket\bin" />
       <recent name="E:\project\myBase" />
       <recent name="E:\project\myBase\react\react-base\src\page\day0724\router" />
       <recent name="E:\project\myBase\react\react-base\src\page" />
-      <recent name="E:\project\myBase\react\react-base\src\store\redux" />
-      <recent name="E:\project\myBase\算法和数据结构\算法" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\myBase\webpack\react" />
+      <recent name="E:\project\myBase\算法和数据结构\数据结构" />
+      <recent name="E:\project\myBase\miniProgrem\taroApp\src\pages" />
+      <recent name="E:\project\myBase\miniProgrem\taroApp\src\pages\day0919" />
+      <recent name="E:\project\myBase\vue\tab" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -398,14 +594,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.index.js">
-    <configuration name="day03高级变量类型.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/myBase/python世界/day03高级变量类型/day03高级变量类型.html">
+  <component name="RunManager" selected="Node.js.封装一个jsonp.js">
+    <configuration name="合并table.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/myBase/面试题/合并table.html">
       <method v="2" />
     </configuration>
-    <configuration name="day04综合应用-名片管理系统.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/myBase/python世界/day04综合应用-名片管理系统/day04综合应用-名片管理系统.html">
+    <configuration name="高德-线路.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="高德-线路.js" working-dir="$PROJECT_DIR$/面试题">
       <method v="2" />
     </configuration>
-    <configuration name="随机生成不重复的数组.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="随机生成不重复的数组.js" working-dir="$PROJECT_DIR$/面试题">
+    <configuration name="Stack.test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="Stack.test.js" working-dir="$PROJECT_DIR$/算法和数据结构/数据结构/data-structures/stack/__test__">
+      <method v="2" />
+    </configuration>
+    <configuration name="手写深拷贝.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="手写深拷贝.js" working-dir="$PROJECT_DIR$/算法和数据结构">
+      <method v="2" />
+    </configuration>
+    <configuration name="统计字符串个数.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/面试题/统计字符串个数.js" working-dir="$PROJECT_DIR$/面试题">
+      <method v="2" />
+    </configuration>
+    <configuration name="设置对象的只读属性.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="设置对象的只读属性.js" working-dir="$PROJECT_DIR$/面试题">
+      <method v="2" />
+    </configuration>
+    <configuration name="变量提升.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="变量提升.js" working-dir="$PROJECT_DIR$/面试题">
+      <method v="2" />
+    </configuration>
+    <configuration name="改变数据结构.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="改变数据结构.js" working-dir="$PROJECT_DIR$/面试题">
+      <method v="2" />
+    </configuration>
+    <configuration name="对象解析.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="对象解析.js" working-dir="$PROJECT_DIR$/面试题">
+      <method v="2" />
+    </configuration>
+    <configuration name="非对称加密.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="非对称加密.js" working-dir="$PROJECT_DIR$/服务器相关/加密">
+      <method v="2" />
+    </configuration>
+    <configuration name="非对称加密.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="非对称加密.js" working-dir="$PROJECT_DIR$/服务器相关/加密">
       <method v="2" />
     </configuration>
     <configuration name="一行代码打乱数组.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="一行代码打乱数组.js" working-dir="$PROJECT_DIR$/面试题">
@@ -417,27 +637,37 @@
     <configuration name="变量提升.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="变量提升.js" working-dir="$PROJECT_DIR$/面试题">
       <method v="2" />
     </configuration>
-    <configuration name="变量提升.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="变量提升.js" working-dir="$PROJECT_DIR$/面试题">
+    <configuration name="闭包自执行.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/面试题/闭包自执行.js" working-dir="$PROJECT_DIR$/面试题">
       <method v="2" />
     </configuration>
-    <configuration name="手写深拷贝.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="手写深拷贝.js" working-dir="$PROJECT_DIR$/算法和数据结构">
+    <configuration name="封装一个jsonp.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="封装一个jsonp.js" working-dir="$PROJECT_DIR$/面试题">
       <method v="2" />
     </configuration>
-    <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/js/语法/装饰器">
+    <configuration name="test" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/服务器相关/commander/commander01/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.index.js" />
-      <item itemvalue="JavaScript Debug.day03高级变量类型.html" />
-      <item itemvalue="JavaScript Debug.day04综合应用-名片管理系统.html" />
-      <item itemvalue="Node.js.随机生成不重复的数组.js" />
+      <item itemvalue="Node.js.手写深拷贝.js" />
+      <item itemvalue="Node.js.高德-线路.js" />
+      <item itemvalue="JavaScript Debug.合并table.html" />
+      <item itemvalue="Node.js.Stack.test.js" />
+      <item itemvalue="npm.test" />
+      <item itemvalue="Node.js.封装一个jsonp.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.随机生成不重复的数组.js" />
-        <item itemvalue="JavaScript Debug.day04综合应用-名片管理系统.html" />
-        <item itemvalue="JavaScript Debug.day03高级变量类型.html" />
-        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.封装一个jsonp.js" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="Node.js.Stack.test.js" />
+        <item itemvalue="JavaScript Debug.合并table.html" />
+        <item itemvalue="Node.js.高德-线路.js" />
       </list>
     </recent_temporary>
   </component>
@@ -492,12 +722,37 @@
       <workItem from="1566478968738" duration="10897000" />
       <workItem from="1566781174642" duration="8422000" />
       <workItem from="1566890953515" duration="26293000" />
-      <workItem from="1567206687751" duration="7520000" />
+      <workItem from="1567206687751" duration="9867000" />
+      <workItem from="1567249555495" duration="939000" />
+      <workItem from="1567345562669" duration="8760000" />
+      <workItem from="1567425890991" duration="32000" />
+      <workItem from="1567471285699" duration="11834000" />
+      <workItem from="1567560366346" duration="6810000" />
+      <workItem from="1567643511981" duration="7484000" />
+      <workItem from="1567668675673" duration="9504000" />
+      <workItem from="1567816347949" duration="9026000" />
+      <workItem from="1567991981373" duration="6568000" />
+      <workItem from="1568075559671" duration="17003000" />
+      <workItem from="1568509414732" duration="5913000" />
+      <workItem from="1568554378390" duration="650000" />
+      <workItem from="1568688421390" duration="15234000" />
+      <workItem from="1568853511752" duration="10909000" />
+      <workItem from="1568904428700" duration="37387000" />
+      <workItem from="1569372291575" duration="5359000" />
+      <workItem from="1569460129747" duration="1092000" />
+      <workItem from="1569467714892" duration="7564000" />
+      <workItem from="1569545721144" duration="22370000" />
+      <workItem from="1569671825713" duration="2895000" />
+      <workItem from="1569716384243" duration="1162000" />
+      <workItem from="1569724222740" duration="6771000" />
+      <workItem from="1569742423847" duration="1588000" />
+      <workItem from="1569806607109" duration="3688000" />
+      <workItem from="1570584236456" duration="17425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="412739000" />
+    <option name="totallyTimeSpent" value="633053000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -509,14 +764,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18824404" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25074404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36885247" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16885246" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -525,7 +781,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.5409836" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49776787" weight="0.42459017" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49776787" weight="0.50491804" />
+      <window_info anchor="bottom" id="REST Client" order="12" weight="0.7819672" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -536,6 +793,19 @@
     <option name="exactExcludedFiles">
       <list>
         <option value="$PROJECT_DIR$/../classCode/1612A/mytsvue/ts/demo1.js" />
+        <option value="$PROJECT_DIR$/../classCode/1612A/mytsvue3/a.js" />
+        <option value="$PROJECT_DIR$/../classCode/1702A/day03/hello.js" />
+        <option value="$PROJECT_DIR$/../classCode/1702A/day03/hello/tests/unit/example.spec.js.map" />
+        <option value="$PROJECT_DIR$/../classCode/1702A/day03/hello/tests/unit/example.spec.js" />
+        <option value="$PROJECT_DIR$/../classCode/1702A/day03/hello/src/registerServiceWorker.js" />
+        <option value="$PROJECT_DIR$/../classCode/1702A/day03/hello/src/main.js" />
+        <option value="$PROJECT_DIR$/../classCode/1702A/day03/hello/src/store.js" />
+        <option value="$PROJECT_DIR$/../classCode/1702A/day03/hello/src/router.js.map" />
+        <option value="$PROJECT_DIR$/../classCode/1702A/day03/hello/src/main.js.map" />
+        <option value="$PROJECT_DIR$/../classCode/1702A/day03/hello/src/store.js.map" />
+        <option value="$PROJECT_DIR$/../classCode/1702A/day03/hello/src/registerServiceWorker.js.map" />
+        <option value="$PROJECT_DIR$/../classCode/1702A/day03/hello/src/router.js" />
+        <option value="$PROJECT_DIR$/../classCode/1702A/day03/typescript/hello.js" />
       </list>
     </option>
   </component>
@@ -544,6 +814,16 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>obj</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>obj[char]</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>result</expression-string>
         <language-id>JavaScript</language-id>
@@ -557,383 +837,302 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/英文相关资料/nodejs常用单词.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/英文相关资料/HTM+CSSL单词汇总.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/面试题/同时发起多条请求，可捕捉不同的结果.js">
+    <entry file="file://$PROJECT_DIR$/服务器相关/cuilb_commander/app_cli">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state relative-caret-position="1166">
+          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/面试题/查找字符串中出现次数最多的字符.js">
+    <entry file="file://$PROJECT_DIR$/服务器相关/cuilb_commander/app1">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        <state>
+          <caret selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/面试题/八维前端面试题.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/面试题/八维前端面试题-答案.js">
+    <entry file="file://$PROJECT_DIR$/服务器相关/cuilb_commander/app">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/英文相关资料/React.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="264">
-            <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/文件上传与二进制/进制转换/getStr2.js">
+    <entry file="file://$PROJECT_DIR$/面试题/parseInt.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="572">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/英文相关资料/vue单词汇总.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2596">
-            <caret line="118" selection-start-line="118" selection-end-line="118" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/面试题/二维数组阵列转换.js">
+    <entry file="file://$PROJECT_DIR$/项目/笔记.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="12694">
+          <caret line="577" selection-start-line="577" selection-end-line="577" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/面试题/利用promise封装一个，根据url加载js文件的通用函数.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法和数据结构/算法/es5实现map.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法和数据结构/算法/手写深拷贝.js">
+    <entry file="file://$PROJECT_DIR$/vue/vuebase/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/react-base/config/env.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/react-base/config/webpackDevServer.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/react-base/config/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="131" column="53" selection-start-line="131" selection-start-column="43" selection-end-line="131" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/react-base/config/modules.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/react-base/config/paths.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="75" column="2" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/react-base/scripts/start.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="106" column="19" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="19" />
+        <state relative-caret-position="132">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/react/react-base/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2149" />
+        <state relative-caret-position="360">
+          <caret line="147" column="5" selection-start-line="147" selection-start-column="5" selection-end-line="147" selection-end-column="5" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/src/components/bao-tabs/BaoTabPane.vue">
+    <entry file="file://$PROJECT_DIR$/面试题/对象解析.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试题/改变数据结构.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
+        <state relative-caret-position="-3381" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/src/components/bao-tabs/BaoTabs.vue">
+    <entry file="file://$PROJECT_DIR$/面试题/设置对象的只读属性.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试题/设计一个随机数组，并去重.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
-          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
-        </state>
+        <state relative-caret-position="-301" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/src/packages/toast/index.js">
+    <entry file="file://$PROJECT_DIR$/面试题/闭包自执行.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试题/随机生成不重复的数组.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/正则表达式/字符串匹配数字.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/正则表达式/通配符.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试题/八维前端面试题.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试题/二维数组阵列转换.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试题/二分查找.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="62" column="34" lean-forward="true" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
+        <state relative-caret-position="22">
+          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/spa/server.js">
+    <entry file="file://$PROJECT_DIR$/面试题/一行代码打乱数组.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试题/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="1056">
+          <caret line="48" column="40" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/spa/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="19" selection-start-column="19" selection-end-column="19" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/spa/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/react-base/src/hoc/autorization.jsx">
+    <entry file="file://$PROJECT_DIR$/面试题/compiled.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vuebase/build/webpack.base.conf.js">
+    <entry file="file://$PROJECT_DIR$/webpack/react/day04/dist/bundle51117d7854d2904d0b3b.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react/react-base/src/hoc/Cover.jsx">
+    <entry file="file://$PROJECT_DIR$/webpack/react/day04/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/react/day04/dist/bundlec7ac01f1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+        <state relative-caret-position="-264">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/笔记.txt">
+    <entry file="file://$PROJECT_DIR$/webpack/react/day04/src/a.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/react/day04/dist/bundle4f5e987a.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/react/day04/src/b.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/react/day04/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/react/day04/dist/bundlefc510d6c.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/react/day04/src/a.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/前端性能优化/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="176">
-            <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/面试题/项目模拟面试.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/项目/笔记.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9614">
-          <caret line="437" column="6" lean-forward="true" selection-start-line="437" selection-start-column="6" selection-end-line="437" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/hook/hook笔记.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="132">
-            <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="24" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/笔记.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23606">
-          <caret line="1073" selection-start-line="1073" selection-end-line="1073" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/面试题/一行代码打乱数组.js">
+    <entry file="file://$PROJECT_DIR$/webpack/react/day04/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/面试题/设计一个随机数组，并去重.js">
+    <entry file="file://$PROJECT_DIR$/webpack/react/day04/src/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        <state relative-caret-position="88">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/面试题/二分查找.js">
+    <entry file="file://$PROJECT_DIR$/webpack/react/day04/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="308">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/语法/类型/类型判断.js">
+    <entry file="file://$PROJECT_DIR$/webpack/react/day04/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="1">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/面试题/模拟链式调用/index.html">
+    <entry file="file://$PROJECT_DIR$/webpack/react/day04/babel.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/服务器相关/koa/init/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-389" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/服务器相关/koa/init/routes/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/面试题/模拟链式调用/index.js">
+    <entry file="file://$PROJECT_DIR$/服务器相关/koa/init/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/服务器相关/koa/init/bin/www">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1452">
-          <caret line="66" column="92" selection-start-line="66" selection-start-column="92" selection-end-line="66" selection-end-column="92" />
+        <state relative-caret-position="-198" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/服务器相关/koa/init/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/react/day04/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/服务器相关/npm命令行/node_modules/commander/typings/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3894">
-          <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/服务器相关/npm命令行/node_modules/chalk/types/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/服务器相关/npm命令行/package.json">
+    <entry file="file://$PROJECT_DIR$/面试题/利用promise封装一个，根据url加载js文件的通用函数.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
+          <caret selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/服务器相关/npm命令行/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/面试题/随机生成不重复的数组.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/服务器相关/cuilb_commander/app1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/服务器相关/cuilb_commander/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/服务器相关/cuilb_commander/app_cli">
+    <entry file="file://$PROJECT_DIR$/js/异步编程/promise.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/服务器相关/cuilb_commander/app_cli.js">
+    <entry file="file://$PROJECT_DIR$/js/异步编程/asyncJs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="82" selection-start-line="82" selection-end-line="89" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state>
+          <caret column="19" selection-start-column="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/服务器相关/cuilb_commander/app">
+    <entry file="file://$PROJECT_DIR$/js/异步编程/imgPromise.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-475">
-          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+        <state relative-caret-position="73">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/服务器相关/koa/koa_demo/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/服务器相关/koa/koa_demo/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/服务器相关/koa/koa_demo/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/服务器相关/koa/koa_demo/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/笔记1702A.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/笔记1612A.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="1321" selection-start-line="1321" selection-end-line="1321" />
         </state>
       </provider>
     </entry>

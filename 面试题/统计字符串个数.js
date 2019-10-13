@@ -12,16 +12,8 @@ function getChar(str) {
         obj[char] = obj[char] || 0; // 保证初始值为0
         obj[char]++ // 次数加1
     }
-    console.log(obj);  // {a: 2, b: 3, c: 4, d: 2}
-    let maxChar; // 存储字母
-    let maxNum = 0; // maxChar字母对应的次数
-    for (let key in obj) { // 遍历obj
-        if (obj[key] > maxNum) {
-            maxChar = key; // 比较后存储次数多的字母
-            maxNum = obj[key] // 以及它对应的次数
-        }
-    }
-    return [maxChar, maxNum]
+
+   return obj
 }
 
 let str = 'aabbbccccdd';

@@ -1,11 +1,50 @@
-console.log(["1", "2", "3"].map(parseInt));
-var a = 10;
-(function () {
-    console.log(a);
-    a = 5;
-    console.log(window.a);
-    var a = 20;
-    console.log(a);
-})();
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    // console.log(["1", "2", "3"].map(parseInt));
+    // var a = 10;
+    // (function () {
+    //     console.log(a);
+    //     a = 5;
+    //     console.log(window.a);
+    //     var a = 20;
+    //     console.log(a);
+    // })();
 
 
+    function myCallback(data) {
+      console.log(data)
+    }
+      if (typeof data === 'string') {
+        callback = data;
+        data = {}
+      }
+      var hasParams = url.indexOf('?');
+      url += hasParams ? '&' : '?' + 'callback=' + callback;
+      var params;
+      for (var i in data) {
+        params += '&' + i + '=' + data[i];
+      }
+      url += params;
+
+      var script = document.createElement('script');
+      script.setAttribute('src', url);
+      document.querySelector('head').appendChild(script)
+
+    }
+
+    jsonp('http://cdnbbbd.shoujiduoduo.com/bb/book/20002215/20002215_s.jpg', {}, 'myCallback');
+
+
+</script>
+
+</body>
+</html>

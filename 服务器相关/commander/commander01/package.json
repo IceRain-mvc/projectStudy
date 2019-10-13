@@ -1,0 +1,14 @@
+{
+  "name": "clb-commander-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "broad.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "'cuilibao' <'cuilibao123@gamil.com'>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^3.0.1"
+  }
+}

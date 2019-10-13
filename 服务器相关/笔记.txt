@@ -9,17 +9,13 @@
   /login   post  参数{name,密码(加密)}   返回结果{code:200,msg:"success",token:""}
   /register post
 2:首页
-
-
-
-
 egg
 
     1:下载
     npm i egg-init -g
     2:egg-init 项目名字 --type=simple
     3:cd 项目 && npm i
-
+i
     怎么配置环境
     怎么调试egg
     怎么划分controller

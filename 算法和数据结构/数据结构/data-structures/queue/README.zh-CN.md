@@ -9,7 +9,3 @@
 
 ![Queue](https://upload.wikimedia.org/wikipedia/commons/5/52/Data_Queue.svg)
 
-## 参考
-
-- [Wikipedia](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
-- [YouTube](https://www.youtube.com/watch?v=wjI1WNcIntg&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8&index=3&)

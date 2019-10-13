@@ -50,7 +50,7 @@ describe('Stack', () => {
     expect(stack.isEmpty()).toBe(true);
   });
 
-  it('should be possible to push/pop objects', () => {
+  it('对象', () => {
     const stack = new Stack();
 
     stack.push({ value: 'test1', key: 'key1' });
@@ -63,7 +63,7 @@ describe('Stack', () => {
     expect(stack.pop().value).toBe('test1');
   });
 
-  it('should be possible to convert stack to array', () => {
+  it('转换数组', () => {
     const stack = new Stack();
 
     expect(stack.peek()).toBeNull();
