@@ -15,8 +15,9 @@ class Home extends Component {
                         <Route path="/video" component={Video}/>
                         <Route path="/audio" component={Audio}/>
                         <Route path="/info" component={Info}/>
+                        <Route path="/day1011" component={Day1011}/>
 
-                        <Redirect to="/video"/>
+                        <Redirect to="/day1011"/>
                     </Switch>
                 </Router>
             </Provider>
