@@ -41,16 +41,6 @@ function cloneDeep(target) {
     return result;
 }
 
-Object.cloneDeep = cloneDeep;
-
-let obj1 = {a: {b: {c: []}}};
-let newObj = Object.cloneDeep(obj1);
-
-console.log(obj1);
-console.log(newObj);
-
-
-console.log(obj1.a.b.c === newObj.a.b.c);
 
 //
 //

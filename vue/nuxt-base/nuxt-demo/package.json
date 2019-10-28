@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-demo",
+  "version": "1.0.0",
+  "description": "My epic Nuxt.js project",
+  "author": "cuilibao",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.4.11",
+    "koa": "^2.6.2",
+    "nuxt": "^2.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}

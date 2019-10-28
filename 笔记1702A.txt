@@ -33,7 +33,6 @@
             匈牙利命名法
 
 
-1:html
     html 4
     html 5
      标签 语义化
@@ -160,15 +159,97 @@ A:组长:
   1:项目 整体
   2:vue  框架  +  规范  +  网络请求  方法  get  post  常见处理util 图片压缩 + 授权  + 日期格式的处理 +
 
+1702A
+    1:vuex
+    2:vue 相关知识点
+      vue 2.0 vue3.0 区别
+      vue组件化开发
+      ts
+      nuxt中封装 axios
+    3:响应式
 
-好的一点:  知识面广
+    项目二
+    1:微信公众号开发
+    2:移动端适配
+    3:dva
+    4:
+1704E
+    1:auth授权
+    2:权限管理
+    3:egg
+    4:koa权限
 
-缺点:
+1:nuxt
+    1)服务端
+      渲染: webpack html  script src="打包好.js"
 
-1: 说的太少
-2: 被他牵着走
-3: 口头语太多
-4: 语气不太坚定
+      百度  / ..搜索到  SEO
+
+      爬虫
+
+Vuex
+state : 数据
+mutations:唯一改变state  同步
+{
+    方法(){
+        //改变state
+    }
+}
+
+actions:异步  网络请求 结果-->mutations -->state
+
+getters:筛选数据
+modules:模块化 namespace
+
+数据管理
+  全局:index.js
+    user
+    配置 400  width
+
+  局部:别的文件
+    一页页面
+
+性能方面
+  1:页面 响应时间缩短
+  2:代码体积缩小
+  3:项目 亮点  3个亮点  3个坑
+    element ui 列表 卡顿 :
+      1:transform
+      2:别的框架 iView 虚拟渲染 [[],[],[]]
+      3:clusterize 库
+    时间
+
+    SEO搜索引擎
+        原理:页面 SSR处理 服务端渲染
+        怎么做的 : vue  nuxt  react:next
+    爬虫:
+
+  1:vue和react
+  2:vue 生态
+    1:开发社区 官网  overflowStrack
+    2:
+    3:vue全家桶
+    vue
+      插槽:对话框
+        1: 文字
+        2: 列表
+        3: 输入框
+
+    框架
+      UI:
+        elementUI : PC  栅格系统 : 媒体查询
+        iView
+        vant : 移动端
+        mint : 移动
+      路由:
+        vue-router
+        Page.js
+        Director
+      数据管理
+        vuex
+        react : redux
+    版本
+      vue 3 大致成型  proxy --> this.$set()  更新数组
 
 
 
@@ -176,6 +257,314 @@ A:组长:
 
 
 
+
+      Vue.component("组件名字",组件) 全局注册组件
+      import component{} 局部
+
+
+
+
+
+    react
+
+
+vue:
+
+   js  栈内存  : 基本类型  number  string  boolean  undefined
+       堆内存  : 引用  Object:[1,2,3]  , function , {}  , Date, 正则 , null
+
+vue组件:
+   1: Vue的组件熟悉么?
+      熟悉
+        写过
+          怎么写的
+
+             Tab切换
+
+                Toast
+                 ...
+
+      1:项目 用到
+        1)生命周期
+        2)data(){return{}}
+        3)computed(){方法(){返回值}}   {{方法}}
+        4)filter: 筛选   {""|方法}
+        5)watch(){}//监听数据变化  自组件更新  父组件 路由
+        6)inject  provider
+        7)components:{}
+   2: 组件调用 怎么调用
+
+      import 组件  from "路径"
+      components{}
+
+      Vue.component("demo",组件)
+
+      Header
+
+      <demo />
+
+      Vue.use({install:function(Vue,options){}})
+
+
+      this.$message("信息",配置项);
+
+
+      Vue.prototype.$xxx =
+
+
+   Vue.use({install:(Vue,options)=>{}})
+       动态
+
+js
+   作用域
+   闭包  this指向  闭包缺点 闭包的用途
+   继承  5种 类继承  构造函数继承 组合式继承 构造组合式继承 extends
+   原型 和 原型链
+   1:原型和原型链的区别
+    prototype : 属于对象本身的方法 toString()
+    __proto__ : toString
+
+    let arr = [];
+    let date = new Date()
+    let fun = ()=>{}
+    let a = "";
+    let num = 12
+
+    //valueOf()
+
+
+   2:项目 业务逻辑 原型
+    Vue.prototype.$aaa  =()=>{}
+
+    //整个项目 随机打乱数组
+    let arr = [1,2,3,4,5,6,7]
+
+    //深拷贝
+2019年10月21日 星期一 天气晴
+    上线标准:
+
+    1:大 20-30 中 100-500 3个小组 20-30   小 10-100 60%
+
+    研发部   3个产品 7
+      20人
+
+      后台 6-7
+      美工 1-2
+      测试 3个 小妹
+      移动端
+        android 1-2
+        ios 1
+      前端 2
+      产品 出图 出需求 2 3
+      项目经理 1 1个月
+      架构师 : 1
+        1:技术选型 SSM  SSH spring   vue  react  小程序 angular
+        2:框架的搭建 依赖  前端  发包
+        3:单独 小黑屋
+
+      流程
+        产品 :
+          需求:
+          原型图: 大致了解
+
+        美工 UI设计师
+          原型图 -->UI设计图
+
+        前端  后台:java 80%  php15% go python Ruby .net c#  移动端 : AS(android studio 死丢丢):javaEE  XCODE(ios):ObjectC switch
+
+        微信小程序
+        微信公众号 vue: 移动端
+        react-native :ios  android 4G运行+4G+SSD 固态硬盘 400
+        flutter : android  ios
+        后台 egg
+
+        提测:
+          100个
+          1级bug:崩溃  2级bug:点之后没反应 兼容 3级bug
+
+          平台:1:蓝湖  2:禅道  3:明道
+
+        上线 :
+          服务器:
+            1:买 2000-20000
+            2:租 阿里云 腾讯云  亚马逊云  google云
+            3:免费试用 15天 1G  50G硬盘 1核  1:Linux 2:Windows
+        上线: 项目经理
+
+    服务器:
+      1:node  环境变量
+      2:数据库  mysql/  phpStudy
+      3:数据库管理 navcat
+      4:浏览器 chrome
+      5:egg
+      6:打包  html  css  js
+      7:代码预览工具 notepad++ / editer
+      8:图片预览工具
+      9:压缩工具
+
+    测试
+      1->7->6>5>4>3>2>1
+    地址:
+
+vue
+
+react
+    1:调试 : 真机 : 兼容 android  ios
+    2:线上调试: 出现问题  线上调试
+    3:支付宝  微信
+    4:Oauth鉴权 : 第三方登录
+      1:快
+      2:安全
+      3:github 授权  用户的信息
+
+
+      结婚:
+      1.github登记       1:民政局
+        Client ID      09dd4dea5e1c7be0e594
+        Client Secret  97a947073cccade9ac6cf36f7afbfc4b4eb1b262
+
+      2.前端和后台        2:房子
+        egg:
+        html:
+      3.按钮 跳转github     3:结婚
+      4.返回code     4:交换戒指
+        code:获取token
+      5.token     5:洞房花烛夜
+      6.headers     6:开花结果
+
+    5:dva : react的封装  仓库  redux 中间 saga
+
+第二个项目
+  react
+  vue
+    1:架构
+        MVVM:Object.definePrototype  set  get  data
+        diff算法:虚拟don->真实dom 数据的diff  dom的diff算法
+
+        Vue.set()
+
+    2:使用
+        vue:data()  单项数据流  双向数据绑定  v-model
+        react:state  props  this.setState({}) //代理  Proxy
+    3:生态
+        vue的生态:
+          vueX 数据管理
+          vue-router 路由
+          axios  数据 /  fetch+promise
+          sass  less
+          webpack
+          element-ui
+          iView
+          vant
+          vue3.0 :
+
+        react:   历史悠久
+          redux
+              react-logger
+              react-thunk
+              react-saga
+          hooks:
+            函数
+                state
+                生命周期
+            类
+                state
+                props
+          react-router-dom / Router
+          antd:PC
+          移动端UI库
+            antd-mobile :
+            Material-UI : android 5.0  google
+            Semantic-UI-React
+            Onsen UI
+          调试:
+            手机
+            1: 0.0.0.0 2:手机 电脑 局域网 电脑:端口
+
+        10 : 8家  2家
+             angular
+
+        jQ :
+
+        小程序
+
+        react-native
+        weex:阿帕奇
+
+
+  前端 + 后台
+
+    项目背景
+    管理员
+        动态
+    普通人
+        动态
+
+    react  dva  路由+中间件+redux+axios
+    封装 axios 第三方登录 github登录 用户名 头像
+    UI:antd-mobile
+    hooks : 2个hooks
+    调试: 真机
+
+    磨砂效果:
+
+    egg:
+
+dva
+
+
+hooks:
+
+
+js 点击机制
+
+    onclick
+    事件
+
+
+
+1:说话 思考
+  不会 先思考
+  会  多几种回答
+
+2:穿衣风格
+
+js
+    闭包
+    事件
+    机制
+      同步
+      异步
+        宏任务
+            setTimeout
+            ...
+        微任务
+            new Promise()
+    原型
+    原型链
+    继承: 几种方式?  5种
+      构造函数继承
+
+RESTful 风格
+    1:请求方式 get  post  delete  put ...
+    2:请求路由 静态 动态
+    3:处理请求参数
+    4:json  xml :
+      js : 对象或者数组  json{[]}
+
+    接口规范
+
+//方法  --- 请求
+
+
+Method	Path	Route Name	Controller.Action
+GET	/posts	posts	app.controllers.posts.index
+GET	/posts/new	new_post	app.controllers.posts.new
+GET	/posts/:id	post	app.controllers.posts.show
+GET	/posts/:id/edit	edit_post	app.controllers.posts.edit
+POST	/posts	posts	app.controllers.posts.create
+PUT	/posts/:id	post	app.controllers.posts.update
+DELETE	/posts/:id	post	app.controllers.posts.destroy
 
 
 

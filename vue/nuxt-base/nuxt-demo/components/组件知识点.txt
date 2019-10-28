@@ -1,0 +1,23 @@
+
+知识点一:
+  Vue.use(对象,{})  // 这个对象中要包含一个install方法  {install:function(Vue,{}){}}
+知识点二:
+  Vue.prototype.$xxx  //在vue原型上添加一个属性或方法 this.$xxx/this.$xxx()
+
+知识点三
+  Vue.extend(组件) // 这个方法是 Vue上的扩展
+     该方法返回一个Vue的组件构造器
+     let VueContructor = Vue.extend(组件)
+     new VueContructor() : 返回的是组件实例
+知识点四:
+   接着上一步
+   let vueComponent = new VueContructor();
+   vueComponent 是vue组件实例  可以调用vue中所有的属性和方法
+   vueComponent.$mount():将组件挂载到 把
+
+ 知识点
+
+
+
+
+

@@ -3,7 +3,7 @@
 const routes = [
   {
     path:"/",
-    redirect:"/myview"
+    redirect:"/test"
   },
   {
     path: '/songdetail',
@@ -40,6 +40,13 @@ const routes = [
     path: '/myview',
     name: 'MYVIEW',
     component: () => import("../page/MyViewTest.vue"),
+    meta: {
+      auth: false
+    }
+  },  {
+    path: '/test',
+    name: 'Test',
+    component: () => import("../page/Test.vue"),
     meta: {
       auth: false
     }

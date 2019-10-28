@@ -27,6 +27,11 @@
 
   export default {
     name: "Home",
+    data () {
+      return {
+        //闭包
+      }
+    },
     computed: {
       /*
       * 映射数据

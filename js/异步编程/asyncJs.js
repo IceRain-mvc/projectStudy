@@ -6,11 +6,10 @@ function loadJsFile(url) {
       script.async = 'async';
       document.body.appendChild(script);
       script.onload = function () {
-        reslove();
+        reslove("成功");
       }
-
     } catch (e) {
-      reject();
+      reject(e);
     }
   })
 }

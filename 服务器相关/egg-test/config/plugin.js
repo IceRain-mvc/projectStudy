@@ -7,3 +7,7 @@ module.exports = {
   //   enable: true,
   // }
 };
+//
+// exports.security = {
+//   csrf: false
+// };

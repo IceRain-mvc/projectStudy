@@ -60,6 +60,7 @@
     "resolve": "1.10.0",
     "sass-loader": "7.1.0",
     "semver": "6.0.0",
+    "socket.io-client": "^2.3.0",
     "style-loader": "0.23.1",
     "terser-webpack-plugin": "1.2.3",
     "ts-pnp": "1.1.2",
@@ -147,5 +148,5 @@
       ]
     ]
   },
-  "proxy": "http://127.0.0.1:7001"
+  "proxy": "https://github.com/"
 }

@@ -1,11 +1,17 @@
 function* add() {
     yield "addadd";
     console.log("add");
+    yield "aaa"
+
     return "ending";
 }
-let message = add().next();
-console.log(message);
-console.log(message);
+let a = add();
+console.log(a.next());
+// console.log(a.next())
+
+// let message = add().next();
+// console.log(message);
+// console.log(message);
 
 /*
 * 访问器属性

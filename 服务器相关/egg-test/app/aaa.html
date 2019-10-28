@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        /* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript&plugins=line-highlight+line-numbers+toolbar+show-language */
+        /**
+         * prism.js default theme for JavaScript, CSS and HTML
+         * Based on dabblet (http://dabblet.com)
+         * @author Lea Verou
+         */
+        code[class*="language-"],
+        pre[class*="language-"] {
+            color: black;
+            background: none;
+            text-shadow: 0 1px white;
+            font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+            text-align: left;
+            white-space: pre;
+            word-spacing: normal;
+            word-break: normal;
+            word-wrap: normal;
+            line-height: 1.5;
+            -moz-tab-size: 4;
+            -o-tab-size: 4;
+            tab-size: 4;
+            -webkit-hyphens: none;
+            -moz-hyphens: none;
+            -ms-hyphens: none;
+            hyphens: none;
+        }
+        pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+        code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+            text-shadow: none;
+            background: #98d8b7;
+        }
+        pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+        code[class*="language-"]::selection, code[class*="language-"] ::selection {
+            text-shadow: none;
+            background: #98d8b7;
+        }
+        @media print {
+            code[class*="language-"],
+            pre[class*="language-"] {
+                text-shadow: none;
+            }
+        }
+        /* Code blocks */
+        pre[class*="language-"] {
+            padding: 1em;
+            margin: .5em 0;
+            overflow: auto;
+        }
+        :not(pre) > code[class*="language-"],
+        pre[class*="language-"] {
+            background: #f5f2f0;
+        }
+        /* Inline code */
+        :not(pre) > code[class*="language-"] {
+            padding: .1em;
+            border-radius: .3em;
+            white-space: normal;
+        }
+        .token.comment,
+        .token.prolog,
+        .token.doctype,
+        .token.cdata {
+            color: slategray;
+        }
+        .token.punctuation {
+            color: #999;
+        }
+        .namespace {
+            opacity: .7;
+        }
+        .token.property,
+        .token.tag,
+        .token.boolean,
+        .token.number,
+        .token.constant,
+        .token.symbol,
+        .token.deleted {
+            color: #905;
+        }
+        .token.selector,
+        .token.attr-name,
+        .token.string,
+        .token.char,
+        .token.builtin,
+        .token.inserted {
+            color: #690;
+        }
+        .token.operator,
+        .token.entity,
+        .token.url,
+        .language-css .token.string,
+        .style .token.string {
+            color: #a67f59;
+            background: hsla(0, 0%, 100%, .5);
+        }
+        .token.atrule,
+        .token.attr-value,
+        .token.keyword {
+            color: #07a;
+        }
+        .token.function {
+            color: #DD4A68;
+        }
+        .token.regex,
+        .token.important,
+        .token.variable {
+            color: #e90;
+        }
+        .token.important,
+        .token.bold {
+            font-weight: bold;
+        }
+        .token.italic {
+            font-style: italic;
+        }
+        .token.entity {
+            cursor: help;
+        }
+        pre[data-line] {
+            position: relative;
+            padding: 1em 0 1em 3em;
+        }
+        .line-highlight {
+            position: absolute;
+            left: 0;
+            right: 0;
+            padding: inherit 0;
+            margin-top: 1em; /* Same as .prism’s padding-top */
+            background: hsla(24, 20%, 50%,.08);
+            background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+            pointer-events: none;
+            line-height: inherit;
+            white-space: pre;
+        }
+        .line-highlight:before,
+        .line-highlight[data-end]:after {
+            content: attr(data-start);
+            position: absolute;
+            top: .4em;
+            left: .6em;
+            min-width: 1em;
+            padding: 0 .5em;
+            background-color: hsla(24, 20%, 50%,.4);
+            color: hsl(24, 20%, 95%);
+            font: bold 65%/1.5 sans-serif;
+            text-align: center;
+            vertical-align: .3em;
+            border-radius: 999px;
+            text-shadow: none;
+            box-shadow: 0 1px white;
+        }
+        .line-highlight[data-end]:after {
+            content: attr(data-end);
+            top: auto;
+            bottom: .4em;
+        }
+        pre.line-numbers {
+            position: relative;
+            padding-left: 3.8em;
+            counter-reset: linenumber;
+        }
+        pre.line-numbers > code {
+            position: relative;
+        }
+        .line-numbers .line-numbers-rows {
+            position: absolute;
+            pointer-events: none;
+            top: 0;
+            font-size: 100%;
+            left: -3.8em;
+            width: 3em; /* works for line-numbers below 1000 lines */
+            letter-spacing: -1px;
+            border-right: 1px solid #999;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        .line-numbers-rows > span {
+            pointer-events: none;
+            display: block;
+            counter-increment: linenumber;
+        }
+        .line-numbers-rows > span:before {
+            content: counter(linenumber);
+            color: #999;
+            display: block;
+            padding-right: 0.8em;
+            text-align: right;
+        }
+        pre.code-toolbar {
+            position: relative;
+        }
+        pre.code-toolbar > .toolbar {
+            position: absolute;
+            top: .3em;
+            right: .2em;
+            transition: opacity 0.3s ease-in-out;
+            opacity: 0;
+        }
+        pre.code-toolbar:hover > .toolbar {
+            opacity: 1;
+        }
+        pre.code-toolbar > .toolbar .toolbar-item {
+            display: inline-block;
+        }
+        pre.code-toolbar > .toolbar a {
+            cursor: pointer;
+        }
+        pre.code-toolbar > .toolbar button {
+            background: none;
+            border: 0;
+            color: inherit;
+            font: inherit;
+            line-height: normal;
+            overflow: visible;
+            padding: 0;
+            -webkit-user-select: none; /* for button */
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+        pre.code-toolbar > .toolbar a,
+        pre.code-toolbar > .toolbar button,
+        pre.code-toolbar > .toolbar span {
+            color: #bbb;
+            font-size: .8em;
+            padding: 0 .5em;
+            background: #f5f2f0;
+            background: rgba(224, 224, 224, 0.2);
+            box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+            border-radius: .5em;
+        }
+        pre.code-toolbar > .toolbar a:hover,
+        pre.code-toolbar > .toolbar a:focus,
+        pre.code-toolbar > .toolbar button:hover,
+        pre.code-toolbar > .toolbar button:focus,
+        pre.code-toolbar > .toolbar span:hover,
+        pre.code-toolbar > .toolbar span:focus {
+            color: inherit;
+            text-decoration: none;
+        }
+    </style>
+
+    <style>
+        @keyframes hover-color {
+            from {
+                border-color: #c0c0c0; }
+            to {
+                border-color: #53b783; } }
+        .magic-radio,
+        .magic-checkbox {
+            position: absolute;
+            display: none; }
+        .magic-radio[disabled],
+        .magic-checkbox[disabled] {
+            cursor: not-allowed; }
+        .magic-radio + label,
+        .magic-checkbox + label {
+            position: relative;
+            display: block;
+            padding-left: 30px;
+            cursor: pointer;
+            vertical-align: middle; }
+        .magic-radio + label:hover:before,
+        .magic-checkbox + label:hover:before {
+            animation-duration: 0.4s;
+            animation-fill-mode: both;
+            animation-name: hover-color; }
+        .magic-radio + label:before,
+        .magic-checkbox + label:before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            content: '';
+            border: 1px solid #c0c0c0; }
+        .magic-radio + label:after,
+        .magic-checkbox + label:after {
+            position: absolute;
+            display: none;
+            content: ''; }
+        .magic-radio[disabled] + label,
+        .magic-checkbox[disabled] + label {
+            cursor: not-allowed;
+            color: #e4e4e4; }
+        .magic-radio[disabled] + label:hover, .magic-radio[disabled] + label:before, .magic-radio[disabled] + label:after,
+        .magic-checkbox[disabled] + label:hover,
+        .magic-checkbox[disabled] + label:before,
+        .magic-checkbox[disabled] + label:after {
+            cursor: not-allowed; }
+        .magic-radio[disabled] + label:hover:before,
+        .magic-checkbox[disabled] + label:hover:before {
+            border: 1px solid #e4e4e4;
+            animation-name: none; }
+        .magic-radio[disabled] + label:before,
+        .magic-checkbox[disabled] + label:before {
+            border-color: #e4e4e4; }
+        .magic-radio:checked + label:before,
+        .magic-checkbox:checked + label:before {
+            animation-name: none; }
+        .magic-radio:checked + label:after,
+        .magic-checkbox:checked + label:after {
+            display: block; }
+        .magic-radio + label:before {
+            border-radius: 50%; }
+        .magic-radio + label:after {
+            top: 6px;
+            left: 6px;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #53b783; }
+        .magic-radio:checked + label:before {
+            border: 1px solid #53b783; }
+        .magic-radio:checked[disabled] + label:before {
+            border: 1px solid #c9e2f9; }
+        .magic-radio:checked[disabled] + label:after {
+            background: #c9e2f9; }
+        .magic-checkbox + label:before {
+            border-radius: 3px; }
+        .magic-checkbox + label:after {
+            top: 2px;
+            left: 7px;
+            box-sizing: border-box;
+            width: 6px;
+            height: 12px;
+            transform: rotate(45deg);
+            border-width: 2px;
+            border-style: solid;
+            border-color: #fff;
+            border-top: 0;
+            border-left: 0; }
+        .magic-checkbox:checked + label:before {
+            border: #53b783;
+            background: #53b783; }
+        .magic-checkbox:checked[disabled] + label:before {
+            border: #c9e2f9;
+            background: #c9e2f9; }
+    </style>
+
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        body {
+            font-family: Helvetica Neue For Number,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif;
+            font-size: 14px;
+            line-height: 24px;
+            color: #444;
+        }
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        ::selection {
+            text-shadow: none;
+            color: #fff;
+            background: #98d8b7;
+        }
+        ::-moz-selection {
+            text-shadow: none;
+            color: #fff;
+            background: #98d8b7;
+        }
+        .error-page {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+        }
+        .error-logo {
+            position: absolute;
+            top: -15px;
+            right: 0px;
+        }
+        .error-stack {
+            background: #f1f1f1;
+            padding: 140px 80px 40px;
+            box-sizing: border-box;
+            border-bottom: 1px solid #e2e2e2;
+        }
+        .error-status {
+            color: #afafaf;
+            font-size: 150px;
+            position: absolute;
+            opacity: 0.2;
+            left: 76px;
+            top: 80px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .error-name {
+            color: #db5461;
+            font-size: 18px;
+            font-family: menlo, 'sans-serif';
+            font-weight: 300;
+            margin-bottom: 15px;
+        }
+        .error-title {
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 26px;
+            margin-bottom: 20px;
+            margin-top: 48px;
+        }
+        .error-title .box {
+            color: #db5461;
+            font-weight: 700;
+            font-size: 20px;
+            margin-left: 5px;
+        }
+        .error-title .context {
+            color: #db5461;
+            font-weight: 400;
+            margin-left: 5px;
+            margin-top: 48px;
+            line-height: 1.5;
+        }
+        .error-frames {
+            display: flex;
+            flex-direction: row-reverse;
+            margin-top: 40px;
+        }
+        .frame-preview {
+            background: #fff;
+            width: 50%;
+            box-shadow: 0px 0px 9px #d3d3d3;
+            height: 100%;
+            box-sizing: border-box;
+            overflow: auto;
+        }
+        .frame-stack {
+            margin-right: 40px;
+            flex: 1;
+            padding: 10px 0;
+            box-sizing: border-box;
+        }
+        .frames-list {
+            overflow: auto;
+            max-height: 334px;
+        }
+        .frames-filter-selector {
+            margin-bottom: 30px;
+            margin-left: 8px;
+        }
+        .request-details {
+            padding: 50px 80px;
+        }
+        .request-title {
+            text-transform: uppercase;
+            font-size: 18px;
+            letter-spacing: 1px;
+            padding: 0 5px 5px 5px;
+            margin-bottom: 15px;
+            color: #53b783;
+        }
+        .request-details .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 80px;
+        }
+        .request-details .tr {
+            display: flex;
+            flex-direction: row;
+        }
+        .request-details .tr:nth-of-type(even) {
+            background: #fbfbfb;
+        }
+        .request-details .table .td {
+            padding: 6px 5px;
+            font-size: 14px;
+            letter-spacing: 0.4px;
+            color: #455275;
+            border-bottom: 1px solid #e8e8e8;
+            word-break: break-word;
+        }
+        .request-details .table .td.title {
+            flex: 1;
+            color: #565655;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .request-details .table .td.content {
+            width: 70%;
+        }
+        .request-details .table .td.content.code {
+            background: #fff;
+            width: 70%;
+            box-shadow: 0px 0px 9px #d3d3d3;
+            height: 100%;
+            box-sizing: border-box;
+            overflow: auto;
+        }
+        code[class*="language-"], pre[class*="language-"] {
+            background: transparent;
+            font-size: 13px;
+            line-height: 1.8;
+        }
+        .line-numbers .line-numbers-rows {
+            border: none;
+        }
+        .frame-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 10px 6px 34px;
+            position: relative;
+            cursor: pointer;
+            transition: background 300ms ease;
+        }
+        .frame-row.native-frame {
+            display: none;
+            opacity: 0.4;
+        }
+        .frame-row.native-frame.force-show {
+            display: flex;
+        }
+        .frame-row:after {
+            content: "";
+            background: #db5461;
+            position: absolute;
+            top: 50%;
+            left: 10px;
+            transform: translateY(-50%);
+            height: 10px;
+            width: 10px;
+            border-radius: 24px;
+        }
+        .frame-row:hover, .frame-row.active {
+            background: #fff;
+        }
+        .frame-row.active {
+            opacity: 1;
+        }
+        .frame-row-filepath {
+            color: #455275;
+            font-weight: 600;
+            margin-right: 15px;
+        }
+        .frame-context {
+            display: none;
+        }
+        .frame-row-code {
+            color: #999;
+        }
+        #frame-file {
+            color: #455275;
+            font-weight: 600;
+            border-bottom: 1px solid #e8e8e8;
+            padding: 10px 22px;
+        }
+        #frame-method {
+            color: #999;
+            font-weight: 400;
+            border-top: 1px solid #e8e8e8;
+            padding: 10px 22px;
+        }
+        .is-hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<section class="error-page">
+    <section class="error-stack">
+        <h3 class="error-status">403</h3>
+        <div class="error-title">
+            <h1 class="box">ForbiddenError in &#x2F;api&#x2F;posts&#x2F;121</h1>
+            <div class="context">invalid csrf token</div>
+        </div>
+
+        <img class="error-logo" src="https://zos.alipayobjects.com/rmsportal/JFKAMfmPehWfhBPdCjrw.svg"/>
+
+        <div class="error-frames">
+            <div class="frame-preview is-hidden">
+                <div id="frame-file"></div>
+                <div id="frame-code"><pre class="line-numbers"><code id="code-drop"></code></pre></div>
+                <div id="frame-method"></div>
+            </div>
+
+            <div class="frame-stack">
+                <div class="frames-filter-selector">
+                    <input type="checkbox" class="magic-checkbox" name="frames-filter" id="frames-filter">
+                    <label for="frames-filter">Show all frames</label>
+                </div>
+
+                <div class="frames-list">
+
+                    <div class="frame-row active native-frame">
+                        <div class="frame-row-filepath">
+                            node_modules&#x2F;koa&#x2F;lib&#x2F;context.js:97:11
+                        </div>
+                        <div class="frame-row-code">
+                            Object.throw
+                        </div>
+                        <div class="frame-context"
+                             data-start="92"
+                             data-line="97"
+                             data-file="node_modules&#x2F;koa&#x2F;lib&#x2F;context.js"
+                             data-method="Object.throw"
+                             data-extname="js"
+                             data-line-column="97:11"
+                        >   * @param {Object} [props]
+                            * @api public
+                            *&#x2F;
+
+                            throw(...args) {
+                            throw createError(...args);
+                            },
+
+                            &#x2F;**
+                            * Default error handling.
+                            *
+                        </div>
+                    </div>
+
+                    <div class="frame-row native-frame">
+                        <div class="frame-row-filepath">
+                            node_modules&#x2F;egg-security&#x2F;app&#x2F;extend&#x2F;context.js:163:19
+                        </div>
+                        <div class="frame-row-code">
+                            Object.assertCsrf
+                        </div>
+                        <div class="frame-context"
+                             data-start="158"
+                             data-line="163"
+                             data-file="node_modules&#x2F;egg-security&#x2F;app&#x2F;extend&#x2F;context.js"
+                             data-method="Object.assertCsrf"
+                             data-extname="js"
+                             data-line-column="163:19"
+                        >      &#x2F;&#x2F; AJAX requests get csrf token from cookie, in this situation token will equal to secret
+                            &#x2F;&#x2F; synchronize form requests&#39; token always changing to protect against BREACH attacks
+                            if (token !&#x3D;&#x3D; this[CSRF_SECRET] &amp;&amp; !tokens.verify(this[CSRF_SECRET], token)) {
+                            debug(&#39;verify secret and token error&#39;);
+                            this[LOG_CSRF_NOTICE](&#39;invalid csrf token&#39;);
+                            this.throw(403, &#39;invalid csrf token&#39;);
+                            }
+                            }
+
+                            &#x2F;&#x2F; check referer
+                            if (shouldCheckReferer) {
+                        </div>
+                    </div>
+
+                    <div class="frame-row native-frame">
+                        <div class="frame-row-filepath">
+                            node_modules&#x2F;egg-security&#x2F;lib&#x2F;middlewares&#x2F;csrf.js:33:9
+                        </div>
+                        <div class="frame-row-code">
+                            csrf
+                        </div>
+                        <div class="frame-context"
+                             data-start="28"
+                             data-line="33"
+                             data-file="node_modules&#x2F;egg-security&#x2F;lib&#x2F;middlewares&#x2F;csrf.js"
+                             data-method="csrf"
+                             data-extname="js"
+                             data-line-column="33:9"
+                        >      return next();
+                            }
+
+                            const body &#x3D; ctx.request.body || {};
+                            debug(&#39;%s %s, got %j&#39;, ctx.method, ctx.url, body);
+                            ctx.assertCsrf();
+                            return next();
+                            };
+                            };
+
+                        </div>
+                    </div>
+
+                    <div class="frame-row native-frame">
+                        <div class="frame-row-filepath">
+                            node_modules&#x2F;koa-compose&#x2F;index.js:42:32
+                        </div>
+                        <div class="frame-row-code">
+                            dispatch
+                        </div>
+                        <div class="frame-context"
+                             data-start="37"
+                             data-line="42"
+                             data-file="node_modules&#x2F;koa-compose&#x2F;index.js"
+                             data-method="dispatch"
+                             data-extname="js"
+                             data-line-column="42:32"
+                        >      index &#x3D; i
+                            let fn &#x3D; middleware[i]
+                            if (i &#x3D;&#x3D;&#x3D; middleware.length) fn &#x3D; next
+                            if (!fn) return Promise.resolve()
+                            try {
+                            return Promise.resolve(fn(context, dispatch.bind(null, i + 1)));
+                            } catch (err) {
+                            return Promise.reject(err)
+                            }
+                            }
+                            }
+                        </div>
+                    </div>
+
+                    <div class="frame-row native-frame">
+                        <div class="frame-row-filepath">
+                            node_modules&#x2F;koa-compose&#x2F;index.js:34:12
+                        </div>
+                        <div class="frame-row-code">
+
+                        </div>
+                        <div class="frame-context"
+                             data-start="29"
+                             data-line="34"
+                             data-file="node_modules&#x2F;koa-compose&#x2F;index.js"
+                             data-method=""
+                             data-extname="js"
+                             data-line-column="34:12"
+                        >   *&#x2F;
+
+                            return function (context, next) {
+                            &#x2F;&#x2F; last called middleware #
+                            let index &#x3D; -1
+                            return dispatch(0)
+                            function dispatch (i) {
+                            if (i &lt;&#x3D; index) return Promise.reject(new Error(&#39;next() called multiple times&#39;))
+                            index &#x3D; i
+                            let fn &#x3D; middleware[i]
+                            if (i &#x3D;&#x3D;&#x3D; middleware.length) fn &#x3D; next
+                        </div>
+                    </div>
+
+                    <div class="frame-row native-frame">
+                        <div class="frame-row-filepath">
+                            node_modules&#x2F;koa-compose&#x2F;index.js:42:32
+                        </div>
+                        <div class="frame-row-code">
+                            dispatch
+                        </div>
+                        <div class="frame-context"
+                             data-start="37"
+                             data-line="42"
+                             data-file="node_modules&#x2F;koa-compose&#x2F;index.js"
+                             data-method="dispatch"
+                             data-extname="js"
+                             data-line-column="42:32"
+                        >      index &#x3D; i
+                            let fn &#x3D; middleware[i]
+                            if (i &#x3D;&#x3D;&#x3D; middleware.length) fn &#x3D; next
+                            if (!fn) return Promise.resolve()
+                            try {
+                            return Promise.resolve(fn(context, dispatch.bind(null, i + 1)));
+                            } catch (err) {
+                            return Promise.reject(err)
+                            }
+                            }
+                            }
+                        </div>
+                    </div>
+
+                    <div class="frame-row native-frame">
+                        <div class="frame-row-filepath">
+                            node_modules&#x2F;koa-session&#x2F;index.js:41:13
+                        </div>
+                        <div class="frame-row-code">
+                            session
+                        </div>
+                        <div class="frame-context"
+                             data-start="36"
+                             data-line="41"
+                             data-file="node_modules&#x2F;koa-session&#x2F;index.js"
+                             data-method="session"
+                             data-extname="js"
+                             data-line-column="41:13"
+                        >
+                            return async function session(ctx, next) {
+                            const sess &#x3D; ctx[CONTEXT_SESSION];
+                            if (sess.store) await sess.initFromExternal();
+                            try {
+                            await next();
+                            } catch (err) {
+                            throw err;
+                            } finally {
+                            if (opts.autoCommit) {
+                            await sess.commit();
+                        </div>
+                    </div>
+
+                    <div class="frame-row native-frame">
+                        <div class="frame-row-filepath">
+                            node_modules&#x2F;koa-compose&#x2F;index.js:42:32
+                        </div>
+                        <div class="frame-row-code">
+                            dispatch
+                        </div>
+                        <div class="frame-context"
+                             data-start="37"
+                             data-line="42"
+                             data-file="node_modules&#x2F;koa-compose&#x2F;index.js"
+                             data-method="dispatch"
+                             data-extname="js"
+                             data-line-column="42:32"
+                        >      index &#x3D; i
+                            let fn &#x3D; middleware[i]
+                            if (i &#x3D;&#x3D;&#x3D; middleware.length) fn &#x3D; next
+                            if (!fn) return Promise.resolve()
+                            try {
+                            return Promise.resolve(fn(context, dispatch.bind(null, i + 1)));
+                            } catch (err) {
+                            return Promise.reject(err)
+                            }
+                            }
+                            }
+                        </div>
+                    </div>
+
+                    <div class="frame-row native-frame">
+                        <div class="frame-row-filepath">
+                            node_modules&#x2F;koa-override&#x2F;index.js:13:70
+                        </div>
+                        <div class="frame-row-code">
+                            overrideMethod
+                        </div>
+                        <div class="frame-context"
+                             data-start="8"
+                             data-line="13"
+                             data-file="node_modules&#x2F;koa-override&#x2F;index.js"
+                             data-method="overrideMethod"
+                             data-extname="js"
+                             data-line-column="13:70"
+                        >  options &#x3D; options || {};
+                            options.allowedMethods &#x3D; options.allowedMethods || [ &#39;POST&#39; ];
+
+                            return function overrideMethod(ctx, next) {
+                            const orginalMethod &#x3D; ctx.request.method;
+                            if (options.allowedMethods.indexOf(orginalMethod) &#x3D;&#x3D;&#x3D; -1) return next();
+
+                            let method;
+                            &#x2F;&#x2F; body support
+                            const body &#x3D; ctx.request.body;
+                            if (body &amp;&amp; body._method) {
+                        </div>
+                    </div>
+
+                    <div class="frame-row native-frame">
+                        <div class="frame-row-filepath">
+                            node_modules&#x2F;koa-compose&#x2F;index.js:42:32
+                        </div>
+                        <div class="frame-row-code">
+                            dispatch
+                        </div>
+                        <div class="frame-context"
+                             data-start="37"
+                             data-line="42"
+                             data-file="node_modules&#x2F;koa-compose&#x2F;index.js"
+                             data-method="dispatch"
+                             data-extname="js"
+                             data-line-column="42:32"
+                        >      index &#x3D; i
+                            let fn &#x3D; middleware[i]
+                            if (i &#x3D;&#x3D;&#x3D; middleware.length) fn &#x3D; next
+                            if (!fn) return Promise.resolve()
+                            try {
+                            return Promise.resolve(fn(context, dispatch.bind(null, i + 1)));
+                            } catch (err) {
+                            return Promise.reject(err)
+                            }
+                            }
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="request-details">
+        <h2 class="request-title"> Request Details </h2>
+        <div class="table">
+            <div class="tr">
+                <div class="td title"> URI </div>
+                <div class="td content">&#x2F;api&#x2F;posts&#x2F;121</div>
+            </div>
+
+            <div class="tr">
+                <div class="td title"> Request Method </div>
+                <div class="td content">PUT</div>
+            </div>
+
+            <div class="tr">
+                <div class="td title"> HTTP Version </div>
+                <div class="td content"></div>
+            </div>
+
+            <div class="tr">
+                <div class="td title"> Connection </div>
+                <div class="td content">keep-alive</div>
+            </div>
+        </div>
+
+        <h2 class="request-title"> Headers </h2>
+        <div class="table">
+            <div class="tr">
+                <div class="td title">host</div>
+                <div class="td content">127.0.0.1:7001</div>
+            </div>
+            <div class="tr">
+                <div class="td title">content-length</div>
+                <div class="td content">14</div>
+            </div>
+            <div class="tr">
+                <div class="td title">sec-fetch-mode</div>
+                <div class="td content">cors</div>
+            </div>
+            <div class="tr">
+                <div class="td title">origin</div>
+                <div class="td content">chrome-extension:&#x2F;&#x2F;aejoelaoggembcahagimdiliamlcdmfm</div>
+            </div>
+            <div class="tr">
+                <div class="td title">user-agent</div>
+                <div class="td content">Mozilla&#x2F;5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit&#x2F;537.36 (KHTML, like Gecko) Chrome&#x2F;77.0.3865.120 Safari&#x2F;537.36</div>
+            </div>
+            <div class="tr">
+                <div class="td title">content-type</div>
+                <div class="td content">application&#x2F;json</div>
+            </div>
+            <div class="tr">
+                <div class="td title">accept</div>
+                <div class="td content">*&#x2F;*</div>
+            </div>
+            <div class="tr">
+                <div class="td title">sec-fetch-site</div>
+                <div class="td content">cross-site</div>
+            </div>
+            <div class="tr">
+                <div class="td title">accept-encoding</div>
+                <div class="td content">gzip, deflate, br</div>
+            </div>
+            <div class="tr">
+                <div class="td title">accept-language</div>
+                <div class="td content">zh-CN,zh;q&#x3D;0.9,en;q&#x3D;0.8</div>
+            </div>
+        </div>
+
+        <h2 class="request-title"> Cookies </h2>
+        <div class="table">
+            <div class="tr">
+                <div class="td title">csrfToken</div>
+                <div class="td content">x3-fMnGFkYppezQVTiYp4leA</div>
+            </div>
+            <div class="tr">
+                <div class="td title">io</div>
+                <div class="td content">g_BHlWcLZ-ctkb7WAAAH</div>
+            </div>
+        </div>
+        <h2 class="request-title"> AppInfo </h2>
+        <div class="table">
+            <div class="tr">
+                <div class="td title"> baseDir </div>
+                <div class="td content">&#x2F;Users&#x2F;sairitsutakara&#x2F;project&#x2F;web&#x2F;base&#x2F;projectStudy&#x2F;服务器相关&#x2F;egg-test</div>
+            </div>
+            <div class="tr">
+                <div class="td title"> config </div>
+                <div class="td content code">
+            <pre class="line-numbers"><code class="language-json">{ session:
+   { maxAge: 86400000,
+     key: &#39;EGG_SESS&#39;,
+     httpOnly: true,
+     encrypt: true,
+     overwrite: true,
+     signed: true,
+     autoCommit: true,
+     encode: [Function: encode],
+     decode: [Function: decode],
+     genid: { [Function: v4] v1: [Function: v1], v4: [Circular] } },
+  security:
+   { domainWhiteList: [],
+     protocolWhiteList: [],
+     defaultMiddleware:
+      &#39;csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta&#39;,
+     csrf:
+      { enable: true,
+        type: &#39;ctoken&#39;,
+        ignoreJSON: false,
+        useSession: false,
+        cookieName: &#39;csrfToken&#39;,
+        sessionName: &#39;csrfToken&#39;,
+        headerName: &#39;x-csrf-token&#39;,
+        bodyName: &#39;_csrf&#39;,
+        queryName: &#39;_csrf&#39;,
+        refererWhiteList: [],
+        matching: [Function] },
+     xframe: { enable: true, value: &#39;SAMEORIGIN&#39;, matching: [Function] },
+     hsts:
+      { enable: false, maxAge: 31536000, includeSubdomains: false },
+     dta: { enable: true, matching: [Function] },
+     methodnoallow: { enable: true, matching: [Function] },
+     noopen: { enable: true, matching: [Function] },
+     nosniff: { enable: true, matching: [Function] },
+     referrerPolicy: { enable: false, value: &#39;no-referrer-when-downgrade&#39; },
+     xssProtection:
+      { enable: true, value: &#39;1; mode&#x3D;block&#39;, matching: [Function] },
+     csp: { enable: false, policy: {} },
+     ssrf: { ipBlackList: null, checkAddress: null },
+     _protocolWhiteListSet: Set { &#39;http&#39;, &#39;https&#39;, &#39;file&#39;, &#39;data&#39; } },
+  helper: { shtml: {} },
+  jsonp:
+   { limit: 50, callback: [ &#39;_callback&#39;, &#39;callback&#39; ], csrf: false },
+  onerror:
+   { errorPageUrl: &#39;&#39;,
+     appErrorFilter: null,
+     templatePath:
+      &#39;&#x2F;Users&#x2F;sairitsutakara&#x2F;project&#x2F;web&#x2F;base&#x2F;projectStudy&#x2F;服务器相关&#x2F;egg-test&#x2F;node_modules&#x2F;egg-onerror&#x2F;lib&#x2F;onerror_page.mustache&#39; },
+  i18n:
+   { defaultLocale: &#39;en_US&#39;,
+     dirs:
+      [ &#39;&#x2F;Users&#x2F;sairitsutakara&#x2F;project&#x2F;web&#x2F;base&#x2F;projectStudy&#x2F;服务器相关&#x2F;egg-test&#x2F;node_modules&#x2F;egg-session&#x2F;config&#x2F;locales&#39;,
+        &#39;&#x2F;Users&#x2F;sairitsutakara&#x2F;project&#x2F;web&#x2F;base&#x2F;projectStudy&#x2F;服务器相关&#x2F;egg-test&#x2F;node_modules&#x2F;egg-security&#x2F;config&#x2F;locales&#39;,
+        &#39;&#x2F;Users&#x2F;sairitsutakara&#x2F;project&#x2F;web&#x2F;base&#x2F;projectStudy&#x2F;服务器相关&#x2F;egg-test&#x2F;node_modules&#x2F;egg-jsonp&#x2F;config&#x2F;locales&#39;,
+        &#39;&#x2F;Users&#x2F;sairitsutakara&#x2F;project&#x2F;web&#x2F;base&#x2F;projectStudy&#x2F;服务器相关&#x2F;egg-test&#x2F;node_modules&#x2F;egg-onerror&#x2F;config&#x2F;locales&#39;,
+        &#39;&#x2F;Users&#x2F;sairitsutakara&#x2F;project&#x2F;web&#x2F;base&#x2F;projectStudy&#x2F;服务器相关&#x2F;egg-test&#x2F;node_modules&#x2F;egg-i18n&#x2F;config&#x2F;locales&#39;,
+        &#39;&#x2F;Users&#x2F;sairitsutakara&#x2F;project&#x2F;web&#x2F;base&#x2F;projectStudy&#x2F;服务器相关&#x2F;egg-test&#x2F;node_modules&#x2F;egg-watcher&#x2F;config&#x2F;locales&#39;,
+        &#39;&#x2F;Users&#x2F;sairitsutakara&#x2F;project&#x2F;web&#x2F;base&#x2F;projectStudy&#x2F;服务器相关&#x2F;egg-test&#x2F;node_modules&#x2F;egg-schedule&#x2F;config&#x2F;locales&#39;,
+        &#39;&#x2F;Users&#x2F;sairitsutakara&#x2F;project&#x2F;web&#x2F;base&#x2F;projectStudy&#x2F;服务器相关&#x2F;egg-test&#x2F;node_modules&#x2F;egg-multipart&#x2F;config&#x2F;locales&#39;,
+        &#39;&#x2F;Users&#x2F;sairitsutakara&#x2F;project&#x2F;web&#x2F;base&#x2F;projectStudy&#x2F;服务器相关&#x2F;egg-test&#x2F;node_modules&#x2F;egg-development&#x2F;config&#x2F;locales&#39;,
+        &#39;&#x2F;Users&#x2F;sairitsutakara&#x2F;project&#x2F;web&#x2F;base&#x2F;projectStudy&#x2F;服务器相关&#x2F;egg-test&#x2F;node_modules&#x2F;egg-logrotator&#x2F;config&#x2F;locales&#39;,
+        &#39;&#x2F;Users&#x2F;sairitsutakara&#x2F;project&#x2F;web&#x2F;base&#x2F;projectStudy&#x2F;服务器相关&#x2F;egg-test&#x2F;node_modules&#x2F;egg-static&#x2F;config&#x2F;locales&#39;,
+        &#39;&#x2F;Users&#x2F;sairitsutakara&#x2F;project&#x2F;web&#x2F;base&#x2F;projectStudy&#x2F;服务器相关&#x2F;egg-test&#x2F;node_modules&#x2F;egg-view&#x2F;config&#x2F;locales&#39;,
+        &#39;&#x2F;Users&#x2F;sairitsutakara&#x2F;project&#x2F;web&#x2F;base&#x2F;projectStudy&#x2F;服务器相关&#x2F;egg-test&#x2F;node_modules&#x2F;egg&#x2F;config&#x2F;locales&#39;,
+        &#39;&#x2F;Users&#x2F;sairitsutakara&#x2F;project&#x2F;web&#x2F;base&#x2F;projectStudy&#x2F;服务器相关&#x2F;egg-test&#x2F;config&#x2F;locales&#39; ],
+     queryField: &#39;locale&#39;,
+     cookieField: &#39;locale&#39;,
+     cookieDomain: &#39;&#39;,
+     cookieMaxAge: &#39;1y&#39;,
+     functionName: &#39;__&#39; },
+  watcher:
+   { type: &#39;development&#39;,
+     eventSources:
+      { default:
+         &#39;&#x2F;Users&#x2F;sairitsutakara&#x2F;project&#x2F;web&#x2F;base&#x2F;projectStudy&#x2F;服务器相关&#x2F;egg-test&#x2F;node_modules&#x2F;egg-watcher&#x2F;lib&#x2F;event-sources&#x2F;default&#39;,
+        development:
+         &#39;&#x2F;Users&#x2F;sairitsutakara&#x2F;project&#x2F;web&#x2F;base&#x2F;projectStudy&#x2F;服务器相关&#x2F;egg-test&#x2F;node_modules&#x2F;egg-watcher&#x2F;lib&#x2F;event-sources&#x2F;development&#39; } },
+  customLogger:
+   { scheduleLogger: { consoleLevel: &#39;NONE&#39;, file: &#39;egg-schedule.log&#39; } },
+  schedule: { directory: [] },
+  multipart:
+   { mode: &#39;stream&#39;,
+     autoFields: false,
+     defaultCharset: &#39;utf8&#39;,
+     fieldNameSize: 100,
+     fieldSize: 102400,
+     fields: 10,
+     fileSize: 10485760,
+     files: 10,
+     fileExtensions: [],
+     whitelist: null,
+     tmpdir:
+      &#39;&#x2F;var&#x2F;folders&#x2F;_3&#x2F;r1g77kcn2mz260hhwqjh97nm0000gn&#x2F;T&#x2F;egg-multipart-tmp&#x2F;test&#39;,
+     cleanSchedule: { cron: &#39;0 30 4 * * *&#39; } },
+  development:
+   { watchDirs: [],
+     ignoreDirs: [],
+     fastReady: false,
+     reloadOnDebug: true,
+     overrideDefault: false },
+  logrotator:
+   { filesRotateByHour: null,
+     hourDelimiter: &#39;-&#39;,
+     filesRotateBySize: null,
+     maxFileSize: 52428800,
+     maxFiles: 10,
+     rotateDuration: 60000,
+     maxDays: 31 },
+  static:
+   { prefix: &#39;&#x2F;public&#x2F;&#39;,
+     dir:
+      &#39;&#x2F;Users&#x2F;sairitsutakara&#x2F;project&#x2F;web&#x2F;base&#x2F;projectStudy&#x2F;服务器相关&#x2F;egg-test&#x2F;app&#x2F;public&#39;,
+     dynamic: true,
+     preload: false,
+     buffer: false,
+     maxFiles: 1000 },
+  view:
+   { root:
+      &#39;&#x2F;Users&#x2F;sairitsutakara&#x2F;project&#x2F;web&#x2F;base&#x2F;projectStudy&#x2F;服务器相关&#x2F;egg-test&#x2F;app&#x2F;view&#39;,
+     cache: false,
+     defaultExtension: &#39;.html&#39;,
+     defaultViewEngine: &#39;&#39;,
+     mapping: {} },
+  env: &#39;local&#39;,
+  name: &#39;test&#39;,
+  keys: &#39;test_bao&#39;,
+  proxy: false,
+  maxProxyCount: 0,
+  protocolHeaders: &#39;x-forwarded-proto&#39;,
+  ipHeaders: &#39;x-forwarded-for&#39;,
+  hostHeaders: &#39;&#39;,
+  pkg:
+   { name: &#39;test&#39;,
+     version: &#39;1.0.0&#39;,
+     description: &#39;&#39;,
+     private: true,
+     egg: { declarations: true },
+     dependencies:
+      { egg: &#39;^2.15.1&#39;,
+        &#39;egg-scripts&#39;: &#39;^2.11.0&#39;,
+        superagent: &#39;^5.1.0&#39;,
+        cheerio: &#39;latest&#39; },
+     devDependencies:
+      { autod: &#39;^3.0.1&#39;,
+        &#39;autod-egg&#39;: &#39;^1.1.0&#39;,
+        &#39;egg-bin&#39;: &#39;^4.11.0&#39;,
+        &#39;egg-ci&#39;: &#39;^1.11.0&#39;,
+        &#39;egg-mock&#39;: &#39;^3.21.0&#39;,
+        eslint: &#39;^5.13.0&#39;,
+        &#39;eslint-config-egg&#39;: &#39;^7.1.0&#39; },
+     engines: { node: &#39;&gt;&#x3D;10.0.0&#39; },
+     scripts:
+      { start: &#39;egg-scripts start --daemon --title&#x3D;egg-server-test&#39;,
+        stop: &#39;egg-scripts stop --title&#x3D;egg-server-test&#39;,
+        dev: &#39;egg-bin dev&#39;,
+        debug: &#39;egg-bin debug&#39;,
+        test: &#39;npm run lint -- --fix &amp;&amp; npm run test-local&#39;,
+        &#39;test-local&#39;: &#39;egg-bin test&#39;,
+        cov: &#39;egg-bin cov&#39;,
+        lint: &#39;eslint .&#39;,
+        ci: &#39;npm run lint &amp;&amp; npm run cov&#39;,
+        autod: &#39;autod&#39; },
+     ci: { version: &#39;10&#39; },
+     repository: { type: &#39;git&#39;, url: &#39;&#39; },
+     author: &#39;&#39;,
+     license: &#39;MIT&#39; },
+  baseDir:
+   &#39;&#x2F;Users&#x2F;sairitsutakara&#x2F;project&#x2F;web&#x2F;base&#x2F;projectStudy&#x2F;服务器相关&#x2F;egg-test&#39;,
+  HOME: &#39;&#x2F;Users&#x2F;sairitsutakara&#39;,
+  rundir:
+   &#39;&#x2F;Users&#x2F;sairitsutakara&#x2F;project&#x2F;web&#x2F;base&#x2F;projectStudy&#x2F;服务器相关&#x2F;egg-test&#x2F;run&#39;,
+  dump:
+   { ignore:
+      Set {
+        &#39;pass&#39;,
+        &#39;pwd&#39;,
+        &#39;passd&#39;,
+        &#39;passwd&#39;,
+        &#39;password&#39;,
+        &#39;keys&#39;,
+        &#39;masterKey&#39;,
+        &#39;accessKey&#39;,
+        &#x2F;secret&#x2F;i } },
+  confusedConfigurations:
+   { bodyparser: &#39;bodyParser&#39;,
+     notFound: &#39;notfound&#39;,
+     sitefile: &#39;siteFile&#39;,
+     middlewares: &#39;middleware&#39;,
+     httpClient: &#39;httpclient&#39; },
+  notfound: { pageUrl: &#39;&#39; },
+  siteFile:
+   { &#39;&#x2F;favicon.ico&#39;:
+      &lt;Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 ca 00 00 00 ca 08 06 00 00 00 e4 65 df a8 00 00 00 01 73 52 47 42 00 ae ce 1c e9 00 00 18 f9 ... &gt; },
+  bodyParser:
+   { enable: true,
+     encoding: &#39;utf8&#39;,
+     formLimit: &#39;1mb&#39;,
+     jsonLimit: &#39;1mb&#39;,
+     textLimit: &#39;1mb&#39;,
+     strict: true,
+     queryString: { arrayLimit: 100, depth: 5, parameterLimit: 1000 },
+     onerror: undefined,
+     detectJSON: undefined,
+     returnRawBody: true },
+  logger:
+   { dir:
+      &#39;&#x2F;Users&#x2F;sairitsutakara&#x2F;project&#x2F;web&#x2F;base&#x2F;projectStudy&#x2F;服务器相关&#x2F;egg-test&#x2F;logs&#x2F;test&#39;,
+     encoding: &#39;utf8&#39;,
+     env: &#39;local&#39;,
+     level: &#39;INFO&#39;,
+     consoleLevel: &#39;INFO&#39;,
+     disableConsoleAfterReady: false,
+     outputJSON: false,
+     buffer: true,
+     appLogName: &#39;test-web.log&#39;,
+     coreLogName: &#39;egg-web.log&#39;,
+     agentLogName: &#39;egg-agent.log&#39;,
+     errorLogName: &#39;common-error.log&#39;,
+     coreLogger: { consoleLevel: &#39;WARN&#39; },
+     allowDebugAtProd: false,
+     type: &#39;application&#39; },
+  httpclient:
+   { enableDNSCache: false,
+     dnsCacheLookupInterval: 10000,
+     dnsCacheMaxLength: 1000,
+     request: { timeout: 5000 },
+     httpAgent:
+      { keepAlive: true,
+        freeSocketTimeout: 4000,
+        maxSockets: 9007199254740991,
+        maxFreeSockets: 256 },
+     httpsAgent:
+      { keepAlive: true,
+        freeSocketTimeout: 4000,
+        maxSockets: 9007199254740991,
+        maxFreeSockets: 256 } },
+  meta: { enable: true, logging: false },
+  coreMiddleware:
+   [ &#39;meta&#39;,
+     &#39;siteFile&#39;,
+     &#39;notfound&#39;,
+     &#39;static&#39;,
+     &#39;bodyParser&#39;,
+     &#39;overrideMethod&#39;,
+     &#39;session&#39;,
+     &#39;securities&#39;,
+     &#39;i18n&#39;,
+     &#39;eggLoaderTrace&#39; ],
+  workerStartTimeout: 600000,
+  serverTimeout: null,
+  cluster: { listen: { path: &#39;&#39;, port: 7001, hostname: &#39;&#39; } },
+  clusterClient: { maxWaitTime: 60000, responseTimeout: 60000 },
+  onClientError: null,
+  middleware: [],
+  coreMiddlewares:
+   [ &#39;meta&#39;,
+     &#39;siteFile&#39;,
+     &#39;notfound&#39;,
+     &#39;static&#39;,
+     &#39;bodyParser&#39;,
+     &#39;overrideMethod&#39;,
+     &#39;session&#39;,
+     &#39;securities&#39;,
+     &#39;i18n&#39;,
+     &#39;eggLoaderTrace&#39; ],
+  appMiddlewares: [],
+  appMiddleware: [],
+  multipartParseOptions:
+   { autoFields: false,
+     defCharset: &#39;utf8&#39;,
+     limits:
+      { fieldNameSize: 100,
+        fieldSize: 102400,
+        fields: 10,
+        fileSize: 10485760,
+        files: 10 },
+     checkFile: [Function: checkFile] } }</code></pre>
+                </div>
+            </div>
+        </<div>
+    </section>
+
+    <script type="text/javascript">
+      var _self="undefined"!=typeof window?window:"undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?self:{},Prism=function(){var e=/\blang(?:uage)?-(\w+)\b/i,t=0,n=_self.Prism={util:{encode:function(e){return e instanceof a?new a(e.type,n.util.encode(e.content),e.alias):"Array"===n.util.type(e)?e.map(n.util.encode):e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/\u00a0/g," ")},type:function(e){return Object.prototype.toString.call(e).match(/\[object (\w+)\]/)[1]},objId:function(e){return e.__id||Object.defineProperty(e,"__id",{value:++t}),e.__id},clone:function(e){var t=n.util.type(e);switch(t){case"Object":var a={};for(var r in e)e.hasOwnProperty(r)&&(a[r]=n.util.clone(e[r]));return a;case"Array":return e.map&&e.map(function(e){return n.util.clone(e)})}return e}},languages:{extend:function(e,t){var a=n.util.clone(n.languages[e]);for(var r in t)a[r]=t[r];return a},insertBefore:function(e,t,a,r){r=r||n.languages;var i=r[e];if(2==arguments.length){a=arguments[1];for(var l in a)a.hasOwnProperty(l)&&(i[l]=a[l]);return i}var o={};for(var s in i)if(i.hasOwnProperty(s)){if(s==t)for(var l in a)a.hasOwnProperty(l)&&(o[l]=a[l]);o[s]=i[s]}return n.languages.DFS(n.languages,function(t,n){n===r[e]&&t!=e&&(this[t]=o)}),r[e]=o},DFS:function(e,t,a,r){r=r||{};for(var i in e)e.hasOwnProperty(i)&&(t.call(e,i,e[i],a||i),"Object"!==n.util.type(e[i])||r[n.util.objId(e[i])]?"Array"!==n.util.type(e[i])||r[n.util.objId(e[i])]||(r[n.util.objId(e[i])]=!0,n.languages.DFS(e[i],t,i,r)):(r[n.util.objId(e[i])]=!0,n.languages.DFS(e[i],t,null,r)))}},plugins:{},highlightAll:function(e,t){var a={callback:t,selector:'code[class*="language-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code'};n.hooks.run("before-highlightall",a);for(var r,i=a.elements||document.querySelectorAll(a.selector),l=0;r=i[l++];)n.highlightElement(r,e===!0,a.callback)},highlightElement:function(t,a,r){for(var i,l,o=t;o&&!e.test(o.className);)o=o.parentNode;o&&(i=(o.className.match(e)||[,""])[1].toLowerCase(),l=n.languages[i]),t.className=t.className.replace(e,"").replace(/\s+/g," ")+" language-"+i,o=t.parentNode,/pre/i.test(o.nodeName)&&(o.className=o.className.replace(e,"").replace(/\s+/g," ")+" language-"+i);var s=t.textContent,u={element:t,language:i,grammar:l,code:s};if(n.hooks.run("before-sanity-check",u),!u.code||!u.grammar)return u.code&&(u.element.textContent=u.code),n.hooks.run("complete",u),void 0;if(n.hooks.run("before-highlight",u),a&&_self.Worker){var g=new Worker(n.filename);g.onmessage=function(e){u.highlightedCode=e.data,n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(u.element),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},g.postMessage(JSON.stringify({language:u.language,code:u.code,immediateClose:!0}))}else u.highlightedCode=n.highlight(u.code,u.grammar,u.language),n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(t),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},highlight:function(e,t,r){var i=n.tokenize(e,t);return a.stringify(n.util.encode(i),r)},tokenize:function(e,t){var a=n.Token,r=[e],i=t.rest;if(i){for(var l in i)t[l]=i[l];delete t.rest}e:for(var l in t)if(t.hasOwnProperty(l)&&t[l]){var o=t[l];o="Array"===n.util.type(o)?o:[o];for(var s=0;s<o.length;++s){var u=o[s],g=u.inside,c=!!u.lookbehind,h=!!u.greedy,f=0,d=u.alias;if(h&&!u.pattern.global){var p=u.pattern.toString().match(/[imuy]*$/)[0];u.pattern=RegExp(u.pattern.source,p+"g")}u=u.pattern||u;for(var m=0,y=0;m<r.length;y+=r[m].length,++m){var v=r[m];if(r.length>e.length)break e;if(!(v instanceof a)){u.lastIndex=0;var b=u.exec(v),k=1;if(!b&&h&&m!=r.length-1){if(u.lastIndex=y,b=u.exec(e),!b)break;for(var w=b.index+(c?b[1].length:0),_=b.index+b[0].length,A=m,P=y,j=r.length;j>A&&_>P;++A)P+=r[A].length,w>=P&&(++m,y=P);if(r[m]instanceof a||r[A-1].greedy)continue;k=A-m,v=e.slice(y,P),b.index-=y}if(b){c&&(f=b[1].length);var w=b.index+f,b=b[0].slice(f),_=w+b.length,x=v.slice(0,w),O=v.slice(_),S=[m,k];x&&S.push(x);var N=new a(l,g?n.tokenize(b,g):b,d,b,h);S.push(N),O&&S.push(O),Array.prototype.splice.apply(r,S)}}}}}return r},hooks:{all:{},add:function(e,t){var a=n.hooks.all;a[e]=a[e]||[],a[e].push(t)},run:function(e,t){var a=n.hooks.all[e];if(a&&a.length)for(var r,i=0;r=a[i++];)r(t)}}},a=n.Token=function(e,t,n,a,r){this.type=e,this.content=t,this.alias=n,this.length=0|(a||"").length,this.greedy=!!r};if(a.stringify=function(e,t,r){if("string"==typeof e)return e;if("Array"===n.util.type(e))return e.map(function(n){return a.stringify(n,t,e)}).join("");var i={type:e.type,content:a.stringify(e.content,t,r),tag:"span",classes:["token",e.type],attributes:{},language:t,parent:r};if("comment"==i.type&&(i.attributes.spellcheck="true"),e.alias){var l="Array"===n.util.type(e.alias)?e.alias:[e.alias];Array.prototype.push.apply(i.classes,l)}n.hooks.run("wrap",i);var o=Object.keys(i.attributes).map(function(e){return e+'="'+(i.attributes[e]||"").replace(/"/g,"&quot;")+'"'}).join(" ");return"<"+i.tag+' class="'+i.classes.join(" ")+'"'+(o?" "+o:"")+">"+i.content+"</"+i.tag+">"},!_self.document)return _self.addEventListener?(_self.addEventListener("message",function(e){var t=JSON.parse(e.data),a=t.language,r=t.code,i=t.immediateClose;_self.postMessage(n.highlight(r,n.languages[a],a)),i&&_self.close()},!1),_self.Prism):_self.Prism;var r=document.currentScript||[].slice.call(document.getElementsByTagName("script")).pop();return r&&(n.filename=r.src,document.addEventListener&&!r.hasAttribute("data-manual")&&("loading"!==document.readyState?window.requestAnimationFrame?window.requestAnimationFrame(n.highlightAll):window.setTimeout(n.highlightAll,16):document.addEventListener("DOMContentLoaded",n.highlightAll))),_self.Prism}();"undefined"!=typeof module&&module.exports&&(module.exports=Prism),"undefined"!=typeof global&&(global.Prism=Prism);
+      Prism.languages.markup={comment:/<!--[\w\W]*?-->/,prolog:/<\?[\w\W]+?\?>/,doctype:/<!DOCTYPE[\w\W]+?>/i,cdata:/<!\[CDATA\[[\w\W]*?]]>/i,tag:{pattern:/<\/?(?!\d)[^\s>\/=$<]+(?:\s+[^\s>\/=]+(?:=(?:("|')(?:\\\1|\\?(?!\1)[\w\W])*\1|[^\s'">=]+))?)*\s*\/?>/i,inside:{tag:{pattern:/^<\/?[^\s>\/]+/i,inside:{punctuation:/^<\/?/,namespace:/^[^\s>\/:]+:/}},"attr-value":{pattern:/=(?:('|")[\w\W]*?(\1)|[^\s>]+)/i,inside:{punctuation:/[=>"']/}},punctuation:/\/?>/,"attr-name":{pattern:/[^\s>\/]+/,inside:{namespace:/^[^\s>\/:]+:/}}}},entity:/&#?[\da-z]{1,8};/i},Prism.hooks.add("wrap",function(a){"entity"===a.type&&(a.attributes.title=a.content.replace(/&amp;/,"&"))}),Prism.languages.xml=Prism.languages.markup,Prism.languages.html=Prism.languages.markup,Prism.languages.mathml=Prism.languages.markup,Prism.languages.svg=Prism.languages.markup;
+      Prism.languages.css={comment:/\/\*[\w\W]*?\*\//,atrule:{pattern:/@[\w-]+?.*?(;|(?=\s*\{))/i,inside:{rule:/@[\w-]+/}},url:/url\((?:(["'])(\\(?:\r\n|[\w\W])|(?!\1)[^\\\r\n])*\1|.*?)\)/i,selector:/[^\{\}\s][^\{\};]*?(?=\s*\{)/,string:{pattern:/("|')(\\(?:\r\n|[\w\W])|(?!\1)[^\\\r\n])*\1/,greedy:!0},property:/(\b|\B)[\w-]+(?=\s*:)/i,important:/\B!important\b/i,"function":/[-a-z0-9]+(?=\()/i,punctuation:/[(){};:]/},Prism.languages.css.atrule.inside.rest=Prism.util.clone(Prism.languages.css),Prism.languages.markup&&(Prism.languages.insertBefore("markup","tag",{style:{pattern:/(<style[\w\W]*?>)[\w\W]*?(?=<\/style>)/i,lookbehind:!0,inside:Prism.languages.css,alias:"language-css"}}),Prism.languages.insertBefore("inside","attr-value",{"style-attr":{pattern:/\s*style=("|').*?\1/i,inside:{"attr-name":{pattern:/^\s*style/i,inside:Prism.languages.markup.tag.inside},punctuation:/^\s*=\s*['"]|['"]\s*$/,"attr-value":{pattern:/.+/i,inside:Prism.languages.css}},alias:"language-css"}},Prism.languages.markup.tag));
+      Prism.languages.clike={comment:[{pattern:/(^|[^\\])\/\*[\w\W]*?\*\//,lookbehind:!0},{pattern:/(^|[^\\:])\/\/.*/,lookbehind:!0}],string:{pattern:/(["'])(\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1/,greedy:!0},"class-name":{pattern:/((?:\b(?:class|interface|extends|implements|trait|instanceof|new)\s+)|(?:catch\s+\())[a-z0-9_\.\\]+/i,lookbehind:!0,inside:{punctuation:/(\.|\\)/}},keyword:/\b(if|else|while|do|for|return|in|instanceof|function|new|try|throw|catch|finally|null|break|continue)\b/,"boolean":/\b(true|false)\b/,"function":/[a-z0-9_]+(?=\()/i,number:/\b-?(?:0x[\da-f]+|\d*\.?\d+(?:e[+-]?\d+)?)\b/i,operator:/--?|\+\+?|!=?=?|<=?|>=?|==?=?|&&?|\|\|?|\?|\*|\/|~|\^|%/,punctuation:/[{}[\];(),.:]/};
+      Prism.languages.javascript=Prism.languages.extend("clike",{keyword:/\b(as|async|await|break|case|catch|class|const|continue|debugger|default|delete|do|else|enum|export|extends|finally|for|from|function|get|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|set|static|super|switch|this|throw|try|typeof|var|void|while|with|yield)\b/,number:/\b-?(0x[\dA-Fa-f]+|0b[01]+|0o[0-7]+|\d*\.?\d+([Ee][+-]?\d+)?|NaN|Infinity)\b/,"function":/[_$a-zA-Z\xA0-\uFFFF][_$a-zA-Z0-9\xA0-\uFFFF]*(?=\()/i,operator:/--?|\+\+?|!=?=?|<=?|>=?|==?=?|&&?|\|\|?|\?|\*\*?|\/|~|\^|%|\.{3}/}),Prism.languages.insertBefore("javascript","keyword",{regex:{pattern:/(^|[^\/])\/(?!\/)(\[.+?]|\\.|[^\/\\\r\n])+\/[gimyu]{0,5}(?=\s*($|[\r\n,.;})]))/,lookbehind:!0,greedy:!0}}),Prism.languages.insertBefore("javascript","string",{"template-string":{pattern:/`(?:\\\\|\\?[^\\])*?`/,greedy:!0,inside:{interpolation:{pattern:/\$\{[^}]+\}/,inside:{"interpolation-punctuation":{pattern:/^\$\{|\}$/,alias:"punctuation"},rest:Prism.languages.javascript}},string:/[\s\S]+/}}}),Prism.languages.markup&&Prism.languages.insertBefore("markup","tag",{script:{pattern:/(<script[\w\W]*?>)[\w\W]*?(?=<\/script>)/i,lookbehind:!0,inside:Prism.languages.javascript,alias:"language-javascript"}}),Prism.languages.js=Prism.languages.javascript;
+      Prism.languages.json={property:/"(?:\\.|[^\\"])*"(?=\s*:)/gi,string:/"(?!:)(?:\\.|[^\\"])*"(?!:)/g,number:/\b-?(0x[\dA-Fa-f]+|\d*\.?\d+([Ee][+-]?\d+)?)\b/g,punctuation:/[{}[\]);,]/g,operator:/:/g,"boolean":/\b(true|false)\b/gi,"null":/\bnull\b/gi},Prism.languages.jsonp=Prism.languages.json;
+      Prism.languages.typescript=Prism.languages.extend("javascript",{keyword:/\b(as|async|await|break|case|catch|class|const|continue|debugger|default|delete|do|else|enum|export|extends|finally|for|from|function|get|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|set|static|super|switch|this|throw|try|typeof|var|void|while|with|yield|false|true|module|declare|constructor|string|Function|any|number|boolean|Array|enum|symbol|namespace|abstract|require|type)\b/}),Prism.languages.ts=Prism.languages.typescript;
+      !function(){function e(e,t){return Array.prototype.slice.call((t||document).querySelectorAll(e))}function t(e,t){return t=" "+t+" ",(" "+e.className+" ").replace(/[\n\t]/g," ").indexOf(t)>-1}function n(e,n,i){for(var o,a=n.replace(/\s+/g,"").split(","),l=+e.getAttribute("data-line-offset")||0,d=r()?parseInt:parseFloat,c=d(getComputedStyle(e).lineHeight),s=0;o=a[s++];){o=o.split("-");var u=+o[0],m=+o[1]||u,h=document.createElement("div");h.textContent=Array(m-u+2).join(" \n"),h.setAttribute("aria-hidden","true"),h.className=(i||"")+" line-highlight",t(e,"line-numbers")||(h.setAttribute("data-start",u),m>u&&h.setAttribute("data-end",m)),h.style.top=(u-l-1)*c+"px",t(e,"line-numbers")?e.appendChild(h):(e.querySelector("code")||e).appendChild(h)}}function i(){var t=location.hash.slice(1);e(".temporary.line-highlight").forEach(function(e){e.parentNode.removeChild(e)});var i=(t.match(/\.([\d,-]+)$/)||[,""])[1];if(i&&!document.getElementById(t)){var r=t.slice(0,t.lastIndexOf(".")),o=document.getElementById(r);o&&(o.hasAttribute("data-line")||o.setAttribute("data-line",""),n(o,i,"temporary "),document.querySelector(".temporary.line-highlight").scrollIntoView())}}if("undefined"!=typeof self&&self.Prism&&self.document&&document.querySelector){var r=function(){var e;return function(){if("undefined"==typeof e){var t=document.createElement("div");t.style.fontSize="13px",t.style.lineHeight="1.5",t.style.padding=0,t.style.border=0,t.innerHTML="&nbsp;<br />&nbsp;",document.body.appendChild(t),e=38===t.offsetHeight,document.body.removeChild(t)}return e}}(),o=0;Prism.hooks.add("complete",function(t){var r=t.element.parentNode,a=r&&r.getAttribute("data-line");r&&a&&/pre/i.test(r.nodeName)&&(clearTimeout(o),e(".line-highlight",r).forEach(function(e){e.parentNode.removeChild(e)}),n(r,a),o=setTimeout(i,1))}),window.addEventListener&&window.addEventListener("hashchange",i)}}();
+      !function(){"undefined"!=typeof self&&self.Prism&&self.document&&Prism.hooks.add("complete",function(e){if(e.code){var t=e.element.parentNode,s=/\s*\bline-numbers\b\s*/;if(t&&/pre/i.test(t.nodeName)&&(s.test(t.className)||s.test(e.element.className))&&!e.element.querySelector(".line-numbers-rows")){s.test(e.element.className)&&(e.element.className=e.element.className.replace(s,"")),s.test(t.className)||(t.className+=" line-numbers");var n,a=e.code.match(/\n(?!$)/g),l=a?a.length+1:1,r=new Array(l+1);r=r.join("<span></span>"),n=document.createElement("span"),n.setAttribute("aria-hidden","true"),n.className="line-numbers-rows",n.innerHTML=r,t.hasAttribute("data-start")&&(t.style.counterReset="linenumber "+(parseInt(t.getAttribute("data-start"),10)-1)),e.element.appendChild(n)}}})}();
+    </script>
+    <script>
+      (function() {
+        const $ = function(value) { return document.querySelector(value) };
+        const $$ = function(value) { return document.querySelectorAll(value) };
+        var nativeFramesLength = $$('.frame-row.native-frame').length;
+        var allFramesLength = $$('.frame-row').length;
+        function filterFrames () {
+          $('.frame-preview').classList.remove('is-hidden');
+          var isSelected = $('#frames-filter').checked;
+          if (isSelected) {
+            $$('.frame-row.native-frame').forEach(function(node) {
+              node.classList.add('force-show');
+            });
+          } else {
+            $$('.frame-row.native-frame').forEach(function(node) {
+              node.classList.remove('force-show');
+            });
+          }
+        }
+        function displayFirstView () {
+          if (nativeFramesLength !== allFramesLength) {
+            $('.frame-preview').classList.remove('is-hidden');
+          }
+        }
+        function showFrameContext (frame) {
+          $frameContext = frame.querySelector('.frame-context');
+          var $context = $frameContext.innerHTML;
+          $context = $context.trim().length === 0 ? 'Missing stack frames' : $context;
+          var $line = $frameContext.getAttribute('data-line');
+          var $start = $frameContext.getAttribute('data-start');
+          var $file = $frameContext.getAttribute('data-file');
+          var $method = $frameContext.getAttribute('data-method');
+          var $lineColumn = $frameContext.getAttribute('data-line-column');
+          var $language = $frameContext.getAttribute('data-extname') || 'js';
+          $('#code-drop').parentNode.setAttribute('data-line', $line);
+          $('#code-drop').parentNode.setAttribute('data-start', $start);
+          $('#code-drop').parentNode.setAttribute('data-language', $language);
+          $('#code-drop').parentNode.setAttribute('data-line-offset', (Number($start) - 1));
+          $('#code-drop').setAttribute('class', 'language-' + $language);
+          $('#code-drop').innerHTML = $context;
+          $('#frame-file').innerHTML = $file;
+          $('#frame-method').innerHTML = $method + '' + $lineColumn;
+
+          Prism.highlightAll();
+        }
+        $$('.frame-row').forEach(function(node) {
+          node.onclick = function (e) {
+            $$('.frame-row').forEach(function(_node) { _node.classList.remove('active') });
+            e.currentTarget.classList.add('active');
+            showFrameContext(e.currentTarget);
+          }
+        })
+        $('#frames-filter').onclick = function () {
+          filterFrames();
+        }
+        displayFirstView();
+        showFrameContext($('.frame-row.active'));
+      })();
+    </script>
+</section>
+</body>
+</html>

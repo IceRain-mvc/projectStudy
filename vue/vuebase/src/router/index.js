@@ -5,6 +5,7 @@ import routes from "./router-config";
 Vue.use(Router)
 
 let router = new Router({
+  mode: "history",
   routes
 });
 

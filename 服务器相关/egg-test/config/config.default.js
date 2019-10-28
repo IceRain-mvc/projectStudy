@@ -17,6 +17,9 @@ module.exports = appInfo => {
 
   // add your middleware config here
   config.middleware = [];
+  config.security = {
+    csrf: false
+  };
 
   // add your user config here
   const userConfig = {
